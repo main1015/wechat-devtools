@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang=zh-CN><head><title>小程序渲染层</title><meta http-equiv=Content-Security-Policy content="script-src 'self' *.qq.com 'unsafe-inline' 'unsafe-eval' blob:"><meta charset=UTF-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><script src=/__dev__/documentstart.js charset=UTF-8></script><!-- beforebaselibready --><script>var __webviewId__,__vd_version_info__={},__WXML_GLOBAL__={entrys:{},defines:{},modules:{},ops:[],wxs_nf_init:void 0,total_ops:0}</script><!-- wxconfig --><!-- wxconfigruntimeinfo --><script>__wxConfig.preload=!0</script><!-- devtoolsconfig --><!-- deviceinfo --><!-- jsdebug --><!-- vendorlist --><!-- appresource --><!-- plugincode --><!-- extendedlib --><!-- wxmlcode --><!-- wxsscode --><!-- enableupdate --><!-- wxappcode --></head><body><div></div></body></html><script>document.addEventListener("generateFuncReady", function(){
+    setTimeout(function() {
+      // https://stackoverflow.com/questions/43717316/google-chrome-document-body-scrolltop-always-returns-0
+      // 不巧某个基础库有用到，要 fixed 它
+      Object.defineProperty(document.body, 'scrollTop', {
+        get() {
+         return document.documentElement.scrollTop
+        },
+        set(value) {
+          document.documentElement.scrollTop = value
+        },
+        configurable: true,
+      })
+    }, 100)
+  })
+
+  if (document.readyState === 'complete') {
+    window.__global.alert("DOCUMENT_READY")
+  } else {
+    const fn = () => {
+      window.__global.alert("DOCUMENT_READY")
+      window.removeEventListener('load', fn)
+    }
+    window.addEventListener('load', fn)
+  }</script><!-- beforemaincodeready -->

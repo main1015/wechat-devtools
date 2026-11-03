@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isPathInside=r,exports.resolvePathInside=function(s,...t){if(!s||t.some(e=>!e))return;const o=e.resolve(s),n=e.resolve(o,...t);if(n===o||!r(o,n))return;return n};const e=require("path");function r(r,s){const t=e.resolve(r),o=e.resolve(s),n=e.relative(t,o);return""===n||!e.isAbsolute(n)&&".."!==n.split(e.sep)[0]}
+}(require("licia/lazyImport")(require), require)

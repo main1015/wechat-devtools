@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRemoveVideoPlayerOption=void 0,exports.IRemoveVideoPlayerOption={type:"object",properties:{videoPlayerId:{type:"string"}},additionalProperties:!1,required:["videoPlayerId"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755833061706};
+}(require("licia/lazyImport")(require), require)

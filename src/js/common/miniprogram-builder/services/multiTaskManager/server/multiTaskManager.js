@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerMultiTaskManagerService=void 0;const pm2WorkerManager_1=require("./pm2WorkerManager");class ServerMultiTaskManagerService{async runTask(r,e,a){try{const t=(0,pm2WorkerManager_1.getPM2WorkerManager)();return await t.runTask(r,e,a)}catch(a){throw new Error(`runTask ${r}, ${e.filePath} catch error ${a}`)}}}exports.ServerMultiTaskManagerService=ServerMultiTaskManagerService;
+}(require("licia/lazyImport")(require), require)

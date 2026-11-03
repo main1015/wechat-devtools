@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e,t;Object.defineProperty(exports,"__esModule",{value:!0}),exports.IdepluginStatusReportType=exports.IdepluginExposureLocationReportType=void 0,function(e){e[e.afterUpload=1]="afterUpload"}(e||(exports.IdepluginExposureLocationReportType=e={})),function(e){e[e.Installed=1]="Installed",e[e.NotInstalled=2]="NotInstalled"}(t||(exports.IdepluginStatusReportType=t={}));
+}(require("licia/lazyImport")(require), require)

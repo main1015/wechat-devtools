@@ -1,0 +1,1 @@
+module.exports=function(n,r){var t=r===Object(r)?function(n){return r[n]}:r;return function(r){return String(r).replace(n,t)}};

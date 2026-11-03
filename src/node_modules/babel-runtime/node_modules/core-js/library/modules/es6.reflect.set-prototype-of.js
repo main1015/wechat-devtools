@@ -1,0 +1,1 @@
+var $export=require("./_export"),setProto=require("./_set-proto");setProto&&$export($export.S,"Reflect",{setPrototypeOf:function(t,e){setProto.check(t,e);try{return setProto.set(t,e),!0}catch(t){return!1}}});

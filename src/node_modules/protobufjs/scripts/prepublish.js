@@ -1,0 +1,1 @@
+"use strict";var path=require("path"),fs=require("fs");[path.join(__dirname,"..","bin","pbjs"),path.join(__dirname,"..","bin","pbts")].forEach(function(i){fs.writeFileSync(i,fs.readFileSync(i).toString("utf8").replace(/\r?\n/g,"\n"),"utf8")});

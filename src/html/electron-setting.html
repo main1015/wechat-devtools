@@ -1,0 +1,94 @@
+<html><head><meta http-equiv=Content-Security-Policy content="
+				default-src
+					'none'
+				;
+				img-src
+					'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+          https:
+          http:
+				;
+				media-src
+					'self'
+				;
+				frame-src
+					'self'
+					vscode-webview:
+				;
+				script-src
+					'self'
+					blob:
+					'unsafe-inline'
+					'unsafe-eval'
+				;
+				style-src
+					'self'
+					'unsafe-inline'
+				;
+				connect-src
+					'self'
+					https:
+					ws:
+				;
+				font-src
+					'self'
+          data:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https://*.vscode-unpkg.net
+					https://res.wx.qq.com
+				;
+				trusted-types
+					'allow-duplicates'
+					amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					editorGhostText
+					editorViewLayer
+					notebookRenderer
+					stickyScrollViewLayer
+					tokenizeToString
+				;
+		"><!-- Disable pinch zooming --><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../static/dark.css><link rel=stylesheet href=../static/setting.css><link rel="shortcut icon" href=../static/image/logo@2x.png></head><body class=dark><div id=container style=display:flex;flex-direction:column;height:100vh;overflow:hidden></div></body><!-- <script src="file:///Users/can/code/vscode/src/vs/loader.js"></script> --><!-- <script>
+		const baseUrl = new URL('/Users/can/code/main', window.location.origin).toString();
+    webPackagePaths = {
+      'react': 'umd/react.production.min.js',
+      'react-dom': 'umd/react-dom.production.min.js',
+    }
+		Object.keys(self.webPackagePaths).map(function (key, index) {
+      console.error(key, index,self.webPackagePaths[key])
+			self.webPackagePaths[key] = `${baseUrl}/node_modules/${key}/${self.webPackagePaths[key]}`;
+		});
+		require.config({
+			baseUrl: `${baseUrl}/out`,
+			recordStats: true,
+			trustedTypesPolicy: window.trustedTypes?.createPolicy('amdLoader', {
+				createScriptURL(value) {
+					if(value.startsWith(window.location.origin)) {
+						return value;
+					}
+					throw new Error(`Invalid script url: ${value}`)
+				}
+			}),
+			paths: self.webPackagePaths
+		});
+	</script> --><script>window.exports={}</script><script>function loadEntry() {
+      const setting = window.__loadEntry('./setting.js')
+      setting.setup()
+    }
+    if (!window.__haspreload) {
+      loadEntry()
+    } else {
+      if (window.__preloadReady) {
+        loadEntry()
+      } else {
+        window.__preloadReadyFunc = loadEntry
+      }
+    }</script></html>

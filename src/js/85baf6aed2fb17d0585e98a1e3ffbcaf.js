@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiUiService=void 0;const e=require("tslib"),i=require('./2acfbca347f9a9fe11ffd311b147113b.js'),r=require('./3461bd706f402e4f48e38302a706b560.js');class o extends i.SimulatorSDKApiUiServiceBase{async loadFont(e,i){}}exports.SimulatorSDKApiUiService=o,e.__decorate([r.DCallRemoteASSDKApi],o.prototype,"loadFont",null);
+}(require("licia/lazyImport")(require), require)

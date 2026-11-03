@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ComponentPlatform=exports.ComponentOrigin=exports.IIBComponentService=void 0;const o=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var e,n;exports.IIBComponentService=(0,o.createDecorator)("ibComponentService"),function(o){o[o.search=1]="search",o[o.common=2]="common",o[o.all=3]="all"}(e||(exports.ComponentOrigin=e={})),function(o){o[o.simulator=1]="simulator",o[o.gallery=2]="gallery",o[o.componentPanel=3]="componentPanel"}(n||(exports.ComponentPlatform=n={}));
+}(require("licia/lazyImport")(require), require)

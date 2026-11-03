@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKJsApiSubpackageService=void 0;const e=require("tslib"),i=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),r=require('./3461bd706f402e4f48e38302a706b560.js');class s extends i.ISimulatorSDKApiBaseService{async injectSubPackages(e,i,r){}}exports.SimulatorSDKJsApiSubpackageService=s,e.__decorate([r.DCallRemoteJSSDKApi],s.prototype,"injectSubPackages",null);
+}(require("licia/lazyImport")(require), require)

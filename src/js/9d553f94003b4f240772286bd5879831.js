@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.DevtoolsSettingsRegistry=void 0;const e=require('./e45a1736f0cff12ccd223e3f4dd75808.js');class t extends e.CommonLoggable{get onDidSettingsChange(){return this._onDidSettingsChange.event}constructor(){super(),this._onDidSettingsChange=new e.EasyEmitter,this.setup()}static get sharedRegistry(){return this._sharedRegistry||(this._sharedRegistry=new this),this._sharedRegistry}setup(){}}exports.DevtoolsSettingsRegistry=t;
+}(require("licia/lazyImport")(require), require)

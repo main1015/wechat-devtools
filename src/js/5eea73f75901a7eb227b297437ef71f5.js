@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getFrameBarStyle=function(){if(!r.default.isDev)return{backgroundColor:"var(--BG-1)",borderBottom:"0.5px solid rgba(0,0,0,0.15)"};return{backgroundColor:"rgb(87, 107, 149)",color:"rgba(255, 255, 255, 0.92)",borderBottom:"0.5px solid rgba(255,255,255,0.16)","--FG-0":"#ffffff","--FG-1":"rgba(255, 255, 255, 0.92)","--FG-2":"rgba(255, 255, 255, 0.72)","--FG-3":"rgba(255, 255, 255, 0.45)","--FG-4":"rgba(255, 255, 255, 0.22)"}};const r=require('./cd05aced5dc062793cd42e4547966595.js');
+}(require("licia/lazyImport")(require), require)

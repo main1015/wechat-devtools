@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IBindUDPSocketOption=void 0,exports.IBindUDPSocketOption={type:"object",properties:{socketId:{description:"UDP Socket ID",type:"number"},port:{description:"端口号，可选",type:"number"}},additionalProperties:!1,required:["socketId"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755851092529};
+}(require("licia/lazyImport")(require), require)

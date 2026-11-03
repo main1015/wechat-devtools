@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.allPipes=void 0;const wccPipe_1=require("./wccPipe"),compileWxmlToGlassEaselPipe_1=require("./compileWxmlToGlassEaselPipe"),compileWxssPipe_1=require("./compileWxssPipe");exports.allPipes=[wccPipe_1.wccPipe,compileWxmlToGlassEaselPipe_1.compileWxmlToGlassEaselPipe,compileWxssPipe_1.compileWxssPipe];
+}(require("licia/lazyImport")(require), require)

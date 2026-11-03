@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.extractSelectors=function(e){let t;try{t=e.match(/(?:[.#]{1})([a-zA-Z_]+[\w-_]*)(?:[\s.,{>#:]{0})/gim)}catch(e){return[]}if(null==t?void 0:t.length)return Array.from(new Set(t));return[]},exports.extractSelectorsWithOffsets=function(e){const t=/(?<!\/\*.*)(?:[.#]{1})([a-zA-Z_]+[\w-_]*)(?:[\s.,{>#:]{0})/gim,r=Object.create(null);try{let c=t.exec(e);for(;c;){const s=c[0];if(s&&!isNaN(c.index)){r[s]=r[s]||[];r[s].push(c.index)}c=t.exec(e)}}catch(e){}const c=[];for(const e in r)r[e]&&c.push({selectorName:e,offsets:r[e]});return c};
+}(require("licia/lazyImport")(require), require)

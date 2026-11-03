@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiShareService=exports.shareApis=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:r}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.shareApis=["showShareTimelineMenu","hideShareTimelineMenu","showShareMenu","showShareMenuWithShareTicket","hideShareMenu","updateShareMenuDynamic","updateShareMenuShareTicket","shareAppMessage","shareAppMessageDirectly","shareTimeline","addToFavorites","shareAppMessageToSpecificContactDirectly","getAppContact","returnCopyUrl"],exports.ISimulatorSDKApiShareService=r("ISimulatorSDKApiShareService");
+}(require("licia/lazyImport")(require), require)

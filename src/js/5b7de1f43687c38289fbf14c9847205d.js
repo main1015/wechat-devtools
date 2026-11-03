@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getOnlinePluginList=async function(){const s=(0,i.default)(t.IIDEPluginManagerService),u=await s.getOnlinePluginList((0,r.isEduMode)());return e.default.dispatch(n.default.setOnlinePluginManifests(u)),u},exports.getAllPluginList=async function(){const e=(0,i.default)(t.IIDEPluginManagerService);return await e.getAllPluginList()};const e=require('./046aafa51723e0b9f12bd58599007fec.js'),i=require('./9eee66f818065fa6881814a83bcfe0cf.js'),t=require('./d2a5bbe8f50672570a9f30e50be71427.js'),n=require('./766e185a27fdeced322689978fcf70e8.js'),r=require('./9aeb91e766dd8ce3d089d37ff2555227.js');
+}(require("licia/lazyImport")(require), require)

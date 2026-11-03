@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IForeignPackageManagerService=exports.EForeignPackageKind=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;!function(e){e.miniprogram="mptslib",e.minigame="mgtslib"}(r||(exports.EForeignPackageKind=r={})),exports.IForeignPackageManagerService=(0,e.createDecorator)("IForeignPackageManagerService");
+}(require("licia/lazyImport")(require), require)

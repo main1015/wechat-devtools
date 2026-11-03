@@ -1,0 +1,1 @@
+var $export=require("./_export");$export($export.S,"Math",{trunc:function(r){return(r>0?Math.floor:Math.ceil)(r)}});

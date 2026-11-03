@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EExtensionID=void 0;const e=require('./5e6729400ac4c8f046ecb20ce9a72736.js');class s extends e.Messager{constructor(e){super("EXTENSION_"+e)}callback(e,s){this.send({command:"INVOKE_CALLBACK",data:{callbackID:e,res:s}})}}var a;!function(e){e.cloudbase="cloudbase",e.cloudConsole="CLOUD_CONSOLE",e.dockercloudbase="dockercloudbase"}(a||(exports.EExtensionID=a={})),exports.default=new class{constructor(){this._messagerMap=new Map}getMessager(e){if(this._messagerMap.has(e))return this._messagerMap.get(e);const a=new s(e);return a.ready=!0,this._messagerMap.set(e,a),a}};
+}(require("licia/lazyImport")(require), require)

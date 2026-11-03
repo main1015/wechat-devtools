@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isRegularZip=function(r){return new Promise(n=>{var t=Buffer.allocUnsafe(4);e.open(r,"r",(function(r,u){if(r)return n(!1);e.read(u,t,0,4,0,(function(r,t,o){if(r)return e.close(u,()=>{}),n(!1);if(o&&4===o.length){const e=!(80!==o[0]||75!==o[1]||3!==o[2]&&5!==o[2]&&7!==o[2]||4!==o[3]&&6!==o[3]&&8!==o[3]);return n(e)}return n(!1)}))}))})};const e=require("fs");
+}(require("licia/lazyImport")(require), require)

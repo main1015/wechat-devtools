@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.containsSymbolicLinkInPath=async function(e,o){const i=t.relative(e,o);if(!i||"."===i)return!1;const c=i.split(t.sep).filter(Boolean);let s=e;for(const e of c){s=t.join(s,e);try{if((await r(s)).isSymbolicLink())return!0}catch(t){if(n(t))return!1;throw t}}return!1};const t=require("path"),e=require("fs");function r(t){return new Promise((r,n)=>{e.lstat(t,(t,e)=>{t?n(t):r(e)})})}function n(t){return"ENOENT"===t.code||"ENOTDIR"===t.code}
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getCdpPort=exports.getDebugServerPort=exports.getInitialInspectPort=void 0;const e=require('./d5412d2773b861711912958f9f5b10f7.js');exports.getInitialInspectPort=(()=>{let t;return async function(r=!1){return!r&&t||(t=await(0,e.getAvailablePort)()),Promise.resolve(t)}})(),exports.getDebugServerPort=(()=>{let t;return async function(r=!1){return!r&&t||(t=await(0,e.getAvailablePort)()),Promise.resolve(t)}})(),exports.getCdpPort=(()=>{let t;return async function(r=!1){return!r&&t||(t=await(0,e.getAvailablePort)()),Promise.resolve(t)}})();
+}(require("licia/lazyImport")(require), require)

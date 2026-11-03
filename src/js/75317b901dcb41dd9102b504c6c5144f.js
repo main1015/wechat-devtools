@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("tslib"),t=require("react"),o=require("licia/now"),r=require('./78f914c66d30c9c049225e21f0ce1e7f.js'),s=require('./049430eb9cf8d8ca2f91f4cce19f1c22.js');let i=class extends t.Component{constructor(e){super(e),this.onShowClick=()=>{this.setState({showTs:o()})},this.state={showTs:0}}render(){return t.createElement(s.default,{currentWording:r.default.config.PAGE_INFORMATION,onShowClick:this.onShowClick,primary:!0,dropdownType:"pageinfo",showTs:this.state.showTs,context:this.props.context||this.context})}};i=e.__decorate([r.default.mixin],i),exports.default=i;
+}(require("licia/lazyImport")(require), require)

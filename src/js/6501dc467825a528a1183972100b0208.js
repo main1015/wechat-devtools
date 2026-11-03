@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("path"),r=require('./87340deef308fb62efd7eb7a7e63e98d.js'),t=require('./3a1f414403e6f5e35462b0c9b37cea46.js'),i=e.resolve(r.WeappEditorCache,"User/settings.json");exports.default=new t.FileHelper("editorSettings",{filePath:i,defaultValue:"{\n\n}\n"});
+}(require("licia/lazyImport")(require), require)

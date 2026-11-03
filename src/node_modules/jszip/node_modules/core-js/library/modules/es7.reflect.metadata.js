@@ -1,0 +1,1 @@
+var metadata=require("./_metadata"),anObject=require("./_an-object"),aFunction=require("./_a-function"),toMetaKey=metadata.key,ordinaryDefineOwnMetadata=metadata.set;metadata.exp({metadata:function(a,t){return function(e,n){ordinaryDefineOwnMetadata(a,t,(void 0!==n?anObject:aFunction)(e),toMetaKey(n))}}});

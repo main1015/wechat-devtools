@@ -1,0 +1,62 @@
+{
+  "sceneEN": {
+    "version": 1784257141642,
+    "signature": "EJw527QUMw+hKg1p+nPB992Cq4oGAZUA8f3fOtefXWR2zBmdj+EmhKz3PC9JmNB3N2UEbtaRnqisX9jzk2W6FujwHsdaTisEncgWYjalejTEK7iANidB4f4Rr20yAS9kquBUwS8/kk1eeQYqbALFO6cb5aWmmOQvdg8P5S0DdOo="
+  },
+  "sceneZH": {
+    "version": 1784257141643,
+    "signature": "aUFMRibbLfHbTM1H3Y86LHKm7CrMRWQEZZXgGaBCnpS1wex2PZcOFb7yN24U6alz4krMOnKkx8/A4xD0JhD5CB4jtD+qlqz7z/wnZpRH38jH6GayJzvxdktf/TL/Cemv0v/ZyYYwlTX7V3nSthvcsRczUQcCJ27aTrUPlZyVxsU="
+  },
+  "extname": {
+    "version": 1667975182897,
+    "signature": "dlA1rB/wCO/21n7+4r+2iERX63kr4RqLCBxIQp9mYaWR/t96fGm5Cd1Nvs+6bflpRPBGU6XYDi32NeTAs3yejTqdJiRm28DPNaMJzNjKi+uXfZxx5XCA/LGpBXmjvv61sRzxyw5Ki9Q1Tr10+JkdTztmPX/ZsKmFm6THYD+6BTs="
+  },
+  "extendedlib": {
+    "version": 1603940879524,
+    "signature": "hes7p2Bbn5+PunCPh+ZwyJGRpuRa5AnoH0fkkdgzSXQ0Jak6Pdw9oaPWX7ep0VaotmSe6JYP3tL9+UsTMbV7SS4KPwpSDXl0104AWFPv1OixL7mC66vnYDRts05LceizH6K7iGr0wLegZTSbcLt2AQ/+QeegUGPeXa6aMjQSY1c="
+  },
+  "weappsetting": {
+    "version": 1733138702749,
+    "signature": "h2vrJ8YG3V+BIOd9EjDegGnd3++kyB/vs5ORwA1taof9hMcpNNOjmIrmJrmIIcXqj/jjI+eXYsLvNw+KNiYs6ZJX7XDGs6CNFwessb486BWXmeDJli0J0T4cWbpFkTPcZ1o1VFB5t2KR06KNxZpKBFmWzbM+y3onD22LFiZbymw="
+  },
+  "ideconf": {
+    "version": 1616498385666,
+    "signature": "KFb8JHtHHfx4Falu52KpSEKG/xrYxdYf1opzgev+0Btogi0QRw409Ap/SNPG81zQx3sDDFdYjVm3hZHTY5gq6cEYfoncwvBiZ2cveLezueqM+0prtQggUKIWzjMUks1A0M8WVP4TSp6N1eQnY1zasQzAHKKIrT0gmU1Cjxrfr/0="
+  },
+  "deviceconf": {
+    "version": 1784257141645,
+    "signature": "LfcmNPDVai2zNQAcr3Bs6EZY4E1b3op8hGalkDPDxl/V4duXd/yimzZGpa49MJOIHNvyt3vF+HprbVZVcIG16Qmsq1CiBfmpcNXgt1tXaAJMTzon0PY5ZMwJpbOhQ0Kb1S3QaVe+lvU5XmwPwZuQWcnkyBOKX2CSXa0IWFYSIBA="
+  },
+  "qualitycheckoption": {
+    "version": 1639968213754,
+    "signature": "Kv6E9cqpT5F30g3aHmNW+xs/qmWZHG3jDJp/YAErXdM6WGWGgXsvCRBn7SqSfqMRfFvp/vk0N58djEoTS2eYoKvGUGq28QdvPb0a5ibGrC5b2Dy9YNvIV8qhFayBgM67K6XmiZBsGs9hd/yY+r7pWwbdBYUUI4gl2PhvoXw8hYs="
+  },
+  "singlepagetemplate": {
+    "version": 1640659347152,
+    "signature": "dh+QxQLq3shlO+RGT4YzYshB0hqIY5TmnVV9zBHAjbhn3G3HGcJALOs6YSOJt1Mu039zKPxbPwQAlkVy/Bl6NdylKq7ge2VxQVkMA1sPzWcz+HCtY7rpKWB+P3SMPY3EoKsV18NYu3gbfU1LXgme2q0Szd20V9EJl5yAbOaiFns="
+  },
+  "ibcomponentlibmap": {
+    "version": 1660188341930,
+    "signature": "I7O2hIUm/OXsC9XrqzSwMgj6IknMRPg51VNaSNQRgV6BUsNgon8KVZ/yE+GpPfgdOd0kuCZkNhcfeEYZ47Xk8MRbTlUuo9fDTsRehsXm3BulNXoWDpkaNZ0HyCkEEurGa3m8/Q92dU3qyipTVUkKwn4UvzNMpIFuNxYTo7B7WZE="
+  },
+  "idepluginsetting": {
+    "version": 1688987400515,
+    "signature": "PUmC/f+RroPsow/hXLtYfWk4eUS6VSQKuV4fxcqoRH6EziVD2mRVSR+earQI3oYWuIzepoCqyCmjTfFKTXyn96ZJvn5PlMssu6n5gUznW1FUuLIwUdfCminZ/IAV9Hrf4/hKdrVohzQsbhZTxfeo2BaWXaBgQyvLESrC9Q7Ic1Y="
+  },
+  "wxapplibdefaultinfo": {
+    "version": 1603940879524,
+    "signature": "KHI8v71G5BLFNyWOJj/WU7ZXJgCWN7ToEZM+S4BUB6emyq9m0WdavSjz46SUjz7b/iN7xub7n1MHRiYSXkv3jidVItEb5YTV2N0oCdSWBlmusQbFyBq8ik/by4uVUr9pNWavLWmfxg1zgZE8sK6sVYAT3LXxoP1pbVqKITZSvAM="
+  },
+  "editorfiletemplate": {
+    "version": 1692253757507,
+    "signature": "TxeQQEYvTz/cEr2yqVrfVz9MQDkerp34wEUYhTd7nhvr6jjgjYs7DVc/TCUWuSQ0T8YEu1Fyj7GTC5Yw1mJg9LqVb28IaJg7CtqxKtGvsAiOhlze4AqtwZXcjuJjJd24d3zu/3zlevihiiMajcGoHPaWgYF/hrqrC+xMy0GTj88="
+  },
+  "accountcard": {
+    "version": 1741056504790,
+    "signature": "Xu5cSQZkGp0DZVVK5UfmTd0/Ceh3cSNtU6hr0nNK/B5XDx/HePHe9HVpPoUh85ciVMVjNzwMBwCJC95lXFYgIOem0tWTMDbW/7Mg7G1VeQ1xiHO/U02CxZmNhLRpzuDbLsbxHkbxVdNlK6MZNmnZZVw8iVGiwirhPzP2j4aZzZY="
+  },
+  "aitemplateprompt": {
+    "version": 1760503498022,
+    "signature": "g1E55x6zq7Je3up7iuf2nAWhwv/jHKKh7YNE/XnJWC+mqsE3dpEBlSx1VRDoAljsg7nz0eg750BvMG5d30lpeo3rmhklephYtgeosjopI5on0avwW7UDKaoBecWiqth8FiaO9wBw7X3o2AFSIs5I9udApY5oQe5mWmJtvzwDsnw="
+  }
+}

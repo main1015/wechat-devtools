@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getVersionByFD=exports.getVersion=void 0;const e=require("fs");exports.getVersion=e=>{let r=e.slice(1,5).readInt32BE(0);if(1===r){const t=e.slice(13,14);14!==t[0]&&237!==t[0]||(r=0)}return r};exports.getVersionByFD=r=>{const t=Buffer.alloc(4);e.readSync(r,t,0,4,1);let s=t.readInt32BE(0);if(1===s){const t=Buffer.alloc(1);e.readSync(r,t,0,1,13),14!==t[0]&&237!==t[0]||(s=0)}return s};
+}(require("licia/lazyImport")(require), require)

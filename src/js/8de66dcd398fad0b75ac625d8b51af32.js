@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const t=require("react");class e extends t.Component{componentDidMount(){const{id:t,duration:e,onClose:o}=this.props;this.timer=setTimeout(()=>{o&&o(t)},e)}componentWillUnmount(){clearTimeout(this.timer)}render(){const{text:e}=this.props;return t.createElement("div",{className:"uiv2-toast-item","data-tutid":"tut-ed1290f7ab3949ee"},e)}}exports.default=e;
+}(require("licia/lazyImport")(require), require)

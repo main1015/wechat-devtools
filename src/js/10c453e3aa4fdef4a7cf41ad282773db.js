@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.showEntranceWindow=async function(){try{return void await(0,r.default)(e.IWindowService).showEntrance()}catch(e){console.error("[showEntranceWindow]",e)}};const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),r=require('./9eee66f818065fa6881814a83bcfe0cf.js');
+}(require("licia/lazyImport")(require), require)

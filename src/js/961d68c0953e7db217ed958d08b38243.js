@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getQualityPanelViewPane=function(i,t){var n;return(n=class extends i{renderBody(i){super.renderBody(i),this._parentDomElement=i,this._qualityPanelView=new e.QualityPanelView(this._parentDomElement),this._render(),this.onDidChangeBodyVisibility(e=>{e&&this._render()})}_render(){var e;this.isVisible()&&(null===(e=this._qualityPanelView)||void 0===e||e.render())}}).ID="workbench.panel.qualityPanel",n.Name=t.localize("codeQuality","Code Quality"),n};const e=require('./21a67be2dc38c660d24fb9bc6dfcff7a.js');
+}(require("licia/lazyImport")(require), require)

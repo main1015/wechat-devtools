@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGetSystemInfoOption=void 0,exports.IGetSystemInfoOption={type:"object",properties:{type:{enum:["appBaseInfo","bluetoothEnabled","cameraAuthorized","deviceInfo","deviceOrientation","locationAuthorized","locationEnabled","locationReducedAccuracy","microphoneAuthorized","notificationAuthorized","phoneCalendarAuthorized","wifiEnabled","windowInfo"],type:"string"}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1747894649689};
+}(require("licia/lazyImport")(require), require)

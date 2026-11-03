@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Client=void 0;const e=require("electron"),o=require('./7dd9527d5d359ebe4569e4ade6f3966b.js'),r=require('./04b305bd36d00c80af5aa8a33ba35bb5.js'),t=require('./453a99782243b7102dfec669d1659ba3.js');class c extends r.IPCClient{static createProtocol(){const r=o.Event.fromNodeEventEmitter(e.ipcRenderer,"wechatide:message",(e,r)=>o.VSBuffer.wrap(r));return e.ipcRenderer.send("wechatide:hello"),new t.ElectronProtocol(e.ipcRenderer,r)}constructor(e){const o=c.createProtocol();super(o,e),this.protocol=o}dispose(){this.protocol.disconnect(),super.dispose()}}exports.Client=c;
+}(require("licia/lazyImport")(require), require)

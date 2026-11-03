@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./dac18eaaeb2d2169f183726055353d4e.js'),t={launchApplication:e.default,confirmDialog:e.default,openWeApp:e.default,cgi:e.default,getBackgroundAudioState:e.default,setBackgroundAudioState:e.default,operateBackgroundAudio:e.default};let a={};const o={get:(e,o)=>o in a?a[o]:t[o]?(a=Object.assign(Object.assign({},a),t[o]),a[o]):void 0},r=new Proxy(a,o);exports.default={exec:function(e){const{api:t}=e;return async(a,o)=>{try{return r[t]?await r[t](a,e,o):(console.log("jscore api not support",t),{err_msg:e.api+":fail not support"})}catch(e){return{err_msg:`${t}:fail ${e.message||e}`}}}}};
+}(require("licia/lazyImport")(require), require)

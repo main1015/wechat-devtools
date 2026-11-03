@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerLocalesService=void 0;const tslib_1=require("tslib"),const_1=tslib_1.__importDefault(require("./const"));class ServerLocalesService{getLocale(){return{}}getLocales(){return const_1.default}}exports.ServerLocalesService=ServerLocalesService;
+}(require("licia/lazyImport")(require), require)

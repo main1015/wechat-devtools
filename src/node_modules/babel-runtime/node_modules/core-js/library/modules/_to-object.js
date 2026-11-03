@@ -1,0 +1,1 @@
+var defined=require("./_defined");module.exports=function(e){return Object(defined(e))};

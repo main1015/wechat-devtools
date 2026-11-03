@@ -1,0 +1,1 @@
+var isObject=require("./_is-object"),setPrototypeOf=require("./_set-proto").set;module.exports=function(t,e,o){var r,p=e.constructor;return p!==o&&"function"==typeof p&&(r=p.prototype)!==o.prototype&&isObject(r)&&setPrototypeOf&&setPrototypeOf(t,r),t};

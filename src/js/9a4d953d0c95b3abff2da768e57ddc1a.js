@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.NWPerformanceReportService=void 0;const e=require('./89f3cc36fe13b84ce648498b761b90de.js'),r=require('./51bcf1fc451d91fb64eaa3dd451b6439.js');exports.NWPerformanceReportService=class{async reportPerf(r,o){return(0,e.reportPerf)(r,o)}getReportName(){return r.REPORT_NAME}};
+}(require("licia/lazyImport")(require), require)

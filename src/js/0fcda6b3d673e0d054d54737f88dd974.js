@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKJsApiAutofillService=exports.autofillJsApis=void 0;const t=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:e}=t.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.autofillJsApis=["getUserAutoFillData","setUserAutoFillData","requestAuthUserAutoFillData","deleteUserAutoFillData"],exports.ISimulatorSDKJsApiAutofillService=e("ISimulatorSDKJsApiAutofillService");
+}(require("licia/lazyImport")(require), require)

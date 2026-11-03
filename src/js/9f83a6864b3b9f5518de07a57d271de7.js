@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.transformSafariTimeLineToChromeProfile=void 0;const e=require('./1483497cbcb1e38997a95eb5ff8871cc.js');exports.transformSafariTimeLineToChromeProfile=r=>{const{stackTraces:i,startTime:t,endTime:s,scriptProfilerTrackingEvents:a,timelineUpdateEvents:o,pid:n,tid:c}=r;return(0,e.processTraceData)({startTime:t,endTime:s,timelineEvents:o,scriptProfilerTrackingDatas:a,scriptProfilerSamples:i,pid:n,tid:c,frameId:"0.1"})};
+}(require("licia/lazyImport")(require), require)

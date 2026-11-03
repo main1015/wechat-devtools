@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.appserviceHtml=void 0,exports.appserviceHtml='\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">\n  <meta name="referrer" content="no-referrer">\n  <title>小程序逻辑层</title>\n</head>\n<body>\n  <script src="js/appservice.js"><\/script>\n</body>\n</html>\n';
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+var tape=require("tape"),protobuf=require("..");tape.test("negative int32 values",function(e){var t=protobuf.Writer.create();t.int32(-5615122);var r=t.finish();e.equal(r.length,10,"should encode to 10 bytes");var a=protobuf.Reader.create(r);e.equal(a.int32(),-5615122,"should decode from 10 bytes"),e.equal(a.pos,10,"should have consumed the entire test buffer"),e.end()});

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.htmlReady=exports.vendorListForDebugOld=exports.vendorListForDebug=exports.vendorList=exports.errorTpl=exports.devVendorList=void 0;const e=require('./9b7ab1a1967b9e0952c456cae70bf3f8.js');exports.errorTpl="\n  <p>{{error}}</p>\n";exports.htmlReady="<script>\n  alert('DOCUMENT_READY')\n<\/script>\n";const r=e.DevVendorList;exports.devVendorList=r;const o=e.VendorList;exports.vendorList=o;const t=[e.ExternalRemoteDebugLibName];exports.vendorListForDebug=t;const s=[e.InnerRemoteDebugLibName];exports.vendorListForDebugOld=s;
+}(require("licia/lazyImport")(require), require)

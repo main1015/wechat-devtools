@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.observe=function(t,n){let d;o.get().observe(t),r.has(t)?d=r.get(t):(d=new Set,r.set(t,d));return d.add(n),{trigger(){e.RenderLoop.nextIdle(()=>s([{target:t}]))},dispose(){const e=r.get(t);e&&e.delete(n),(!e||e&&e.size<=0)&&(r.delete(t),o.get().unobserve(t))}}};const e=require('./d95d3ecf81050f23c2fd8e9a0270bb04.js'),t=require('./d4e02516158e2031dc6b9d4d81227886.js'),r=new WeakMap,o=(0,t.IV)(()=>new ResizeObserver(s));let n=void 0;function s(t){n||(n=e.RenderLoop.nextFrame(()=>{n=void 0;for(const e of t){const t=r.get(e.target);(null==t?void 0:t.size)&&t.forEach(e=>e())}}))}
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LoggerUtil=exports.Logger=exports.AdapterLogger=void 0;const e=require('./cd05aced5dc062793cd42e4547966595.js'),r=require('./f320f63f032b2aa8dad7399f08975eb8.js');class t{constructor(t){this.tag=t,this.logger=e.default.isDev?console:r.default}info(...e){this.logger.info(this.tag,...e)}warn(...e){this.logger.warn(this.tag,...e)}debug(...e){this.logger.debug(this.tag,...e)}error(...e){this.logger.error(this.tag,...e)}}exports.LoggerUtil=t,exports.AdapterLogger=new t("[game-ios-debug][adapter]"),exports.Logger=new t("[game-ios-debug]");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TaskQueueService=void 0;const e=require('./c868ec0e56dd4e2739e9ee16b53b70e9.js');exports.TaskQueueService=class{constructor(){this._taskMap=new Map}addTask(e,s){this._taskMap.has(e)||this._taskMap.set(e,[]);this._taskMap.get(e).push(s)}async emitTask(s,t=!0){if(!this._taskMap.has(s))return!1;const a=new e.ControlledPromise,r={preventDefault(){a.resolve(!0)}},o=this._taskMap.get(s);for(const e of o)try{const s=e(r);s instanceof Promise&&await s}catch(e){}return a.resolve(!1),t&&this._taskMap.delete(s),a.promise}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.handleNativeViewRequest=async function(t){const r=t.parsedUrl.pureHref;if(!r.startsWith("/nativeview/"))return;if("index.html"===r.replace(/^\/nativeview\//,""))return{body:await(0,e.default)()};return{statusCode:404}};const e=require('./0aabf4d63c925a72f89a65b04ac16266.js');
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKJsApiPickerService=exports.pickerJsApis=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:i}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.pickerJsApis=["showPickerView","showDatePickerView","showMultiPickerView","updateMultiPickerView","getRegionData","showAddressPickerView"],exports.ISimulatorSDKJsApiPickerService=i("ISimulatorSDKJsApiPickerService");
+}(require("licia/lazyImport")(require), require)

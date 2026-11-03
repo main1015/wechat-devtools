@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$re=require("./_replacer")(/&(?:amp|lt|gt|quot|apos);/g,{"&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&apos;":"'"});$export($export.P+$export.F,"String",{unescapeHTML:function(){return $re(this)}});

@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),toObject=require("./_to-object"),aFunction=require("./_a-function"),$defineProperty=require("./_object-dp");require("./_descriptors")&&$export($export.P+require("./_object-forced-pam"),"Object",{__defineGetter__:function(e,r){$defineProperty.f(toObject(this),e,{get:aFunction(r),enumerable:!0,configurable:!0})}});

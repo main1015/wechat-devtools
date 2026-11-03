@@ -1,0 +1,1 @@
+var $export=require("./_export"),sign=require("./_math-sign");$export($export.S,"Math",{cbrt:function(r){return sign(r=+r)*Math.pow(Math.abs(r),1/3)}});

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("events").EventEmitter;let t=[];const i=new e;exports.default=class{static get windows(){return t.slice()}static register(e){t.push(e),e.hasOwnProperty("id")&&i.emit("register_"+e.id,e.window)}static unregister(e){const i=t.findIndex(t=>t.id===e);i>-1&&t.splice(i,1)}static get(e){const i=t.find(t=>t.id===e);return i?i.window:null}static clear(){t=[]}static onWindowRegistered(e){return new Promise((s,n)=>{const r=t.findIndex(t=>t.id===e);r>-1?setImmediate(()=>{s(t[r])}):i.once("register_"+e,e=>s(e))})}};
+}(require("licia/lazyImport")(require), require)

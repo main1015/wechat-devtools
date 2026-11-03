@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("italics",function(t){return function(){return t(this,"i","","")}});

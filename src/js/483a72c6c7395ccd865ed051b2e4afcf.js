@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(r){const{group:a=[],itemWidth:o=160}=r,u=e=>{r.onChange(e.currentTarget.dataset.value)},i=e.useMemo(()=>0===a.length?null:a.map(r=>e.createElement(t.RadioItem,{onChange:u,width:o,key:r.value,item:r})),[a,o]);return e.createElement("div",{className:"modv2-previewer-radio-box",style:r.style||{},"data-tutid":"tut-1772882bc50b4749"},i)};const e=require("react"),t=require('./e37facedc165e3ded4596fb2b7f7a624.js');
+}(require("licia/lazyImport")(require), require)

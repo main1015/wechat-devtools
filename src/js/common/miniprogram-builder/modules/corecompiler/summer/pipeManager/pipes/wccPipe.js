@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.wccPipe=void 0;const compilewxmlService_1=require("../../../../../services/compilewxml/common/compilewxmlService"),types_1=require("../types");exports.wccPipe={name:types_1.EPipeCMD.WCC,async execute(e,i){const{files:c,isCut:o,lazyloadConfig:t,configSplit:n,configContent:l,hasWxs:s,genfuncName:p,cwd:r,replaceContent:m,isMiniAppProject:a,isPlugin:u}=i;return await e.getService(compilewxmlService_1.ICompilewxmlService).compileWxml({files:c,isCut:o,lazyloadConfig:t,configSplit:n,configContent:l,hasWxs:s,genfuncName:p,cwd:r,replaceContent:m,isMiniAppProject:a,isPlugin:u})}};
+}(require("licia/lazyImport")(require), require)

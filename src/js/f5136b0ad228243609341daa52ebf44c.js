@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorJSSDKService=exports.ISimulatorASSDKService=exports.ISimulatorSDKService=exports.SimulatorSDKService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.SimulatorSDKService=class{constructor(e,r){this.inited=!1,this.log=r.context(e)}},exports.ISimulatorSDKService=(0,e.createDecorator)("ISimulatorSDKService"),exports.ISimulatorASSDKService=(0,e.createDecorator)("ISimulatorASSDKService"),exports.ISimulatorJSSDKService=(0,e.createDecorator)("ISimulatorJSSDKService");
+}(require("licia/lazyImport")(require), require)

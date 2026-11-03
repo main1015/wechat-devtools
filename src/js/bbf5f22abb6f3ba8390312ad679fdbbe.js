@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IReadZipEntryResult=void 0,exports.IReadZipEntryResult={type:"object",properties:{entries:{type:"array",items:{$ref:"#/definitions/IZipEntry"}}},additionalProperties:!1,required:["entries"],definitions:{IZipEntry:{type:"object",properties:{name:{type:"string"},size:{type:"number"},compressedSize:{type:"number"}},additionalProperties:!1,required:["compressedSize","name","size"]}},$schema:"http://json-schema.org/draft-07/schema#",$version:1748245859534};
+}(require("licia/lazyImport")(require), require)

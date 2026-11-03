@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.initProxy=async function(){const t=(0,e.default)(r.IHttpServerService);return await t.initLocalServer()},exports.getProxyPort=function(e=!1){return(0,t.getProxyPort)(e)};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./c90e6f302508c32fae4c498970337eb2.js'),t=require('./13a6bfb2c9615a1f58046fc1cb353f5d.js');
+}(require("licia/lazyImport")(require), require)

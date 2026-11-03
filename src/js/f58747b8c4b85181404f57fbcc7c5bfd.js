@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getDeviceInfo=function(e){const t=e.deviceInfo||{},i=e.realDeviceInfo,r={pixelRatio:t.dpr,width:i.screenWidth};return`window.__deviceInfo__ = ${JSON.stringify(r)};\n  Object.defineProperties(screen, { width: { value: ${i.screenWidth}, writable: true }, height: { value: ${i.screenHeight}, writable: true } });`};
+}(require("licia/lazyImport")(require), require)

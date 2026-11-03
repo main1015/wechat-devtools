@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getAndroidPanelViewPane=function(n,i){var r;return(r=class extends n{renderBody(n){super.renderBody(n),this._parentDomElement=n,this._androidPanelView=new e.AndroidPanelView(this._parentDomElement),this._render(),this.onDidChangeBodyVisibility(e=>{e&&this._render()})}_render(){var e;this.isVisible()&&(null===(e=this._androidPanelView)||void 0===e||e.render())}}).ID="workbench.panel.androidPanel",r.Name=i.localize("android","Android"),r};const e=require('./ac00b9992339ca9ef2fb3d662d78baa9.js');
+}(require("licia/lazyImport")(require), require)

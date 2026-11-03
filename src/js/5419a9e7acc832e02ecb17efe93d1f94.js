@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TestAdapter=void 0;const e=require("path"),t=require('./96e5afe9ca7ab7814c9c17d991633633.js'),r=require('./8307e9558a16d7c2befb043e915c0f14.js');class s extends r.Adapter{constructor(t,r){super(t,r,{}),this._jsonPath=e.join(__dirname,"../../src/lib/test-targets.json")}async getTargets(){try{const e=await t.default.readFile(this._jsonPath,{encoding:"utf8"}),r=[],s=JSON.parse(e);for(let e=0;e<10;e++){const t=e<s.length?s[e]:s[0];r.push(this.setTargetInfo(t))}return r}catch(e){return[]}}}exports.TestAdapter=s;
+}(require("licia/lazyImport")(require), require)

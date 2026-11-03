@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./55704d54ca407c7b87c9e70844663025.js'),t=require('./12f9142ff6dd9cc80d94dc657fed7430.js');exports.default={updateSearchQueryConfig:function(e){return{type:t.default.CONFIG_UPDATE_SEARCH_QUERY,data:e}},updateSceneConfig:function(n){return a=>{const c=n?e.default.gameSceneMap:e.default.sceneMap;a({type:t.default.CONFIG_UPDATE_SCENE_INFO,data:c})}},syncConfig:(e,n)=>a=>{e=e.config||{},a({type:t.default.CONFIG_SYNC_STORE,data:e,syncTime:n})}};
+}(require("licia/lazyImport")(require), require)

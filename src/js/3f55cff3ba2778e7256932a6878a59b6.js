@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiNetworkService=exports.NetworkApis=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:o}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.NetworkApis=["downloadFile","uploadFile","createUploadTask","operateUploadTask","createDownloadTask","operateDownloadTask","checkNetworkAPIURL","getLocalIPAddress"],exports.ISimulatorSDKApiNetworkService=o("ISimulatorSDKApiNetworkService");
+}(require("licia/lazyImport")(require), require)

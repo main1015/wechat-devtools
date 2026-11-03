@@ -1,0 +1,1 @@
+var $export=require("./_export"),exp=Math.exp;$export($export.S,"Math",{cosh:function(e){return(exp(e=+e)+exp(-e))/2}});

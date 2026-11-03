@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ElectronAppDialog=void 0;const e=require("electron"),o=require('./78f914c66d30c9c049225e21f0ce1e7f.js');exports.ElectronAppDialog=class{async confirm(t){const s=t?String(t):"",a={type:"question",buttons:[o.default.config.CANCEL,o.default.config.CONFIRM],defaultId:1,cancelId:0,message:s,icon:e.nativeImage.createEmpty()},n=e.BrowserWindow.getFocusedWindow();return 1===(n?await e.dialog.showMessageBox(n,a):await e.dialog.showMessageBox(a)).response}};
+}(require("licia/lazyImport")(require), require)

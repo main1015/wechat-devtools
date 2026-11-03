@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";let e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.jsonSchema=void 0,exports.getSchemaText=function(){e||(e=JSON.stringify(exports.jsonSchema));return e},exports.jsonSchema={type:"object",allowComments:!0,allowTrailingCommas:!0,properties:{colors:{description:"Colors of the theme",additionalProperties:{type:"string",format:"color-hex",pattern:"^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$",defaultSnippets:[{body:"${1:#ff0000}"}]}}}};
+}(require("licia/lazyImport")(require), require)

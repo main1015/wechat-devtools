@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),createProperty=require("./_create-property");$export($export.S+$export.F*require("./_fails")(function(){function r(){}return!(Array.of.call(r)instanceof r)}),"Array",{of:function(){for(var r=0,e=arguments.length,t=new("function"==typeof this?this:Array)(e);e>r;)createProperty(t,r,arguments[r++]);return t.length=e,t}});

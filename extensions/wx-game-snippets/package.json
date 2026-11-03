@@ -1,0 +1,23 @@
+{
+  "name": "wx-game-snippets",
+  "displayName": "WX Game Snippets",
+  "description": "Snippets for WeChat MiniGame",
+  "version": "2.10.4",
+  "publisher": "wechat.miniprogram",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [{
+      "language": "javascript",
+      "path": "./snippets/snippets.js.json"
+    }]
+  },
+  "activationEvents": [
+    "onLanguage:javascript"
+  ],
+  "main": "main.js"
+}

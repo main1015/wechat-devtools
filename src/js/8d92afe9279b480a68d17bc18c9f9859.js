@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOldStoreService=exports.IStoreService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r=require('./36bdd018ddae3596c5b9230a8f320bb2.js');Object.defineProperty(exports,"IStoreService",{enumerable:!0,get:function(){return r.IStoreService}}),exports.IOldStoreService=(0,e.createDecorator)("IOldStoreService");
+}(require("licia/lazyImport")(require), require)

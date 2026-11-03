@@ -1,0 +1,1 @@
+var $export=require("./_export"),expm1=require("./_math-expm1"),exp=Math.exp;$export($export.S,"Math",{tanh:function(e){var p=expm1(e=+e),r=expm1(-e);return p==1/0?1:r==1/0?-1:(p-r)/(exp(e)+exp(-e))}});

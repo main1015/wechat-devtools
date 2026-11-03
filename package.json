@@ -1,0 +1,17 @@
+{
+  "name": "wechat-devtools-linux-dev",
+  "version": "2.02.2608080",
+  "description": "WeChat DevTools Linux Development Mode Environment",
+  "main": "src/js/electron/main.js",
+  "scripts": {
+    "start": "bash scripts/dev.sh",
+    "dev": "bash scripts/dev.sh",
+    "dev:debug": "bash scripts/dev.sh --debug",
+    "desktop": "bash scripts/setup-desktop.sh",
+    "rebuild:native": "bash scripts/rebuild-native.sh",
+    "audit:native": "python3 scripts/audit_native.py"
+  },
+  "devDependencies": {
+    "electron": "^36.6.0"
+  }
+}

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorPluginService=exports.ApplyPluginStatus=void 0;const p=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var e;!function(p){p[p.NotApply=0]="NotApply",p[p.Applying=1]="Applying",p[p.ApplySuccess=2]="ApplySuccess",p[p.ApplyReject=3]="ApplyReject",p[p.ApplyExpired=4]="ApplyExpired",p[p.ApplyUndo=5]="ApplyUndo"}(e||(exports.ApplyPluginStatus=e={})),exports.ISimulatorPluginService=(0,p.createDecorator)("ISimulatorPluginService");
+}(require("licia/lazyImport")(require), require)

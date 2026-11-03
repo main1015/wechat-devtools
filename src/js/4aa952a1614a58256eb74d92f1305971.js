@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SettingsUIContrib=void 0;const e=["editor","features","workbenchext"];exports.SettingsUIContrib=class{constructor(e,t,i){this.iis=e,this.editor=t,this.setup()}async setup(){await this.iis.δ("editorService"),await this.iis.δ("preferencesService"),this.filterTocData()}filterTocData(){const t=this.editor.getHack().retrieveSource("vs/workbench/contrib/preferences/browser/settingsLayout").tocData||{};if(Array.isArray(t.children)){const i=[];for(const r of t.children)e.includes(null==r?void 0:r.id)&&i.push(r);t.children=i}}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.miniappSinTypes=void 0;const e=require('./78f914c66d30c9c049225e21f0ce1e7f.js');exports.miniappSinTypes={appleId:{type:"appleId",wording:e.default.config.MINIAPP_SIGN_TYPE_APPLEID},certificate:{type:"certificate",wording:e.default.config.MINIAPP_SIGN_TYPE_CERTIFICATE}};
+}(require("licia/lazyImport")(require), require)

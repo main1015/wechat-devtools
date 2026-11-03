@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$some=require("./_array-methods")(3);$export($export.P+$export.F*!require("./_strict-method")([].some,!0),"Array",{some:function(r){return $some(this,r,arguments[1])}});

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IFileUtilsManagerRemote=exports.IFileUtilsManagerHost=exports.IFileUtilsManager=void 0,exports.getProjectWatchUniqueKey=function(e,r){let t="";if(Array.isArray(r))try{t=JSON.stringify(r)}catch(e){throw console.error(e),new Error("watchOptions must be serializable")}return e+t};const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IFileUtilsManager=(0,e.createDecorator)("IFileUtilsManager"),exports.IFileUtilsManagerHost=(0,e.createDecorator)("IFileUtilsManagerHost"),exports.IFileUtilsManagerRemote=(0,e.createDecorator)("IFileUtilsManagerRemote");
+}(require("licia/lazyImport")(require), require)

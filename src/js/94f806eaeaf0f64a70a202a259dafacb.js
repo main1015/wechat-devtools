@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AllPanelIdentifiers=exports.PanelIdentifier=exports.IIBPanelService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;exports.IIBPanelService=(0,e.createDecorator)("ibPanelService"),function(e){e.Inspector="inspector",e.Gallery="gallery",e.Components="components"}(r||(exports.PanelIdentifier=r={})),exports.AllPanelIdentifiers=[r.Inspector,r.Gallery,r.Components];
+}(require("licia/lazyImport")(require), require)

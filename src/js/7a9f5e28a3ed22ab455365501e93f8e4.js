@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){return{create(s){const o=new Worker(`${t}/${s}`),a=r++;return e[a]=o,o.onmessage=e=>{if(e.data)switch(e.data.method){case"postMsgToAppService":WeixinWorker.workerMsgHandler&&WeixinWorker.workerMsgHandler(a,e.data.msg)}},a},terminate(r){e[r]&&(e[r].terminate(),delete e[r])},postMsgToWorker(r,t){const s=e[r];s&&s.postMessage(JSON.parse(t))}}};const e={};let r=1;
+}(require("licia/lazyImport")(require), require)

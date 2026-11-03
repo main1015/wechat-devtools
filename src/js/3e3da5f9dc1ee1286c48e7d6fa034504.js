@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AutomatorInvocationRecorder=void 0;class t{static recordSuccess(t,s,e,o){this.history.push({toolName:t,input:s,result:e,durationMs:o,timestamp:Date.now(),success:!0})}static recordFailure(t,s,e,o){this.history.push({toolName:t,input:s,error:e instanceof Error?e.message:e,durationMs:o,timestamp:Date.now(),success:!1})}static getHistory(){return[...this.history]}static clear(){this.history=[]}}exports.AutomatorInvocationRecorder=t,t.history=[];
+}(require("licia/lazyImport")(require), require)

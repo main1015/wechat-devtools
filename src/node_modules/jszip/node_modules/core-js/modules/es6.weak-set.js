@@ -1,0 +1,1 @@
+"use strict";var weak=require("./_collection-weak");require("./_collection")("WeakSet",function(e){return function(){return e(this,arguments.length>0?arguments[0]:void 0)}},{add:function(e){return weak.def(this,e,!0)}},weak,!1,!0);

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.default={onMessage:async e=>{const{command:s,data:t}=e;console.log("[tutorial] message:",s,t);const o=window.__tutorialClient__.tutorialEditor;return new Promise(e=>{o.invoke(s,t,({res:s,err:t})=>{e(t?{success:!1,errMsg:"fail: "+t.message}:{success:!0,data:s})})})}};
+}(require("licia/lazyImport")(require), require)

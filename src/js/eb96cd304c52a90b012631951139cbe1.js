@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e={debug:"debug",log:"log",info:"info",warn:"warn",error:"error"};exports.default=(o,r,c)=>{"clear"===r?o.executeScript({code:"console.clear()"}):((o,r,c)=>{const t=encodeURIComponent(c),n=`console.${e[r]}(decodeURIComponent(\`${t}\`))`;o.executeScript({code:n})})(o,r,c)};
+}(require("licia/lazyImport")(require), require)

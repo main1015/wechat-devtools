@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ILifecycleMainService=exports.LifecycleMainPhase=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var i;!function(e){e[e.Starting=1]="Starting",e[e.Ready=2]="Ready",e[e.AfterWindowOpen=3]="AfterWindowOpen",e[e.Eventually=4]="Eventually"}(i||(exports.LifecycleMainPhase=i={})),exports.ILifecycleMainService=(0,e.createDecorator)("lifecycleMainService");
+}(require("licia/lazyImport")(require), require)

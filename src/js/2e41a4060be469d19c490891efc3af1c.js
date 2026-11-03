@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IMultiAccountService=exports.ELoginType=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var t;!function(e){e[e.Normal=0]="Normal",e[e.TestUser=1]="TestUser",e[e.TestTicket=2]="TestTicket",e[e.AutoTicket=3]="AutoTicket"}(t||(exports.ELoginType=t={})),exports.IMultiAccountService=(0,e.createDecorator)("IMultiAccountService");
+}(require("licia/lazyImport")(require), require)

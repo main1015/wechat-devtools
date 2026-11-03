@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang=zh-CN><head><title>小程序skyline渲染层</title><meta http-equiv=Content-Security-Policy content="script-src 'self' *.qq.com 'unsafe-inline' 'unsafe-eval' blob:"><meta charset=UTF-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><style>body{margin:0;padding:0;background-color:#000}</style><script src=/__dev__/documentstart.js charset=UTF-8></script><script>var __webviewId__,__wxAppCode__={},__vd_version_info__={},__WXML_GLOBAL__={entrys:{},defines:{},modules:{},ops:[],wxs_nf_init:void 0,total_ops:0}</script><script src=./__dev__/wxconfig.js charset=UTF-8></script><script src=./__dev__/devtoolsconfig.js charset=UTF-8></script><script src=./__dev__/deviceinfo.js charset=UTF-8></script><script src=./__dev__/skyline-renderer.js charset=UTF-8></script></head><body></body></html><script>document.addEventListener("generateFuncReady", function(){
+    setTimeout(function() {
+      Object.defineProperty(document.body, 'scrollTop', {
+        get() {
+         return document.documentElement.scrollTop
+        },
+        set(value) {
+          document.documentElement.scrollTop = value
+        }
+      })
+    }, 100)
+  })</script><script>(function() {
+  if (document.readyState === 'complete') {
+    alert("DOCUMENT_READY")
+  } else {
+    const fn = () => {
+      alert("DOCUMENT_READY")
+      window.removeEventListener('load', fn)
+    }
+    window.addEventListener('load', fn)
+  }
+})()</script>

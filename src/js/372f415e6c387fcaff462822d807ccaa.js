@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BaseMessager=void 0;const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),s=require('./9eee66f818065fa6881814a83bcfe0cf.js');exports.BaseMessager=class{constructor(e){this._envName=e}get _baseMessager(){return this.__baseMessager||(this.__baseMessager=(0,s.default)(e.IEnvMessagerService2)),this.__baseMessager}send(e,s){this._baseMessager.send(this._envName,e,s)}};
+}(require("licia/lazyImport")(require), require)

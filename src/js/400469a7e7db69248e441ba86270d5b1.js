@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AgentMessager=void 0;const e=require('./e2f658fe0352864c1b62499acd760509.js'),s=require('./372f415e6c387fcaff462822d807ccaa.js');class t extends s.BaseMessager{constructor(){super(e.EConstMessagerName.AGENT)}invokeCallback(s,t){this.send(e.EMessagerCMD.AGENT_INVOKE_CALLBACK,{callbackID:s,res:t})}triggerOnEvent(s){const{eventName:t,data:a,webviewID:r,ext:n}=s;this.send(e.EMessagerCMD.AGENT_ON_EVENT,{data:{eventName:t,data:a},webviewID:r,ext:n})}}exports.AgentMessager=t;
+}(require("licia/lazyImport")(require), require)

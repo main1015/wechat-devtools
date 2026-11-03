@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";const e=require('./12f9142ff6dd9cc80d94dc657fed7430.js'),s=require('./d9456d78bca59f40a85f1293c91e163d.js');module.exports=function(t={mobileTest:{isOpen:!1},console:{type:"",msg:""}},c){switch(c.type){case e.default.CONSOLE_CLEAR:return Object.assign(Object.assign({},t),{console:{type:"clear"}});case e.default.CONSOLE_ERROR:return Object.assign(Object.assign({},t),{console:{type:"error",msg:c.data}});case e.default.CONSOLE_WARN:return Object.assign(Object.assign({},t),{console:{type:"warn",msg:c.data}});case e.default.CONSOLE_LOG:return Object.assign(Object.assign({},t),{console:{type:"log",msg:c.data}});case s.REHYDRATE:default:return t}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,132 @@
+<html><head><meta http-equiv=Content-Security-Policy content="
+				default-src
+					'none'
+				;
+				img-src
+					'self'
+					data:
+					blob:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+          https:
+          http:
+				;
+				media-src
+					'self'
+					https:
+					http:
+				;
+				frame-src
+					'self'
+					vscode-webview:
+					http://127.0.0.1:*
+				;
+				script-src
+					'self'
+					blob:
+					'unsafe-inline'
+					'unsafe-eval'
+				;
+				style-src
+					'self'
+					'unsafe-inline'
+				;
+				connect-src
+					'self'
+					https:
+					ws:
+				;
+				font-src
+					'self'
+          data:
+					vscode-remote-resource:
+					vscode-managed-remote-resource:
+					https://*.vscode-unpkg.net
+					https://res.wx.qq.com
+				;
+				trusted-types
+					amdLoader
+					cellRendererEditorText
+					defaultWorkerFactory
+					diffEditorWidget
+					diffReview
+					domLineBreaksComputer
+					dompurify
+					editorGhostText
+					editorViewLayer
+					notebookRenderer
+					stickyScrollViewLayer
+          tokenizeToString
+          safeInnerHtml
+          insane
+				;
+		"><!-- Disable pinch zooming --><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../static/dark.css><link rel=stylesheet href=../static/material.css><link rel="shortcut icon" href=../static/image/logo@2x.png></head><body class=dark><style>#all-mask{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:0}#all-mask.mask-visible{pointer-events:auto;z-index:999;display:block}</style><div id=all-mask class=cover-mask></div><div id=container class=container style=min-width:945px></div></body><!-- <script src="file:///Users/can/code/vscode/src/vs/loader.js"></script> --><!-- <script>
+		const baseUrl = new URL('/Users/can/code/main', window.location.origin).toString();
+    webPackagePaths = {
+      'react': 'umd/react.production.min.js',
+      'react-dom': 'umd/react-dom.production.min.js',
+    }
+		Object.keys(self.webPackagePaths).map(function (key, index) {
+      console.error(key, index,self.webPackagePaths[key])
+			self.webPackagePaths[key] = `${baseUrl}/node_modules/${key}/${self.webPackagePaths[key]}`;
+		});
+		require.config({
+			baseUrl: `${baseUrl}/out`,
+			recordStats: true,
+			trustedTypesPolicy: window.trustedTypes?.createPolicy('amdLoader', {
+				createScriptURL(value) {
+					if(value.startsWith(window.location.origin)) {
+						return value;
+					}
+					throw new Error(`Invalid script url: ${value}`)
+				}
+			}),
+			paths: self.webPackagePaths
+		});
+	</script> --><script>window.exports={}</script><script>function shouldClearCacheKey(key) {
+      if (key.indexOf('node_modules') !== -1) {
+        return false
+      }
+      if (key.indexOf('/dist/js/web/') !== -1) {
+        return true
+      }
+      if (key.indexOf('/dist/js/services/') !== -1) {
+        return true
+      }
+      if (key.indexOf('/dist/js/core/') !== -1) {
+        return true
+      }
+      if (key.indexOf('/dist/js/electron/project') !== -1) {
+        return true
+      }
+      if (key.indexOf('/dist/js/electron/devRendererReloadReset') !== -1) {
+        return true
+      }
+      return false
+    }
+    function clearDevRequireCache() {
+      if (typeof require === 'undefined' || !require.cache) {
+        return
+      }
+      for (const key of Object.keys(require.cache)) {
+        if (shouldClearCacheKey(key)) {
+          delete require.cache[key]
+        }
+      }
+    }
+    function loadEntry() {
+      clearDevRequireCache()
+      const project = window.__loadEntry('./project.js')
+      // setTimeout(() => {
+        project.setup()
+      // }, 3000)
+    }
+    if (!window.__haspreload) {
+      loadEntry()
+    } else {
+      if (window.__preloadReady) {
+        loadEntry()
+      } else {
+        window.__preloadReadyFunc = loadEntry
+      }
+    }</script></html>

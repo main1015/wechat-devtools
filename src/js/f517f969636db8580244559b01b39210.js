@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getTeamInfoUrl=exports.getUserInfoUrl=exports.COMPETITION_ID=exports.competitionPluginId=void 0,exports.competitionPluginId="plugin_miniprogram_competition",exports.COMPETITION_ID=611099,exports.getUserInfoUrl="/community/ngi/competition/getUserInfo",exports.getTeamInfoUrl="/community/ngi/competition/team/info",exports.default={competitionPluginId:exports.competitionPluginId,COMPETITION_ID:exports.COMPETITION_ID,getUserInfoUrl:exports.getUserInfoUrl,getTeamInfoUrl:exports.getTeamInfoUrl};
+}(require("licia/lazyImport")(require), require)

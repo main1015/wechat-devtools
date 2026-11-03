@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("tslib"),r=require("react-redux"),t=require("react"),o=require('./78f914c66d30c9c049225e21f0ce1e7f.js'),u=require('./c155575382061b98a9f7d65ee614c7e3.js');let s=class extends t.Component{render(){return null}};s.defaultProps={useSimulator:!0,useEditor:!0,useDevtools:!0},s=e.__decorate([o.default.mixin],s),exports.default=(0,r.connect)(e=>({}),u.default)(s);
+}(require("licia/lazyImport")(require), require)

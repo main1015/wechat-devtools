@@ -1,0 +1,1 @@
+require("../../modules/es6.regexp.replace");var REPLACE=require("../../modules/_wks")("replace");module.exports=function(e,r,l){return RegExp.prototype[REPLACE].call(e,r,l)};

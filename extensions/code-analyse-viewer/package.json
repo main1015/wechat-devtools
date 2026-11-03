@@ -1,0 +1,79 @@
+{
+  "name": "miniprogram-code-analyse",
+  "publisher": "wechat.miniprogram",
+  "displayName": "miniprogram-code-analyse",
+  "description": "Analyse miniprogram code and show you the size info",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "main": "./extension.js",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:MiniProgramCodeAnalyse.open",
+    "onView:MiniprogramCodeAnalyseView"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "MiniProgramCodeAnalyse.open",
+        "title": "open miniprogram code analyse"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "code-analyse",
+          "title": "%displayTitle%",
+          "icon": "./analyse.svg"
+        }
+      ]
+    },
+    "views": {
+      "code-analyse": [
+        {
+          "type": "webview",
+          "id": "MiniprogramCodeAnalyseView",
+          "name": "%displayTitle%"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "lint": "eslint src --ext ts",
+    "clean": "rimraf out",
+    "watch": "webpack --watch -c script/webpack.config.js",
+    "pretest": "npm run compile && npm run lint",
+    "test": "node ./out/test/runTest.js",
+    "build": "npm run clean && webpack -c script/webpack.config.js && node ./script/copy.js"
+  },
+  "devDependencies": {
+    "@tencent/eslint-config-tencent": "^0.15.2",
+    "@types/fs-extra": "^9.0.4",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.50.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "mocha": "^8.1.3",
+    "prettier": "^2.3.2",
+    "rimraf": "^6.0.1",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.2",
+    "vscode-test": "^1.4.0",
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^4.0.0-rc.1"
+  },
+  "dependencies": {
+    "@tencent/miniprogram-analyzer": "^1.0.2",
+    "fs-extra": "^9.0.1"
+  }
+}

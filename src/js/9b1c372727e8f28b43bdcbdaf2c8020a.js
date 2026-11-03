@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getMainPkgJsFilesCached=void 0;const e=require('./bbc40b04beebca136d5e82128424ed3f.js'),i=require('./a9f50426039750b626634aa3647c583b.js'),a=require('./ece16d46cd6d1060573e21fdd912ba37.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js');exports.getMainPkgJsFilesCached=(0,e.cacheify)(i.CacheKey.gameMainPkgJsFiles)(async e=>{const i=await(0,t.default)(a.IBuilder).getCompiler(e),s=await i.getPackageFiles("miniGame","__APP__");let c=!1;const r=s.filter(e=>e.path.endsWith(".js")).map(e=>("game.js"===e.path&&(c=!0),e.path));return{hasGameJS:c,mainPkgFiles:r}});
+}(require("licia/lazyImport")(require), require)

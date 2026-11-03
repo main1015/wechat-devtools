@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WebideUniApp=void 0;class WebideUniApp{copyMiniAppJson(e){return!1}}exports.WebideUniApp=WebideUniApp;
+}(require("licia/lazyImport")(require), require)

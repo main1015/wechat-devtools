@@ -1,0 +1,70 @@
+{
+  "name": "sm-promotion",
+  "main": "bundled/index.bundled.js",
+  "displayName": "Service Market Promotion",
+  "description": "Service Market Promotion for WeChat Devtools",
+  "version": "1.0.0",
+  "publisher": "wechat.miniprogram",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "views": {
+      "extensions": [
+        {
+          "type": "webview",
+          "id": "smPromotion.fullView",
+          "name": "%fullTitle%"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "smPromotion.focusService",
+        "title": "Service market promotion: highlight service"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist; tsc; npm run resolve",
+    "resolve": "tscpaths -p tsconfig.json -s ./src -o ./dist",
+    "pack": "rm -rf bundled; cross-env NODE_OPTIONS=--max_old_space_size=8192 webpack --config webpack.prod.config.js",
+    "packweb": "cross-env NODE_OPTIONS=--max_old_space_size=8192 webpack --config webpack.web.prod.config.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/vscode": "1.52.0",
+    "cross-env": "^5.2.0",
+    "fork-ts-checker-notifier-webpack-plugin": "^1.0.0",
+    "fork-ts-checker-webpack-plugin": "^1.3.7",
+    "node-loader": "^0.6.0",
+    "speed-measure-webpack-plugin": "^1.3.1",
+    "terser-webpack-plugin": "^2.2.1",
+    "ts-loader": "^5.4.5",
+    "tscpaths": "0.0.9",
+    "typescript": "^4.3.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "service-base": "git+https://git.woa.com/honeyhu/service-base.git",
+    "@tencent/newbie-api-client": "^0.3.1",
+    "lodash": "^4.17.21",
+    "servicemarket-api": "git+https://git.woa.com/devtools/servicemarket-api.git"
+  }
+}

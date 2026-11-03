@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WebIDEPluginFileReaderService=void 0;class WebIDEPluginFileReaderService{readFile(e,r){return e.getFile("",r).toString()}exists(e,r,i){return e.exists(r,i)}stat(e,r){return e.stat("",r)}}exports.WebIDEPluginFileReaderService=WebIDEPluginFileReaderService;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IPrivateGeolocationResult=void 0,exports.IPrivateGeolocationResult={type:"object",properties:{result:{description:"结果数据",type:"object",properties:{location:{description:"坐标信息",type:"object",properties:{lat:{type:"number"},lng:{type:"number"}},additionalProperties:!1,required:["lat","lng"]}},additionalProperties:!1,required:["location"]}},additionalProperties:!1,required:["result"],$schema:"http://json-schema.org/draft-07/schema#",$version:1761897268476};
+}(require("licia/lazyImport")(require), require)

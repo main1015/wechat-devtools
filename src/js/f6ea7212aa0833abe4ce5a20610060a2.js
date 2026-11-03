@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EventEmitterService=void 0;const e=require("eventemitter3");exports.EventEmitterService=class{constructor(){this._emitter=new e.EventEmitter}on(e,t){this._emitter.on(e,t)}off(e,t){this._emitter.off(e,t)}emit(e,...t){this._emitter.emit(e,...t)}once(e,t){this._emitter.once(e,t)}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){const o=[e.default];if(t){const{createLogger:e}=require("redux-logger");o.push(e())}return r.createStore(u.PopUpReducer,void 0,r.compose(r.applyMiddleware(...o)))};const e=require("redux-thunk"),r=require("redux"),u=require('./5a39cf0dddcfc64baad844d5e7e452c2.js');
+}(require("licia/lazyImport")(require), require)

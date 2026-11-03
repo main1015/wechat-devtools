@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MiniappContribution=void 0;const t=require('./439aac3a29cf93784111447ac68d4ea1.js').remote;exports.MiniappContribution=class{dispose(){}constructor(i,e){this.iis=i,this.editor=e,t.init(),this.setup()}async setup(){const t=await this.iis.δ("configurationService");if(t){const i="workbench.editorAssociations",e=t.getValue(i)||{};e&&(e["project.miniapp.json"]="settingsEditor.settingsedit",t.updateValue("workbench.editorAssociations",e,{resource:null},2,{donotNotifyError:!0}))}}};
+}(require("licia/lazyImport")(require), require)

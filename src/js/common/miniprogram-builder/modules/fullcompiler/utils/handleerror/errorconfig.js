@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.errorPrefix=void 0,exports.errorPrefix={COMPONENT_FOR_DEVELOPER:"For developer:",WXML_RUNTIME_ERROR:"WXMLRT",WXML_RUNTIME_ERROR_REG:/^WXMLRT_[^:]*:/,WXML_PLUGIN_RUNTIME_ERROR_REG:/^WXMLRT_\$gwx_(wx[0-9a-zA-Z]{16}):/,WXS_RUNTIME_ERROR:"WXSRT:",WEBVIEW_ERROR:"WEBVIEW_ERROR",CODE_ERROR:"CODE_ERROR"};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.INetworkDebugLogServiceMain=exports.NETWORK_LOG_DEBUG_CODE_ENABLED=void 0,exports.isNetworkDebugLogArgEnabled=function(e){const r=e||("undefined"!=typeof process?process.argv:void 0)||[];for(const e of r)if(e)for(const r of o)if(e===r||e.startsWith(r+"="))return!0;return!1};const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.NETWORK_LOG_DEBUG_CODE_ENABLED=!1;const o=["--network-debug-log"];exports.INetworkDebugLogServiceMain=(0,e.createDecorator)("INetworkDebugLogServiceMain");
+}(require("licia/lazyImport")(require), require)

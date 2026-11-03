@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("strike",function(t){return function(){return t(this,"strike","","")}});

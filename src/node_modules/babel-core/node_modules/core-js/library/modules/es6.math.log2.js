@@ -1,0 +1,1 @@
+var $export=require("./_export");$export($export.S,"Math",{log2:function(r){return Math.log(r)/Math.LN2}});

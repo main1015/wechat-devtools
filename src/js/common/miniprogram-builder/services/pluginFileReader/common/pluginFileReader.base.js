@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BasePluginFileReaderService=void 0;class BasePluginFileReaderService{readFile(e,r){return e.getFile("",r).toString()}exists(e,r,i){return e.exists(r,i)}stat(e,r){return e.stat("",r)}}exports.BasePluginFileReaderService=BasePluginFileReaderService;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FormItem=function(r){const{error:a=!1,style:i={},label:s=""}=r;return e.createElement("div",{className:t({"ui-form-item ui-form-item-inline":!0,"ui-form-item-error":a}),style:Object.assign(Object.assign({},i),{WebkitAppRegion:"no-drag"}),"data-tutid":"tut-ae8a3ad845464a93"},e.createElement("label",{htmlFor:"",className:"ui-form-label",style:{whiteSpace:"normal"},"data-tutid":"tut-ba36d3f467924fe0"},s),r.children)};const e=require("react"),t=require("classnames");
+}(require("licia/lazyImport")(require), require)

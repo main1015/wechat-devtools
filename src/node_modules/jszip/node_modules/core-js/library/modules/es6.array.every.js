@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$every=require("./_array-methods")(4);$export($export.P+$export.F*!require("./_strict-method")([].every,!0),"Array",{every:function(r){return $every(this,r,arguments[1])}});

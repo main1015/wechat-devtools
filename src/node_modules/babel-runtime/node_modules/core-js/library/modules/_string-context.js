@@ -1,0 +1,1 @@
+var isRegExp=require("./_is-regexp"),defined=require("./_defined");module.exports=function(e,r,i){if(isRegExp(r))throw TypeError("String#"+i+" doesn't accept regex!");return String(defined(e))};

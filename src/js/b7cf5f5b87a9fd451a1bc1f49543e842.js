@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Registry=void 0;const s=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.Registry=new class{constructor(){this.data=new Map}add(t,e){s.Assert.ok(s.Types.isString(t)),s.Assert.ok(s.Types.isObject(e)),s.Assert.ok(!this.data.has(t),"There is already an extension with this id"),this.data.set(t,e)}knows(s){return this.data.has(s)}as(s){return this.data.get(s)||null}};
+}(require("licia/lazyImport")(require), require)

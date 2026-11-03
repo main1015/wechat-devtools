@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var E;Object.defineProperty(exports,"__esModule",{value:!0}),exports.ETransferRemoteAction=exports.HEARTBEAT_FAIL_TOLERANCE=void 0,exports.HEARTBEAT_FAIL_TOLERANCE=12,function(E){E.WorkspaceProvider="WorkspaceProvider",E.CALL_REMOTE_SERVICE="CALL_REMOTE_SERVICE",E.ON_REMOTE_SERVICE_EVENT="ON_REMOTE_SERVICE_EVENT",E.OFF_REMOTE_SERVICE_EVENT="OFF_REMOTE_SERVICE_EVENT",E.BASE_TRANSFER_INVOKE_ASYNC="BASE_TRANSFER_INVOKE_ASYNC",E.BASE_TRANSFER_LISTEN_EVENT_ASYNC="BASE_TRANSFER_LISTEN_EVENT_ASYNC",E.BASE_TRANSFER_DISPOSE_EVENT="BASE_TRANSFER_DISPOSE_EVENT"}(E||(exports.ETransferRemoteAction=E={}));
+}(require("licia/lazyImport")(require), require)

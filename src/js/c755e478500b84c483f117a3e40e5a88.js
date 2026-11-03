@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./d9456d78bca59f40a85f1293c91e163d.js'),a=require('./137afdc7138c2993f6d7b9166390023c.js'),c=require('./def71fa0d8996dc22b4afb5b7189408c.js');exports.default=async function(n,r,t){return r===e.default.MINI_GAME_MAIN_PACKAGE_ROOT?(0,a.getMainPackageCached)(n):(0,c.getSubPackageCached)(n,r,t)};
+}(require("licia/lazyImport")(require), require)

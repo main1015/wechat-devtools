@@ -1,0 +1,1 @@
+export default function _map(r,t){for(var a=0,e=t.length,n=Array(e);a<e;)n[a]=r(t[a]),a+=1;return n}

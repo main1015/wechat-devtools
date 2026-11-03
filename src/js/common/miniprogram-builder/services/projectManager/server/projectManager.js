@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerProjectManagerService=void 0;class ServerProjectManagerService{async getAppIdAndAttr(){return{attr:{}}}getCurrentRuntimeConfig(){return{adminName:"",appImageUrl:"",appName:"",appType:0,gameApp:!1,hasMobile:!1,isSandbox:!1,minPublicLibVersion:"",network:{BizDomain:[],DownloadDomain:[],RequestDomain:[],TCPDomain:[],UDPDomain:[],UploadDomain:[],WsRequestDomain:[]},platform:!1,released:!1,sendQbaseConfirmMsgLimit:!1,setting:{},share_info:[],userbanded:!1,username:"",appid:""}}}exports.ServerProjectManagerService=ServerProjectManagerService;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerLogService=void 0;class ServerLogService{error(...e){console.error(...e)}info(...e){console.info(...e)}warn(...e){console.warn(...e)}log(...e){console.log(...e)}debug(...e){console.debug(...e)}context(e,r){return this}}exports.ServerLogService=ServerLogService;
+}(require("licia/lazyImport")(require), require)

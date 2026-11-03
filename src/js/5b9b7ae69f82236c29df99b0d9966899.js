@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.hasUsableProjectAppid=exports.hasUsableAppid=void 0;exports.hasUsableAppid=p=>Boolean(p&&String(p).trim());exports.hasUsableProjectAppid=p=>(0,exports.hasUsableAppid)(null==p?void 0:p.pluginAppid)||(0,exports.hasUsableAppid)(null==p?void 0:p.appid);
+}(require("licia/lazyImport")(require), require)

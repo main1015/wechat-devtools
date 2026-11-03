@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IBGalleryPanelReactExport=void 0;const e=require("react"),t=require('./f90ed6a1ff523f2e94a5caa9233d605f.js');class r extends e.Component{render(){return this.renderContent()}renderContent(){return e.createElement(t.OutlineComponent,Object.assign({},this.props))}}exports.IBGalleryPanelReactExport=r;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKJsApiInterfaceServiceBase=void 0;const e=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js');class i extends e.ISimulatorSDKApiBaseService{async initReady(e,i,r){return this.apiOk(r.api)}}exports.SimulatorSDKJsApiInterfaceServiceBase=i;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),t=require('./9aeb91e766dd8ce3d089d37ff2555227.js'),r=require('./d8b753a274f02b68ddf439079a45da0c.js');exports.default=(0,e.connect)(e=>{var r;const i=(0,t.getLandspace)(e),s=e.toolbar.deviceInfo,a=i?s.screenHeight:s.screenWidth,n=i?s.screenWidth:s.screenHeight,o=e.project.current;return{isGameApp:null===(r=null==o?void 0:o.attr)||void 0===r?void 0:r.gameApp,screenWidth:a,screenHeight:n,statusbarHeight:s.statusbarHeight,navigationbarHeight:s.navigationbarHeight,errorTips:e.simulator.errorTips||""}},e=>({}))(r.default);
+}(require("licia/lazyImport")(require), require)

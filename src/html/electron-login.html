@@ -1,0 +1,11 @@
+<html lang=zh-CN><head><meta charset=utf-8><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../static/dark.css><link rel=stylesheet href=../static/material.css><link rel="shortcut icon" href=../static/image/logo@2x.png><script>window.exports={}</script><style>#container,body,html{width:100%;height:100%;margin:0}</style></head><body class=dark><div id=container style=display:flex;flex-direction:column></div></body><script>function loadEntry() {
+    const login = window.__loadEntry('./login.popup.js')
+    login.setup()
+  }
+  if (!window.__haspreload) {
+    loadEntry()
+  } else if (window.__preloadReady) {
+    loadEntry()
+  } else {
+    window.__preloadReadyFunc = loadEntry
+  }</script></html>

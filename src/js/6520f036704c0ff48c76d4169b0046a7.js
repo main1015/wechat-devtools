@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IMAGE_LOCAL_ID_PREFIX=void 0,exports.registerImageLocalId=function(e){const s=t.resolve(e);let n=o();for(;r.has(n);)n=o();return r.set(n,s),n},exports.resolveRegisteredImagePath=function(e){if("string"!=typeof e||!e.startsWith(exports.IMAGE_LOCAL_ID_PREFIX))return;return r.get(e)},exports.clearRegisteredImageLocalIds=function(){r.clear()};const e=require("crypto"),t=require("path");exports.IMAGE_LOCAL_ID_PREFIX="wxLocalResource://imageid";const r=new Map;function o(){return`${exports.IMAGE_LOCAL_ID_PREFIX}${e.randomBytes(16).toString("hex")}`}
+}(require("licia/lazyImport")(require), require)

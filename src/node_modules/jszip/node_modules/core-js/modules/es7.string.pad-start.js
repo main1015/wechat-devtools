@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$pad=require("./_string-pad");$export($export.P,"String",{padStart:function(r){return $pad(this,r,arguments.length>1?arguments[1]:void 0,!0)}});

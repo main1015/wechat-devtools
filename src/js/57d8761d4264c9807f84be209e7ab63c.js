@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IWIConsoleDisplayService=exports.CONSOLEDISPLAY_EVENT=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.CONSOLEDISPLAY_EVENT={BUILD_LOG_CLEAR:"BUILD_LOG_CLEAR",BUILD_LOG_DISPLAY:"BUILD_LOG_DISPLAY"},exports.IWIConsoleDisplayService=(0,e.createDecorator)("wiConsoleDisplayService");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.compileWxmlToGlassEaselPipe=void 0;const compilewxmlService_1=require("../../../../../services/compilewxml/common/compilewxmlService"),types_1=require("../types");exports.compileWxmlToGlassEaselPipe={name:types_1.EPipeCMD.TRANS_WXML_TO_GLASS_EASEL,execute:async(e,l)=>await e.getService(compilewxmlService_1.ICompilewxmlService).compileWxmlToGlassEasel(l)};
+}(require("licia/lazyImport")(require), require)

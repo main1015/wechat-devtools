@@ -1,0 +1,1 @@
+var XWrap=function(){function t(t){this.f=t}return t.prototype["@@transducer/init"]=function(){throw new Error("init not implemented on XWrap")},t.prototype["@@transducer/result"]=function(t){return t},t.prototype["@@transducer/step"]=function(t,r){return this.f(t,r)},t}();export default function _xwrap(t){return new XWrap(t)}

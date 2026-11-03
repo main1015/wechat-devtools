@@ -1,0 +1,1 @@
+var isObject=require("./_is-object"),cof=require("./_cof"),MATCH=require("./_wks")("match");module.exports=function(e){var r;return isObject(e)&&(void 0!==(r=e[MATCH])?!!r:"RegExp"==cof(e))};

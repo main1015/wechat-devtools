@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BackendTicketService=void 0;const e=require("tslib"),t=require('./36bdd018ddae3596c5b9230a8f320bb2.js');let r=class{constructor(e){this.ticketServiceHost=e}refreshTicket(e){return this.ticketServiceHost.refreshTicket(e)}async formatTicketRequestQuery(e){return this.ticketServiceHost.formatTicketRequestQuery(e)}async getNewTicket(e){return this.ticketServiceHost.getNewTicket(e)}};exports.BackendTicketService=r,exports.BackendTicketService=r=e.__decorate([e.__param(0,t.ITicketServiceHost)],r);
+}(require("licia/lazyImport")(require), require)

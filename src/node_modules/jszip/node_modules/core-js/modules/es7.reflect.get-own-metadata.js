@@ -1,0 +1,1 @@
+var metadata=require("./_metadata"),anObject=require("./_an-object"),ordinaryGetOwnMetadata=metadata.get,toMetaKey=metadata.key;metadata.exp({getOwnMetadata:function(a,t){return ordinaryGetOwnMetadata(a,anObject(t),arguments.length<3?void 0:toMetaKey(arguments[2]))}});

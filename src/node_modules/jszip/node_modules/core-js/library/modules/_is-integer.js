@@ -1,0 +1,1 @@
+var isObject=require("./_is-object"),floor=Math.floor;module.exports=function(o){return!isObject(o)&&isFinite(o)&&floor(o)===o};

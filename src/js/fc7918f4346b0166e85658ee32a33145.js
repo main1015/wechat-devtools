@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.makeDashGlobal=function(e){if(e.__global)return;e.regeneratorRuntime=null,e.__global={atob:e.atob.bind(e),btoa:e.btoa.bind(e),Math:e.Math,setTimeout:e.setTimeout.bind(e),clearTimeout:e.clearTimeout.bind(e),setInterval:e.setInterval.bind(e),clearInterval:e.clearInterval.bind(e),Array:Array,Object:Object,Date:Date,Error:Error,RegExp:RegExp,String:String,TypeError:TypeError,WebSocket:WebSocket,get Function(){return e.Function},set Function(t){e.Function=t},get global(){return e.global},set global(t){e.global=t},get App(){return e.App},set App(t){e.App=t},get Page(){return e.Page},set Page(t){e.Page=t}}};
+}(require("licia/lazyImport")(require), require)

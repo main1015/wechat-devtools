@@ -1,0 +1,177 @@
+{
+  "window-navigationBarBackgroundColor": {
+    "prefix": "navigationBarBackgroundColor",
+    "body": [
+      "\"navigationBarBackgroundColor\": \"${1:#000000}\""
+    ],
+    "description": "导航栏背景颜色，如 #000000"
+  },
+
+  "window-navigationBarTextStyle": {
+    "prefix": "navigationBarTextStyle",
+    "body": [
+      "\"navigationBarTextStyle\": \"${1:white}\""
+    ],
+    "description": "导航栏标题颜色，仅支持 black/white。"
+  },
+
+  "window-navigationBarTitleText": {
+    "prefix": "navigationBarTitleText",
+    "body": [
+      "\"navigationBarTitleText\": \"${1:String}\""
+    ],
+    "description": "导航栏标题文字内容。"
+  },
+
+  "window-backgroundColor": {
+    "prefix": "backgroundColor",
+    "body": [
+      "\"backgroundColor\": \"${1:#ffffff}\""
+    ],
+    "description": "窗口的背景色。"
+  },
+
+  "window-backgroundTextStyle": {
+    "prefix": "backgroundTextStyle",
+    "body": [
+      "\"backgroundTextStyle\": \"${1:dark}\""
+    ],
+    "description": "下拉背景字体、loading 图的样式，仅支持 dark/light。"
+  },
+
+  "window-enablePullDownRefresh": {
+    "prefix": "enablePullDownRefresh",
+    "body": [
+      "\"enablePullDownRefresh\": ${1:true}"
+    ],
+    "description": "是否开启下拉刷新。"
+  },
+
+  "pages": {
+    "prefix": "pages",
+    "body": [
+      "\"pages\": [\n\t\"${1:Entrance}\"\n],"
+    ],
+    "description": "设置页面路径。"
+  },
+
+  "window": {
+    "prefix": "window",
+    "body": [
+      "\"window\": {",
+      "\t\"navigationBarBackgroundColor\": \"${1:#ffffff}\",",
+      "\t\"navigationBarTextStyle\": \"${2:black}\",",
+      "\t\"navigationBarTitleText\": \"${3:title}\",",
+      "\t\"backgroundColor\": \"${4:#eeeeee}\",",
+      "\t\"backgroundTextStyle\": \"${5:light}\",",
+      "\t\"enablePullDownRefresh\": ${6:true}",
+      "}"
+    ],
+    "description": "设置默认页面的窗口表现。"
+  },
+
+  "networkTimeout": {
+    "prefix": "networkTimeout",
+    "body": [
+      "\"networkTimeout\": {",
+      "\t\"request\": ${1:20000},",
+      "\t\"connectSocket\": ${2:20000},",
+      "\t\"uploadFile\": ${3:20000},",
+      "\t\"downloadFile\": ${4:20000}",
+      "}"
+    ],
+    "description": "设置各种网络请求的超时时间。"
+  },
+
+  "ext-extEnable": {
+    "prefix": "extEnable",
+    "body": [
+      "\"extEnable\": ${1:true}"
+    ],
+    "description": "开发平台小程序。"
+  },
+
+  "ext-extAppid": {
+    "prefix": "extAppid",
+    "body": [
+      "\"extAppid\": \"${1:appid}\""
+    ],
+    "description": "已授权小程序的 appid。"
+  },
+
+  "ext-extPages": {
+    "prefix": "extPages",
+    "body": [
+      "\"extPages\": {",
+      "\t\"${1:path}\": {}",
+      "}"
+    ],
+    "description": "页面设置。"
+  },
+
+  "ext-ext": {
+    "prefix": "ext",
+    "body": [
+      "\"ext\": {",
+      "\t${1:data}",
+      "}"
+    ],
+    "description": "页面设置。"
+  },
+
+  "tabbar-color": {
+    "prefix": "color",
+    "body": [
+      "\"color\": \"${1:#000000}\""
+    ],
+    "description": "tab 上的文字默认颜色。"
+  },
+
+  "tabbar-selectedColor": {
+    "prefix": "selectedColor",
+    "body": [
+      "\"selectedColor\": \"${1:#000000}\""
+    ],
+    "description": "tab 上的文字选中时的颜色。"
+  },
+
+  "tabbar-backgroundColor": {
+    "prefix": "backgroundColor",
+    "body": [
+      "\"backgroundColor\": \"${1:#ffffff}\""
+    ],
+    "description": "tab 的背景色。"
+  },
+
+  "tabbar-borderStyle": {
+    "prefix": "borderStyle",
+    "body": [
+      "\"borderStyle\": \"${1:black}\""
+    ],
+    "description": "tabbar上边框的颜色，仅支持black/white。"
+  },
+
+  "tabbar-backgroundTextStyle": {
+    "prefix": "backgroundTextStyle",
+    "body": [
+      "\"backgroundTextStyle\": \"${1:dark}\""
+    ],
+    "description": "背景字体、loading 图的样式，仅支持 dark/light。"
+  },
+
+  "tabbar": {
+    "prefix": "tabBar",
+    "body": [
+      "\"tabBar\": {",
+      "\t\"list\": [{",
+      "\t\t\"pagePath\": \"${1:pagePath}\",",
+      "\t\t\"text\": \"${2:text}\",",
+      "\t\t\"iconPath\": \"${3:iconPath}\",",
+      "\t\t\"selectedIconPath\": \"${4:selectedIconPath}\"",
+      "\t}]",
+      "}"
+    ],
+    "description": "tab 的列表。"
+  }
+
+}

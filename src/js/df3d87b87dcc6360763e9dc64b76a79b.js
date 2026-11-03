@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){const a=e.useMemo(()=>e.createElement("i",{id:"--dialog-placeholder",className:"--dialog-placeholder","data-tutid":"tut-855531d0a3fb4f68"}),[]);return e.useEffect(()=>{var e;null===(e=t.onDidMount)||void 0===e||e.call(t)},[]),a};const e=require("react");
+}(require("licia/lazyImport")(require), require)

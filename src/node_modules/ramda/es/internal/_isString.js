@@ -1,0 +1,1 @@
+export default function _isString(t){return"[object String]"===Object.prototype.toString.call(t)}

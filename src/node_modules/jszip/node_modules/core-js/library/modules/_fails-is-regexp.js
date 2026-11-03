@@ -1,0 +1,1 @@
+var MATCH=require("./_wks")("match");module.exports=function(r){var t=/./;try{"/./"[r](t)}catch(c){try{return t[MATCH]=!1,!"/./"[r](t)}catch(r){}}return!0};

@@ -1,0 +1,1 @@
+export default function _of(t){return[t]}

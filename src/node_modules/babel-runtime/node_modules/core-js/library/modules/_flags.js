@@ -1,0 +1,1 @@
+"use strict";var anObject=require("./_an-object");module.exports=function(){var e=anObject(this),t="";return e.global&&(t+="g"),e.ignoreCase&&(t+="i"),e.multiline&&(t+="m"),e.unicode&&(t+="u"),e.sticky&&(t+="y"),t};

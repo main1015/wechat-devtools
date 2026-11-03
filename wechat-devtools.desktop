@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=微信开发者工具
+GenericName=微信开发者工具
+Comment=WeChat DevTools
+Exec=bash scripts/dev.sh
+Icon=src/static/image/logo.png
+Terminal=false
+Type=Application
+Categories=Development;
+StartupWMClass=wechat-devtools

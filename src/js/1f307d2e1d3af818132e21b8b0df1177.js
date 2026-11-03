@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ImportProjectContainer=void 0;const e=require("react-redux"),r=require('./a4467af795f246fd6ca6e63f6b5bd19e.js'),t=require('./c155575382061b98a9f7d65ee614c7e3.js');exports.ImportProjectContainer=(0,e.connect)(e=>({entrance:e.window.entrance,projectList:e.projectList,user:e.user}),t.default)(r.ImportProjectDialog),exports.default=exports.ImportProjectContainer;
+}(require("licia/lazyImport")(require), require)

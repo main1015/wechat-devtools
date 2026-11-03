@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(n,r,o){if(e.createRoot){let e=null;if(t.has(r))e=t.get(r);else{const n=directRequire("react-dom/client");e=n.createRoot(r),t.set(r,e)}return e.render(n),o&&window.requestAnimationFrame(o),{unmount(){e.unmount(),t.delete(r)}}}return e.render(n,r,o),{unmount(){e.unmountComponentAtNode(r)}}};const e=directRequire("react-dom"),t=new Map;
+}(require("licia/lazyImport")(require), require)

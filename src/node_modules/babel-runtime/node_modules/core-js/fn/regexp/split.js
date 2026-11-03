@@ -1,0 +1,1 @@
+require("../../modules/es6.regexp.split");var SPLIT=require("../../modules/_wks")("split");module.exports=function(e,r,l){return RegExp.prototype[SPLIT].call(e,r,l)};

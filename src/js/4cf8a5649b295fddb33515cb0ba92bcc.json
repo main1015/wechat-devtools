@@ -1,0 +1,26 @@
+{
+  "version": "0.0.6",
+  "manifest_version": "0.0.1",
+  "menu": true,
+  "permission": {
+    "newwindow": [],
+    "xmlhttprequest": [
+        "<all_urls>"
+    ],
+    "image": [
+        "<all_urls>"
+    ]
+  },
+  "main": "./index.html",
+  "width": 1200,
+  "height": 900,
+  "name": {
+    "zh": "工具引导开发",
+    "en": "Tutorial Develop"
+  },
+  "desc": {
+    "zh": "可用于为功能开发引导教程",
+    "en": "Develop Tutorial for Functions of the Devtools"
+  },
+  "doc": "https://iwiki.woa.com/pages/viewpage.action?pageId=1582409998"
+}

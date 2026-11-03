@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.clearNode=function(e){for(;e.firstChild;)e.removeChild(e.firstChild)},exports.insertAfter=function(e,t){const n=t.parentNode;(null==n?void 0:n.lastChild)===t?n.appendChild(e):null==n||n.insertBefore(e,t.nextSibling)},exports.simpleTimeString=function(){const e=new Date;return`${e.getHours()}:${e.getMinutes()}:${e.getSeconds()}`};
+}(require("licia/lazyImport")(require), require)

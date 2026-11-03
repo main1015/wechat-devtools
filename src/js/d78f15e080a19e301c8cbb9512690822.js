@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";function r(r){const e=[];let t=r,n=!1;const o=r=>{void 0!==r&&(t=r,n=!0)},c=r=>{e.push(r)};return c.run=async(...r)=>{let c=t;try{for(const t of e){if(n)break;await t(o,...r)}c=t}catch(r){throw console.error("chainable error",r),r}return c},c}Object.defineProperty(exports,"__esModule",{value:!0}),exports.chainable=r,exports.createChainable=function(e){const t=r(e),n=t.run.bind(t);return t.run=void 0,{add:t,run:n}};
+}(require("licia/lazyImport")(require), require)

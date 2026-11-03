@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiLockstepService=void 0;const e=require("tslib"),t=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),o=require('./3461bd706f402e4f48e38302a706b560.js');class c extends t.ISimulatorSDKApiBaseService{async createLockStep(e,t){}async invokeLockStepMethod(e,t){}async cleanLockStepCache(e,t){}}exports.SimulatorSDKApiLockstepService=c,e.__decorate([o.DCallRemoteASSDKApi],c.prototype,"createLockStep",null),e.__decorate([o.DCallRemoteASSDKApi],c.prototype,"invokeLockStepMethod",null),e.__decorate([o.DCallRemoteASSDKApi],c.prototype,"cleanLockStepCache",null);
+}(require("licia/lazyImport")(require), require)

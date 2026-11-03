@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.default={WUJI_BASE_URL:"http://api-public.wuji.oa.com/api",WUJI_READ_BASE_URL:"http://nodeapi.webdev.com/x/api/wuji_public",WUJI_ONLINE_BASE_URL:"https://node.video.qq.com/x/api/wuji_public",APPID:"product_builder",APPKEY:"69d1f5bc072242dc94f50c09d719f0ee",SCHEMA_MAP:{projectConfig:"project_config",buildConfig:"build_config",product:"product",record:"build_record",versionMap:{test:"test_project_version_map",prod:"prod_project_version_map",dev:"dev_project_version_map"}},ENV:{dev:"dev",test:"test",prod:"prod"}};
+}(require("licia/lazyImport")(require), require)

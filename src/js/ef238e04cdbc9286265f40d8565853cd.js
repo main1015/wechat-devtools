@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.shouldRefreshTicket=function(t){return t===e.default.INVALID_TOKEN},exports.shouldReLogin=function(t){return t===e.default.NOT_LOGIN||t===e.default.INVALID_LOGIN||t===e.default.DEV_NEED_RELOGIN||t===e.default.DEV_EXPIRED_SIGNATURE||t===e.default.DEV_INVALID_SIGNATURE};const e=require('./dd1713d6017c6ebabab7a4ce2329f7a3.js');
+}(require("licia/lazyImport")(require), require)

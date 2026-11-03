@@ -1,0 +1,1 @@
+"undefined"!=typeof Uint8Array&&require("../lib/pool/tests");

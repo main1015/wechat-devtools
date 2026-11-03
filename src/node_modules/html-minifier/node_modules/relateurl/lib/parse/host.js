@@ -1,0 +1,1 @@
+"use strict";function parseHost(s,t){if(t.ignore_www){var r=s.host.full;if(r){var e=r;0===r.indexOf("www.")&&(e=r.substr(4)),s.host.stripped=e}}}module.exports=parseHost;

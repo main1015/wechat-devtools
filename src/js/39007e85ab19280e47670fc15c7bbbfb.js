@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IIntegratedDevtoolsPluginMessagerService=exports.EIntegratedDevtoolsPluginId=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var t;!function(e){e.STORAGE="storage",e.APPDATA="appdata",e.TRACE="trace",e.TASK="task",e.WXML="wxml",e.WXML_AGENT="wxml-agent",e.SENSOR="sensor"}(t||(exports.EIntegratedDevtoolsPluginId=t={})),exports.IIntegratedDevtoolsPluginMessagerService=(0,e.createDecorator)("IIntegratedDevtoolsPluginMessagerService");
+}(require("licia/lazyImport")(require), require)

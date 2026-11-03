@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BusinessReport=void 0;const wecube_sdk_plus_1=require("@tencent/wecube-sdk-plus"),wecubeReporter=(0,wecube_sdk_plus_1.createWeCubeReport)(),BIZ_ID=21064;function getEnvironment(){return"production"===process.env.NODE_ENV?"production":"development"}const CURRENT_ENV=getEnvironment(),BusinessReport=async(e,t,r)=>{try{await wecubeReporter.report({biz_id:21064,module:e,action:t,data:r,env:CURRENT_ENV})}catch(e){console.error("[BusinessReport] reportApiReceived failed:",e)}};exports.BusinessReport=BusinessReport;
+}(require("licia/lazyImport")(require), require)

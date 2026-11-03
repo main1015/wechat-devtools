@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WebSocketPlugin=void 0;const e=require('./e45a1736f0cff12ccd223e3f4dd75808.js'),t=require('./7727e0025658667feffa37cd67d2d6ec.js');exports.WebSocketPlugin=class{constructor(){this._clientBarrier=new t.Barrier,this._onDidClose=new e.EasyEmitter}async retrieveClient(){return await this._clientBarrier.wait(),this._client}setClient(e){this._client=e,this.registerListeners(),this._clientBarrier.open()}get onDidClose(){return this._onDidClose.event}close(){this._onDidClose.fire(),this.deRegisterListeners(),this._client=null,this._clientBarrier=new t.Barrier}registerListeners(){}deRegisterListeners(){}};
+}(require("licia/lazyImport")(require), require)

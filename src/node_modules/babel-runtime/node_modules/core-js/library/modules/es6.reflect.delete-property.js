@@ -1,0 +1,1 @@
+var $export=require("./_export"),gOPD=require("./_object-gopd").f,anObject=require("./_an-object");$export($export.S,"Reflect",{deleteProperty:function(e,r){var t=gOPD(anObject(e),r);return!(t&&!t.configurable)&&delete e[r]}});

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TITLEBAR_CONFIG=void 0,exports.TITLEBAR_CONFIG={SELECT_MODE:"select-mode",SELECT_VIEW:"select-view",USER_PROFILE:"user-profile",MINIAPP_PKG_TYPE:"miniapp-pkg-type",MINIAPP_DEVICES:"miniapp-devices",RUN_MINIAPP:"run-miniapp",BUILD_MINIAPP:"build-miniapp",MINIAPP_BUILD_RECORD:"miniapp-build-record",PLUGIN:"plugin",SHARED:"shared",SWITCH_WORKMODE:"switch-workmode",PREVIEW:"preview",REMOTE_DEBUG:"remote-debug",UPLOAD:"upload",CLOUD:"cloud",PROJECT_DETAIL:"project-detail",MESSAGE:"message",MINIAPP_PLUGIN_PLATFORM:"miniapp-plugin-platform",RUN_MINIAPP_PLUGIN:"run-miniapp-plugin",GIT_PANEL:"git-panel",PIN:"pin"};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BaseReport=void 0;exports.BaseReport=class{constructor(t){this.options=t,this._timeStartMap={},this.stop=()=>{this.reset(),clearInterval(this._timer)},this.reset=()=>{this._reportQueues=[]},this._reportQueues=[],this._options=Object.assign({loop:!0,duration:2e4},t),this._options.loop&&(this._timer=setInterval(()=>{this._timer&&this.upload()},this._options.duration))}timeStart(t,e=(t=>t)){const s=Date.now(),i=e(t);return this._timeStartMap[i]=s,i}timeEnd(t){if(!t||!this._timeStartMap[t])return 0;const e=Date.now()-this._timeStartMap[t];return delete this._timeStartMap[t],e}};
+}(require("licia/lazyImport")(require), require)

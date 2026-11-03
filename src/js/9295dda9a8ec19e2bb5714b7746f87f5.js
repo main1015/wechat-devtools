@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.setMainBridges=function(r,o){const i=null==r?void 0:r.devtoolsBridgeRegistry;if(!i)return void console.error("setupBridges not valid for vsEditor.editor.devtoolsBridgeRegistry");i.set("DevtoolsMenubarImpl",e.EditroMainMenubarBridge)};const e=require('./447f4afe0b51f941c6f7e1852aa0fb59.js');
+}(require("licia/lazyImport")(require), require)

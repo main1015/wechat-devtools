@@ -1,0 +1,62 @@
+{
+	"name": "cloudbase",
+	"displayName": "cloudbase",
+	"description": "Tencent Cloudbase",
+	"publisher": "wechat.miniprogram",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:cloudbase.messenger.callback",
+		"onCommand:cloudbase.tasks.installNodeDependencies",
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+    "views": {
+      "scm": [
+        {
+          "id": "cloudbasediff",
+					"name": "CloudBase Compare",
+					"visibility": "hidden"
+        }
+      ]
+    }
+  },
+	"enableProposedApi": true,
+	"enabledApiProposals": ["resolvers"],
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "webpack --watch",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/test/runTest.js",
+		"build": "webpack"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"copy-webpack-plugin": "^6.3.0",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"terser-webpack-plugin": "^5.0.3",
+		"ts-loader": "^8.0.11",
+		"typescript": "^4.0.5",
+		"vscode-test": "^1.4.0",
+		"webpack": "^5.4.0",
+		"webpack-cli": "^4.2.0"
+	},
+	"dependencies": {
+		"jszip": "^3.5.0",
+		"ws": "^7.3.1"
+	}
+}

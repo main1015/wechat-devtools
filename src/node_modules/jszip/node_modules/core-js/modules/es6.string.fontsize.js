@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("fontsize",function(t){return function(n){return t(this,"font","size",n)}});

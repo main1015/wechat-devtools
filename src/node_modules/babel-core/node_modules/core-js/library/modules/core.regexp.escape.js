@@ -1,0 +1,1 @@
+var $export=require("./_export"),$re=require("./_replacer")(/[\\^$*+?.()|[\]{}]/g,"\\$&");$export($export.S,"RegExp",{escape:function(e){return $re(e)}});

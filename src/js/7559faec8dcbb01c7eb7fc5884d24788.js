@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IIdepluginExcuteCommandOption=void 0,exports.IIdepluginExcuteCommandOption={type:"object",properties:{pluginId:{description:"插件ID",type:"string"},command:{description:"命令",type:"string"},data:{description:"数据"}},additionalProperties:!1,required:["command","data","pluginId"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755848765512};
+}(require("licia/lazyImport")(require), require)

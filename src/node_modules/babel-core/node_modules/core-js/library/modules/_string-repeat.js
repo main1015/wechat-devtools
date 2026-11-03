@@ -1,0 +1,1 @@
+"use strict";var toInteger=require("./_to-integer"),defined=require("./_defined");module.exports=function(e){var r=String(defined(this)),t="",n=toInteger(e);if(n<0||n==1/0)throw RangeError("Count can't be negative");for(;n>0;(n>>>=1)&&(r+=r))1&n&&(t+=r);return t};

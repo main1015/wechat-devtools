@@ -1,0 +1,1 @@
+var $export=require("./_export"),log1p=require("./_math-log1p"),sqrt=Math.sqrt,$acosh=Math.acosh;$export($export.S+$export.F*!($acosh&&710==Math.floor($acosh(Number.MAX_VALUE))&&$acosh(1/0)==1/0),"Math",{acosh:function(o){return(o=+o)<1?NaN:o>94906265.62425156?Math.log(o)+Math.LN2:log1p(o-1+sqrt(o-1)*sqrt(o+1))}});

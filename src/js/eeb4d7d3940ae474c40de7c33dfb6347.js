@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGetInnerAudioContextSrcResult=void 0,exports.IGetInnerAudioContextSrcResult={type:"object",properties:{srcResult:{type:"string"},durationResult:{type:"number"}},additionalProperties:!1,required:["srcResult"],$schema:"http://json-schema.org/draft-07/schema#",$version:1747894649686};
+}(require("licia/lazyImport")(require), require)

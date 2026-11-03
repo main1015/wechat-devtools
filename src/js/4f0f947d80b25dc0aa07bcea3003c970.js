@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IContextMenuService=void 0,exports.genTitle=function(e,t){if(e=e||"",(t=t||0)<=0)return""+e;return" ".repeat(t)+e};const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IContextMenuService=(0,e.createDecorator)("IContextMenuService");
+}(require("licia/lazyImport")(require), require)

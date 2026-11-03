@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getSimulatorStoreState=async function(o,r){const[a,n,i,c,l,u,s]=await Promise.all([r("toolbar","deviceInfo"),r("toolbar","darkmode"),r("toolbar","rotated"),r("toolbar","network","list"),r("toolbar","network","current"),r("simulator","appLaunchInfo"),r("user","openid")]),p=await(0,e.default)(t.ISimulatorServiceMain).getFetchAppExptInfo(o,s);return{deviceState:{deviceInfo:a,darkmode:n,landscape:i,networkType:c[l]},simulatorState:{openid:s,appLaunchInfo:u,exptInfo:p}}};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),t=require('./c030b4a5d496a5dd8fb6561391c19bd0.js');
+}(require("licia/lazyImport")(require), require)

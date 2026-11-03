@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("path"),s=require('./c6d8af62c6d26842f6da1f34387d75e7.js'),r=require("fs-extra");!function(o){console.log("args",o),console.log("main");const t=o[2],n=o[3]||"first.spec.js",a=e.join(process.cwd(),t);console.log("absoluePath",a);const i=JSON.parse(r.readFileSync(a)),c=(0,s.transCase)(i,"/Users/huangjiamin/WeChatProjects/miniprogram-27");r.writeFileSync(n,c)}(process.argv);
+}(require("licia/lazyImport")(require), require)

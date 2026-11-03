@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getErrLine=o,exports.getJSErrorCodeFrame=function(e,t,n,u){const{source:c,sourceCode:s,line:i,column:l,name:a}=(0,r.mapErrorToSource)(e,t,n);return o(s,i,l+a.length,`${c}(${i}:${l+a.length})\n${u}`)};const e=require("babel-code-frame"),r=require('./4355b3f4f8d366799c8a24ed39dcde42.js');function o(r,o,t,n){const u=e(r,o,t=t>0?t:1);return n?`${n}\n${u}`:u}
+}(require("licia/lazyImport")(require), require)

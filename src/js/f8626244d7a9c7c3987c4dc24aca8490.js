@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const t=require("react-redux"),e=require('./f926a3bd6b855220212d01a99eb2d318.js');exports.default=(0,t.connect)(t=>{var e;const r=t.toolbar.deviceInfo||{};return{titleStyle:(null===(e=t.simulator.statusbar)||void 0===e?void 0:e.color)||"white",backgroundColor:"transparent",height:r.statusbarHeight,networkType:t.toolbar.network.list[t.toolbar.network.current],hasNotch:r.hasNotch,hasIsland:r.hasIsland}})(e.default);
+}(require("licia/lazyImport")(require), require)

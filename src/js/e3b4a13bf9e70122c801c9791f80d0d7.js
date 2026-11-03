@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var _;Object.defineProperty(exports,"__esModule",{value:!0}),exports.EBACKEND_STATUS=void 0,function(_){_.BACKEND_IPC_PORT_READY="BACKEND_IPC_PORT_READY",_.START_BACKEND_WITH_PORT="START_BACKEND_WITH_PORT",_.BACKEND_READY="BACKEND_READY",_.BACKEND_INIT_ENV_FAILED="BACKEND_INIT_ENV_FAILED"}(_||(exports.EBACKEND_STATUS=_={}));
+}(require("licia/lazyImport")(require), require)

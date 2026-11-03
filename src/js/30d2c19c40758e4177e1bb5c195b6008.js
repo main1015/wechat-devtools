@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.MAX_INVOKE_TIMEOUT=exports.ESpecialChannel=void 0,function(e){e.opened="__opened__",e.closed="__closed__",e.message="__message__",e.invoke="__invoke__",e.invokeCallback="__invokeCallback__",e.handle="__handle__",e.transfer="__transfer__",e.transferInvoke="__transferInvoke__",e.connectToBackend="__connect_backend__",e.sendPort="__sendPort__",e.projectOpened="__projectOpened__"}(e||(exports.ESpecialChannel=e={})),exports.MAX_INVOKE_TIMEOUT=3e5;
+}(require("licia/lazyImport")(require), require)

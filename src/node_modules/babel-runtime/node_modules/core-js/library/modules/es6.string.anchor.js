@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("anchor",function(n){return function(r){return n(this,"a","name",r)}});

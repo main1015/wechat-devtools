@@ -1,0 +1,1 @@
+var $export=require("./_export"),anObject=require("./_an-object"),$preventExtensions=Object.preventExtensions;$export($export.S,"Reflect",{preventExtensions:function(e){anObject(e);try{return $preventExtensions&&$preventExtensions(e),!0}catch(e){return!1}}});

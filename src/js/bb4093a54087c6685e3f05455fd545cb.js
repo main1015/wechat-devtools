@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.elog=function(...o){var r;if(!(0,e.isElectron)())return;console.error("!!!","electron log",null===(r=(new Error).stack)||void 0===r?void 0:r.split("\n")[2],...o)},exports.edlog=function(r,t,...l){if(!(0,e.isElectron)())return;console.error("!!!","electron log",...l),(0,o.logDiffObject)(r,t)},exports.dlog=function(e,r,...t){console.error("!!!","electron log",...t),(0,o.logDiffObject)(e,r)};const o=require('./ea5fd44bb5d939b6bf47dfbf43aeb2c4.js'),e=require('./49e3bd3b7ac1be9fc6e208ca55475b60.js');
+}(require("licia/lazyImport")(require), require)

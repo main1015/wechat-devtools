@@ -1,0 +1,13 @@
+<html lang=zh-CN><head><meta charset=utf-8><link rel=stylesheet href=../static/modal.css><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../static/dark.css><link rel=stylesheet href=../static/material.css><link rel="shortcut icon" href=../static/image/logo@2x.png><style>.dark .modal-bd{background-color:#333}.dark .modal-hd{background-color:#2e2e2e}</style><script>window.exports={}</script></head><body class=dark><div id=container style=display:flex;flex-direction:column></div></body><script>function loadEntry() {
+    const previewQR = window.__loadEntry('./preview-qrcode.popup.js')
+    previewQR.setup()
+  }
+  if (!window.__haspreload) {
+    loadEntry()
+  } else {
+    if (window.__preloadReady) {
+      loadEntry()
+    } else {
+      window.__preloadReadyFunc = loadEntry
+    }
+  }</script></html>

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getCommonSearch=o,exports.getVendorSearch=async function(r){const t=o(r);return`${t}&v=${(0,e.getVendorVersionForSimulatorType)(r)}`};const e=require('./94ebb9529f2a89f14f81dc82eea66f3e.js'),r=require('./cd05aced5dc062793cd42e4547966595.js');function o(e){return`t=${e.simulatorType}&s=${r.default.sessionId}`}
+}(require("licia/lazyImport")(require), require)

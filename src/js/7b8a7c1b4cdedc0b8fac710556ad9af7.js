@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./046aafa51723e0b9f12bd58599007fec.js'),t=require('./735f413a4dcee002c7347f4a34e0640e.js'),r=require('./4dc04d6d55daf91ca0ee5df419773f37.js');class s extends r.StoreHelper{constructor(){super("appearance")}get(){const t=e.default.getState().settings.appearance||{};return this.currentValue=t,t}set(r){if(r)for(const s in r){const o=r[s];e.default.dispatch(t.default.updateIDESetting(this.SETTING_TYPE,s,o))}}}exports.default=new s;
+}(require("licia/lazyImport")(require), require)

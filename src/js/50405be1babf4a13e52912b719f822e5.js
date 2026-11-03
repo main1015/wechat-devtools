@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiMiniprogramnavigateService=exports.MiniprogramnavigateApis=void 0;const i=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:r}=i.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.MiniprogramnavigateApis=["navigateToMiniProgram","navigateBackMiniProgram","exitMiniProgram"],exports.ISimulatorSDKApiMiniprogramnavigateService=r("ISimulatorSDKApiMiniprogramnavigateService");
+}(require("licia/lazyImport")(require), require)

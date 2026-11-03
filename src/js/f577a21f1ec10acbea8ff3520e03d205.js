@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKJsApiComponentService=exports.componentJsApis=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:o}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.componentJsApis=["componentDataChanged"],exports.ISimulatorSDKJsApiComponentService=o("ISimulatorSDKJsApiComponentService");
+}(require("licia/lazyImport")(require), require)

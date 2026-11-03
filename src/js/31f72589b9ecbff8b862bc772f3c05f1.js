@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorContainerSession=void 0;const e=require('./abcc2086a1f5a8bb14c8f2b38f38d81b.js');class s extends e.Session{constructor(e,s){super(e),this.sessionId=e,this._owner=s}appendElements(e){var s;null===(s=this.owner)||void 0===s||s.appendElements(this,e)}get owner(){return this._deactivated?null:this._owner}}exports.SimulatorContainerSession=s;
+}(require("licia/lazyImport")(require), require)

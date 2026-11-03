@@ -1,0 +1,1 @@
+var tape=require("tape"),protobuf=require(".."),proto="message Outer {    repeated Inner inner = 1;}message Inner {}",msg={inner:[{},{},{}]};tape.test("repeated messages",function(e){var r=protobuf.parse(proto).root.lookup("Outer"),o=r.decode(r.encode(msg).finish());e.same(o,msg,"should encode and decode back to the original values"),e.end()});

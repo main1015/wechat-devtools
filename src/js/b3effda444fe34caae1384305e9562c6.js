@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getAppAttr=void 0;const e=require('./d9456d78bca59f40a85f1293c91e163d.js'),t=require('./3ba8bc345a8182e8a1671d05df413e7d.js'),r=require('./9eee66f818065fa6881814a83bcfe0cf.js'),c=require('./36bdd018ddae3596c5b9230a8f320bb2.js');exports.getAppAttr=async(i,o)=>{try{if(i===e.default.TOURIST_APPID)return{};const t=(0,r.default)(c.IAppIDService2);return o?await t.fetchExtAttr(i,o):await t.fetchAttr(i)}catch(e){throw(0,r.default)(c.ILogService).error("getAppAttr error: ",e),t.ERROR.GENERIC_ERROR(e.toString())}};
+}(require("licia/lazyImport")(require), require)

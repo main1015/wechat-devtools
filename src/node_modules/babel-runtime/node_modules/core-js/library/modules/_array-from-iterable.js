@@ -1,0 +1,1 @@
+var forOf=require("./_for-of");module.exports=function(r,f){var o=[];return forOf(r,!1,o.push,o,f),o};

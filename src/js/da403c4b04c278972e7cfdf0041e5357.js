@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BaseMessageCenterServerService=exports.IMessageCenterServerService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IMessageCenterServerService=(0,e.createDecorator)("IMessageCenterServerService");exports.BaseMessageCenterServerService=class{constructor(){this._msgClientMap={},this._msgQueue={}}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+require("../../modules/es6.regexp.search");var SEARCH=require("../../modules/_wks")("search");module.exports=function(e,r){return RegExp.prototype[SEARCH].call(e,r)};

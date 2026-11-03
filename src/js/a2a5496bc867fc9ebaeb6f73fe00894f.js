@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isSyncApi=function(n){return(0,e.default)(a,n)||(0,t.default)(n,"Sync")};const e=require("licia/contain"),t=require("licia/endWith"),a=["createRequestTask","createSocketTask","createUploadTask","createLoadSubPackageTask","createAudioInstance","getSystemInfo","getMenuButtonBoundingClientRect","getAgentDetailPageCloseButtonBoundingClientRect","createDownloadTask","enableAccelerometer","enableCompass","injectSubPackages","loadComponents"];
+}(require("licia/lazyImport")(require), require)

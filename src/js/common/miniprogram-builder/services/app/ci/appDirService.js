@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CIAppDirService=void 0;class CIAppDirService{async init(){return{}}async get(e){return""}async cleanDir(e){}}exports.CIAppDirService=CIAppDirService;
+}(require("licia/lazyImport")(require), require)

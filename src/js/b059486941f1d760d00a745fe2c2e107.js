@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.GlobalPointerMoveMonitor=exports.markdownRenderer=exports.paneview=exports.vsdom=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js');exports.vsdom=e.vsbase.vs.base.browser.dom.$get(),exports.paneview=e.vsbase.vs.base.browser.ui.splitview.paneview.$get(),exports.markdownRenderer=e.vsbase.vs.base.browser.markdownRenderer.$get(),exports.GlobalPointerMoveMonitor=e.vsbase.vs.base.browser.globalPointerMoveMonitor.$get().GlobalPointerMoveMonitor;
+}(require("licia/lazyImport")(require), require)

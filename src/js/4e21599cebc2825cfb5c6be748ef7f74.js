@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IWebviewManagerService=exports.IWebviewManagerServiceMain=exports.ERequestEvent=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r=require('./8394e9136523628b7ca56b8a049ea3c9.js');Object.defineProperty(exports,"ERequestEvent",{enumerable:!0,get:function(){return r.ERequestEvent}}),exports.IWebviewManagerServiceMain=(0,e.createDecorator)("IWebviewManagerServiceMain"),exports.IWebviewManagerService=(0,e.createDecorator)("IWebviewManagerService");
+}(require("licia/lazyImport")(require), require)

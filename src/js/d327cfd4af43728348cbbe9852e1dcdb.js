@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.findFileName=function(e){if(!e)return"";const t=(e=e.replace(/(\\|\/)/g,"")).indexOf(".");return t<0?e:e.slice(0,t)},exports.sameFileDetect=function(e,t,r,o,s=!1){if((r===e||r===e.toLowerCase())&&!s)return!1;if(!r.toLowerCase().startsWith(t.toLowerCase()+"."))return!1;const n=o.get(r);if(!n)return!1;return!n.isDirectory},exports.areCaseSensitiveFiles=function(...e){const t=e[0].toLowerCase();for(let r=1;r<e.length;r++)if(t!==e[r].toLowerCase())return!1;return!0};
+}(require("licia/lazyImport")(require), require)

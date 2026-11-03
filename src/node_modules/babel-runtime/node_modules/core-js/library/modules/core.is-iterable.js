@@ -1,0 +1,1 @@
+var classof=require("./_classof"),ITERATOR=require("./_wks")("iterator"),Iterators=require("./_iterators");module.exports=require("./_core").isIterable=function(r){var e=Object(r);return void 0!==e[ITERATOR]||"@@iterator"in e||Iterators.hasOwnProperty(classof(e))};

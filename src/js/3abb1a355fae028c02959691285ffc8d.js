@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./9f38892dc215a3820438b97513d72488.js'),o=require('./cd05aced5dc062793cd42e4547966595.js').default.appVersion,i=e.get(e.CONFIG_KEY.DEVICE_CONF)||{},s=i.ohosDevices||[],r=[...i.devices,...s].map(e=>(e.ua=e.ua.replace("{version}",o).replace("{weixinVersion}","8.0.5"),e));exports.default={list:r,defaultIndex:i.defaultIndex||0,ohosSupportLibVersion:i.ohosSupportLibVersion};
+}(require("licia/lazyImport")(require), require)

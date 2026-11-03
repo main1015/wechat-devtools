@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGenTempFile=void 0;const vsbase_1=require("../../common/vsbase"),{createDecorator:createDecorator}=vsbase_1.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.IGenTempFile=createDecorator("IGenTempFile");
+}(require("licia/lazyImport")(require), require)

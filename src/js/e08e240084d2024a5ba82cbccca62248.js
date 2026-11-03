@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiDeviceService=void 0;const e=require("tslib"),i=require('./188147604e2e6311834aa95d0db7531b.js'),t=require('./3461bd706f402e4f48e38302a706b560.js');class o extends i.SimulatorSDKApiDeviceServiceBase{async getRandomValues(e,i){}async getSkylineInfo(e,i){}}exports.SimulatorSDKApiDeviceService=o,e.__decorate([t.DCallRemoteASSDKApi],o.prototype,"getRandomValues",null),e.__decorate([t.DCallRemoteASSDKApi],o.prototype,"getSkylineInfo",null);
+}(require("licia/lazyImport")(require), require)

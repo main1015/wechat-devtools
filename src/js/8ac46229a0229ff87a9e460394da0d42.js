@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){return e.createElement("div",{style:{cursor:"pointer",right:12,fontSize:11,position:"absolute"},onClick:t.onClick},e.createElement("i",{className:"ui-icon-close",style:{width:12,height:12,backgroundColor:"var(--FG-0)"}}))};const e=require("react");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+var global=require("./_global"),core=require("./_core"),$export=require("./_export"),partial=require("./_partial");$export($export.G+$export.F,{delay:function(r){return new(core.Promise||global.Promise)(function(e){setTimeout(partial.call(e,!0),r)})}});

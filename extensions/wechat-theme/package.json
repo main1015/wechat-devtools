@@ -1,0 +1,26 @@
+{
+  "name": "wechat-theme",
+  "displayName": "WeChat Theme",
+  "description": "WeChat Editor Theme",
+  "version": "0.0.1",
+  "publisher": "wechat.miniprogram",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "wechat-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/editor-theme-dark-color-theme.json"
+      }, {
+        "label": "wechat-light",
+        "uiTheme": "vs",
+        "path": "./themes/editor-theme-color-theme.json"
+      }
+    ]
+  }
+}

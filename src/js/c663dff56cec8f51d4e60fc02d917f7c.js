@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SettingSwitch=function(t){return e.createElement("div",{className:"uiv2-padding","data-tutid":"tut-38bbc537821b4793"},e.createElement("div",{className:"uiv2-second-title",style:{display:"flex",columnGap:"6px"},"data-tutid":"tut-ec37ce6770614964"},e.createElement("span",{"data-tutid":"tut-17348e6bcf654e48"},t.label),e.createElement("input",{onChange:t.onClick,type:"checkbox",className:"uiv2-switch",checked:t.checked,"data-tutid":"tut-d19f7beb49564e10"})),t.children)};const e=require("react");
+}(require("licia/lazyImport")(require), require)

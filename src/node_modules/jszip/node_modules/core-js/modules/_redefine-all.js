@@ -1,0 +1,1 @@
+var redefine=require("./_redefine");module.exports=function(e,r,n){for(var i in r)redefine(e,i,r[i],n);return e};

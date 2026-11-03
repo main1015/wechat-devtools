@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorCodeService=exports.ESimulatorSourceType=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;!function(e){e.Appservice="appservice",e.Webview="webview"}(r||(exports.ESimulatorSourceType=r={})),exports.ISimulatorCodeService=(0,e.createDecorator)("ISimulatorCodeService");
+}(require("licia/lazyImport")(require), require)

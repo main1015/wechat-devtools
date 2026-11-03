@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(l){const r=t.default.useLocale();return e.createElement("label",{style:{width:"en"===r?l.enWidth||"8em":l.zhWidth},className:"ui-form-label"},l.label)};const e=require("react"),t=require('./78f914c66d30c9c049225e21f0ce1e7f.js');
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$reduce=require("./_array-reduce");$export($export.P+$export.F*!require("./_strict-method")([].reduceRight,!0),"Array",{reduceRight:function(e){return $reduce(this,e,arguments.length,arguments[1],!0)}});

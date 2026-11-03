@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SettingCheckbox=function(a){return e.createElement("div",{className:"uiv2-padding","data-tutid":"tut-4fb509128fab41f1"},e.createElement("label",{className:t({"uiv2-checkbox":!0,"uiv2-checkbox-disabled":void 0!==a.disabled&&a.disabled}),onClick:a.onChange,"data-tutid":"tut-edae0c82846f464d"},e.createElement("i",{className:a.checked?"uiv2-checkbox-icon-o":"uiv2-checkbox-icon","data-tutid":"tut-221d3eaf2d7e473b"}),e.createElement("span",{className:"uiv2-checkbox-text","data-tutid":"tut-f116af4e6ce54bd8"},a.label)))};const e=require("react"),t=require("classnames");
+}(require("licia/lazyImport")(require), require)

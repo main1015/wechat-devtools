@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./78f914c66d30c9c049225e21f0ce1e7f.js'),n=require('./d1840b96cc88e8db729f96f09f51a45e.js');n.MenuRegistry.appendMenuItem(n.MenuId.MenubarMainMenu,{submenu:n.MenuId.MenubarGoMenu,title:{value:e.default.config.MENU_TITLE_APP,original:n.TopLevalMenuName.Application},order:1});

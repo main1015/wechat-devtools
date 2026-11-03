@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TogglableReactWidget=void 0;const e=require('./3cdd7fcabe76e9c55e002206902ffe21.js');class t extends e.ReactWidget{constructor(){super(...arguments),this._show=!1,this._userInteractable=!0}setOwner(e){this._owner=e}get owner(){return this._owner}setShow(e){this._show=e,this.setWantsUpdate()}setUserInteractable(e){this._userInteractable=e,this.setWantsUpdate()}get reactProps(){const e=(this.owner?this.owner.acquireProps():void 0)||{};return Object.assign(Object.assign({},e),{userInteractable:this._userInteractable,show:this._show})}dispose(){super.dispose(),this._owner=null}}exports.TogglableReactWidget=t;
+}(require("licia/lazyImport")(require), require)

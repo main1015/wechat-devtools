@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOS12Protocol=void 0;const e=require('./6dd02213958464abc9622cfb16b0a6dc.js');class t extends e.IOS9Protocol{constructor(e){super(e),e.targetBased=!0,e.addMessageFilter("target::Target.targetCreated",e=>this.onTargetCreated(e))}onTargetCreated(e){return this._target.targetId=e.params.targetInfo.targetId,Promise.resolve(e)}}exports.IOS12Protocol=t;
+}(require("licia/lazyImport")(require), require)

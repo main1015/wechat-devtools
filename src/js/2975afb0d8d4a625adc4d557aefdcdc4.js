@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),t=require('./9979eef2ea0870f72e3adb3f330b950f.js');exports.default=(0,e.connect)(e=>{const t=e.simulator.currentWebviewID,o=e.simulator.toastInfo,r=o.show&&t===o.showOnWebviewID,i=e.toolbar.deviceInfo;return{show:r,title:o.title,image:o.image,mask:o.mask,icon:o.icon,deviceScale:e.toolbar.deviceScale,screenWidth:i.screenWidth}},e=>({}))(t.default);
+}(require("licia/lazyImport")(require), require)

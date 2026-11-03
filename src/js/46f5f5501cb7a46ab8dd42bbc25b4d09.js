@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ExternalPopupWindowHandle=void 0;exports.ExternalPopupWindowHandle=class{constructor(o,s){this.popWindow=s,this._closeDisposables=[],this.winId=o}get window(){return this.getChildWindow()}getChildWindow(){return this.popWindow.getChildWindow()}async close(o=!0){return this.popWindow.close(o)}async focus(){return this.popWindow.focus()}onClose(o){const s=this.popWindow.onWinClose()(o);return this._closeDisposables.push(s),s}onChildWinLoad(o){return this.popWindow.onChildWinLoad()(o)}on(o,s){"close"===o&&this.onClose(s)}dispose(){for(const o of this._closeDisposables)o.dispose();this._closeDisposables=[]}};
+}(require("licia/lazyImport")(require), require)

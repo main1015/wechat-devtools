@@ -1,0 +1,1 @@
+var $export=require("./_export");$export($export.S,"Math",{clz32:function(r){return(r>>>=0)?31-Math.floor(Math.log(r+.5)*Math.LOG2E):32}});

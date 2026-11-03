@@ -1,0 +1,1 @@
+var upperCase=require("upper-case"),noCase=require("no-case");module.exports=function(e,r,a){var u=noCase(e,r);return a||(u=u.replace(/ (?=\d)/g,"_")),u.replace(/ (.)/g,function(e,a){return upperCase(a,r)})};

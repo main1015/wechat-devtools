@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ControlledPromise=void 0;exports.ControlledPromise=class{constructor(){this.status="pending",this.promise=new Promise((e,t)=>{this.resolve=t=>{this.pending&&(this.status="resolved",e(t))},this.reject=e=>{this.pending&&(this.status="rejected",t(e))}})}get resolved(){return"resolved"===this.status}get rejected(){return"rejected"===this.status}get pending(){return"pending"===this.status}};
+}(require("licia/lazyImport")(require), require)

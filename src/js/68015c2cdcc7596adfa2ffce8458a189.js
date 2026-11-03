@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IComponentDataChangedOption=void 0,exports.IComponentDataChangedOption={type:"object",properties:{nodeId:{type:"number"},data:{$ref:"#/definitions/WechatMiniprogram.IAnyObject"}},additionalProperties:!1,required:["data","nodeId"],definitions:{"WechatMiniprogram.IAnyObject":{type:"object",additionalProperties:!1}},$schema:"http://json-schema.org/draft-07/schema#",$version:1761897185005};
+}(require("licia/lazyImport")(require), require)

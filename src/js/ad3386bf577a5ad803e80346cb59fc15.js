@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.disable=exports.enable=void 0;const e=require('./7942d2daea644b2094204a378546979e.js'),l=require('./227b7b93ce28c3d2e316e7b9c4ec7332.js');exports.enable=()=>{e.default.enable(),l.default.enable()};exports.disable=()=>{e.default.disable(),l.default.disable()};
+}(require("licia/lazyImport")(require), require)

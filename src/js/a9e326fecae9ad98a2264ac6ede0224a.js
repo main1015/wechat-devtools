@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IMeasureTextStringOption=void 0,exports.IMeasureTextStringOption={type:"object",properties:{size:{type:"object",properties:{width:{type:"number"},height:{type:"number"}},additionalProperties:!1,required:["height","width"]},label:{type:"object",properties:{color:{type:"string"},fontSize:{type:"number"},textAlign:{type:"string"},fontWeight:{type:"string"},lineHeight:{type:"number"},lineBreak:{type:"string"},content:{type:"string"}},additionalProperties:!1}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1755833922581};
+}(require("licia/lazyImport")(require), require)

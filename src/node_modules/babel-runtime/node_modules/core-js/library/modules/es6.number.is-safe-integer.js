@@ -1,0 +1,1 @@
+var $export=require("./_export"),isInteger=require("./_is-integer"),abs=Math.abs;$export($export.S,"Number",{isSafeInteger:function(e){return isInteger(e)&&abs(e)<=9007199254740991}});

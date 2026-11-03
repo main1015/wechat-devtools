@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IPopupWindowService=exports.EEeventListenerType=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:r}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();var o;!function(e){e.error="error",e.dragover="dragover",e.drop="drop"}(o||(exports.EEeventListenerType=o={})),exports.IPopupWindowService=r("IPopupWindowService");
+}(require("licia/lazyImport")(require), require)

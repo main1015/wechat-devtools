@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IShowActionSheetOption=void 0,exports.IShowActionSheetOption={type:"object",properties:{itemList:{description:"按钮的文字数组，数组长度最大为 6",type:"array",items:{type:"string"}},itemColor:{description:"按钮的文字颜色",type:"string"},itemColorDark:{description:"按钮的文字颜色（暗黑模式）",type:"string"},alertIndex:{description:"警示项的索引，从 0 开始计算",type:"number"}},additionalProperties:!1,required:["itemList"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755674584348};
+}(require("licia/lazyImport")(require), require)

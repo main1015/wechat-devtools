@@ -1,0 +1,1 @@
+"use strict";function pool(r,n,o){var t=o||8192,u=t>>>1,l=null,e=t;return function(o){if(o<1||o>u)return r(o);e+o>t&&(l=r(t),e=0);var c=n.call(l,e,e+=o);return 7&e&&(e=1+(7|e)),c}}module.exports=pool;

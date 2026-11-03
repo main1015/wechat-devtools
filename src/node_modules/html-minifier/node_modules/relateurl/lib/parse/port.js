@@ -1,0 +1,1 @@
+"use strict";function parsePort(r,t){var o=-1;for(var e in t.defaultPorts)if(e===r.scheme&&t.defaultPorts.hasOwnProperty(e)){o=t.defaultPorts[e];break}o>-1&&(o=o.toString(),null===r.port&&(r.port=o),r.extra.portIsDefault=r.port===o)}module.exports=parsePort;

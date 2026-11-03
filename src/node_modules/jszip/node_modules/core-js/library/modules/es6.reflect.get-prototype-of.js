@@ -1,0 +1,1 @@
+var $export=require("./_export"),getProto=require("./_object-gpo"),anObject=require("./_an-object");$export($export.S,"Reflect",{getPrototypeOf:function(e){return getProto(anObject(e))}});

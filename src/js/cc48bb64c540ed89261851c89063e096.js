@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getDummyComponent=function({store:r,iis:i,setRef:n,child:o}){return e.createElement(t.Provider,{store:r},e.createElement(s,{iis:i,ref:n,className:"standalone"},o))};const e=require("react"),t=require("react-redux"),r=require('./641bb593c076c9baaecb9bf801766b19.js');class s extends e.Component{constructor(e){super(e),this.state={mount:!0}}render(){return this.state.mount?e.createElement(r.Provider,{injector:this.props.iis},e.createElement("div",Object.assign({},this.props,{style:{width:"100%",height:"100%"}}),this.props.children)):e.createElement("div",null)}}exports.default=s;
+}(require("licia/lazyImport")(require), require)

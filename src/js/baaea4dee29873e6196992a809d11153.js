@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.openProject=async function(o){const{appid:r,projectPath:c,trustProject:s=!1}=o;if(!r||!c)throw Error("Lack of appid / projectpath, cannot open project");const i=(0,e.default)(t.IWindowService);await i.openProjectWindow(c,{projectid:c,projectname:"",projectpath:c,query:{trustProject:s?"1":""}})},exports.close=async function(){o.default.dispatch(r.closeProject())};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),t=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),o=require('./046aafa51723e0b9f12bd58599007fec.js'),r=require('./dccf81697d09871142273f7c1e53d534.js');
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ILoadFontResult=void 0,exports.ILoadFontResult={type:"object",properties:{fontFamily:{type:"string"},fontData:{type:"string"}},additionalProperties:!1,required:["fontData","fontFamily"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755747530573};
+}(require("licia/lazyImport")(require), require)

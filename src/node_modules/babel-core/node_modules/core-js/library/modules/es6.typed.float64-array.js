@@ -1,0 +1,1 @@
+require("./_typed-array")("Float64",8,function(r){return function(t,n,e){return r(this,t,n,e)}});

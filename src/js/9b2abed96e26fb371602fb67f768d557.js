@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react"),t=require("react");exports.default=function(r){const{tip:a,left:n}=r,u=(0,t.useRef)(null),[o,s]=(0,t.useState)(n);return(0,t.useEffect)(()=>{if(u.current){const e=u.current.offsetWidth;s(n-e/2)}},[a,n]),a?e.createElement("div",{ref:u,className:"hover-tip",style:{top:r.top,left:o,pointerEvents:"none",wordBreak:"break-all",whiteSpace:"normal"},"data-tutid":"tut-e280aa7b35544fd9"},r.tip):null};
+}(require("licia/lazyImport")(require), require)

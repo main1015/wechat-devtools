@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(e=document){const t=e.createElement("style");return t.textContent="\n  ::-webkit-scrollbar {\n    width: 4px;\n    height: 4px;\n  }\n  ::-webkit-scrollbar-track {\n    border-radius: 10px;\n  }\n  ::-webkit-scrollbar-thumb {\n    opacity:0.1;\n    border-radius: 10px;\n    background: rgba(0,0,0,0.2); \n    box-shadow: inset 0 0 6px rgba(0,0,0,0.2); \n  }\n",t.setAttribute("data-is","mobile-scrollbar-simulation"),(e.head||e.body||e.documentElement).appendChild(t),t};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BaseMessageEventEmitterService=exports.IMessageEventEmitterService=void 0;const e=require("eventemitter3"),r=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IMessageEventEmitterService=(0,r.createDecorator)("IMessageEventEmitterService");class t extends e.EventEmitter{on(e,r){return super.on("[MESSAGE]@"+e,r)}off(e,r){return super.off("[MESSAGE]@"+e,r)}addEventListener(e,r){return super.on("[EVENT]@"+e,r)}removeEventListener(e,r){return super.off("[EVENT]@"+e,r)}}exports.BaseMessageEventEmitterService=t;
+}(require("licia/lazyImport")(require), require)

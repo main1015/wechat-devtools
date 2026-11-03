@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOpenChatToolOption=void 0,exports.IOpenChatToolOption={type:"object",properties:{chatToolRoom:{description:"聊天工具房间ID",type:"string"},url:{description:"页面路径",type:"string"},query:{description:"页面参数",$ref:"#/definitions/Record<string,any>"}},additionalProperties:!1,definitions:{"Record<string,any>":{type:"object",additionalProperties:!1}},$schema:"http://json-schema.org/draft-07/schema#",$version:1756718418870};
+}(require("licia/lazyImport")(require), require)

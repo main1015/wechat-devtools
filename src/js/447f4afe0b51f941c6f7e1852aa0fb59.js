@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EditroMainMenubarBridge=void 0;const e=require('./ef3af5b5940b95991e7118bc8fac5241.js'),r=require('./9eee66f818065fa6881814a83bcfe0cf.js');exports.EditroMainMenubarBridge=class{updateMenu(i,n){(0,r.default)(e.IMenubarMainService).updateMenubar(n,i)}};
+}(require("licia/lazyImport")(require), require)

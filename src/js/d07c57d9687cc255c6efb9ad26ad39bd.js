@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOperateRecorderResult=void 0,exports.IOperateRecorderResult={type:"object",properties:{tempFilePath:{description:"录音文件的临时路径",type:"string"},duration:{description:"录音总时长，单位ms",type:"number"},fileSize:{description:"录音文件大小，单位Byte",type:"number"}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1755677499389};
+}(require("licia/lazyImport")(require), require)

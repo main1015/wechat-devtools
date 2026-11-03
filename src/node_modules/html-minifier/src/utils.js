@@ -1,0 +1,1 @@
+"use strict";function createMap(r,t){var e={};return r.forEach(function(r){e[r]=1}),t?function(r){return 1===e[r.toLowerCase()]}:function(r){return 1===e[r]}}exports.createMap=createMap,exports.createMapFromString=function(r,t){return createMap(r.split(/,/),t)};

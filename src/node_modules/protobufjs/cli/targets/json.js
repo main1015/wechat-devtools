@@ -1,0 +1,1 @@
+"use strict";function json_target(t,n,e){e(null,JSON.stringify(t,null,2))}module.exports=json_target,json_target.description="JSON representation";

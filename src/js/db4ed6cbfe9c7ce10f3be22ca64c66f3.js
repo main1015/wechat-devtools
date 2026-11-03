@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WXMPPlugin=void 0;const e=require('./605771bc8dd98b4ffae4f7dbc3a4db7b.js'),t=require('./11f768f15c292826d86e8ded2a23104d.js');class s extends e.WebSocketPlugin{constructor(){super(),this.protocol=t.WXMP_PROTOCOL}static get shared(){return this._shared||(this._shared=new this),this._shared}}exports.WXMPPlugin=s;
+}(require("licia/lazyImport")(require), require)

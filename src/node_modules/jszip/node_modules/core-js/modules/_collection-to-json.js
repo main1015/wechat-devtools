@@ -1,0 +1,1 @@
+var classof=require("./_classof"),from=require("./_array-from-iterable");module.exports=function(r){return function(){if(classof(this)!=r)throw TypeError(r+"#toJSON isn't generic");return from(this)}};

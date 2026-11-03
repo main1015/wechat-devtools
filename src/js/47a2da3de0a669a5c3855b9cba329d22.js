@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IWriteOption=void 0,exports.IWriteOption={type:"object",properties:{fd:{type:"string"},data:{anyOf:[{$ref:"#/definitions/ArrayBuffer"},{type:"string"}]},offset:{type:"number"},length:{type:"number"},encoding:{enum:["base64","binary","utf8"],type:"string"},position:{type:"number"}},additionalProperties:!1,required:["data","fd"],definitions:{ArrayBuffer:{type:"object",properties:{byteLength:{type:"number"},"__@toStringTag@22":{type:"string"}},additionalProperties:!1,required:["__@toStringTag@22","byteLength"]}},$schema:"http://json-schema.org/draft-07/schema#",$version:1748252458954};
+}(require("licia/lazyImport")(require), require)

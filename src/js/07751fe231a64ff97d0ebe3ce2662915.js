@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.envList=void 0;const e=require('./78f914c66d30c9c049225e21f0ce1e7f.js'),t=require('./6e534fe773a7d25384f23addfeab8737.js'),s=require('./0ca5dfa79f2600163abf936fd9645e32.js');exports.envList=async a=>{var r;null===(r=a.cliStatusUpdater)||void 0===r||r.spinner.start(e.default.use(a.lang).TCB_FETCH_ENV_LIST);return{list:(await(0,t.tcbGetEnvironments)({appId:a.appid},{request:await(0,s.getBoundTransactRequest)(a),transactType:t.TransactType.IDE})).envList.filter(e=>"UNAVAILABLE"!==e.status).map(e=>e.envId)}};
+}(require("licia/lazyImport")(require), require)

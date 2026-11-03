@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getPageFrameResourceV2=void 0;const e=require('./f3b07b435517dbf05de9a7807dc99719.js'),r=require('./9eee66f818065fa6881814a83bcfe0cf.js');exports.getPageFrameResourceV2=async a=>{if(!decodeURI(a.parsedUrl.pureHref).replace(/^\/__pageframe__\//,"").endsWith("instanceframe.html"))throw new Error("not instanceframe req");return{body:await(0,r.default)(e.IBackendManager).safeGetPageFrameInstanceFrameBySessionId(a.winId)}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MUSIC_STATE_ERROR=exports.MUSIC_STATE_END=exports.MUSIC_STATE_PAUSE=exports.MUSIC_STATE_PLAY=exports.MUSIC_STATE_INIT=void 0,exports.MUSIC_STATE_INIT=1,exports.MUSIC_STATE_PLAY=2,exports.MUSIC_STATE_PAUSE=3,exports.MUSIC_STATE_END=4,exports.MUSIC_STATE_ERROR=5,exports.default={MUSIC_STATE_INIT:exports.MUSIC_STATE_INIT,MUSIC_STATE_PLAY:exports.MUSIC_STATE_PLAY,MUSIC_STATE_PAUSE:exports.MUSIC_STATE_PAUSE,MUSIC_STATE_END:exports.MUSIC_STATE_END,MUSIC_STATE_ERROR:exports.MUSIC_STATE_ERROR};
+}(require("licia/lazyImport")(require), require)

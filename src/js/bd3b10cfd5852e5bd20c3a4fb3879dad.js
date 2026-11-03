@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getTimingMarkerScript=function(t){return`<script>${r(t)}<\/script>`},exports.getTimingMarkerScriptText=r,exports.getTimingPrepareCountdownScript=function(r,t,e){return`<script>window.__global.timing.prepareScriptCountdownReport('${r}', '${t}', ${e})<\/script>`};function r(r){return`window.__global.timing.addPoint('${r}', Date.now())`}require("tslib").__exportStar(require('./51bcf1fc451d91fb64eaa3dd451b6439.js'),exports);
+}(require("licia/lazyImport")(require), require)

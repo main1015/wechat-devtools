@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiCdnService=void 0;const e=require("tslib"),o=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),r=require('./3461bd706f402e4f48e38302a706b560.js');class i extends o.ISimulatorSDKApiBaseService{async uploadToCommonCDN(e,o){}}exports.SimulatorSDKApiCdnService=i,e.__decorate([r.DCallRemoteASSDKApi],i.prototype,"uploadToCommonCDN",null);
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiMediacontainerService=void 0;const e=require("tslib"),r=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),i=require('./3461bd706f402e4f48e38302a706b560.js');class a extends r.ISimulatorSDKApiBaseService{async operateMediaContainer(e,r){}async operateMediaTrack(e,r){}}exports.SimulatorSDKApiMediacontainerService=a,e.__decorate([i.DCallRemoteASSDKApi],a.prototype,"operateMediaContainer",null),e.__decorate([i.DCallRemoteASSDKApi],a.prototype,"operateMediaTrack",null);
+}(require("licia/lazyImport")(require), require)

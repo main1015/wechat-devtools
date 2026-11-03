@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";function e(e){return void 0!==e.submenu}function n(e){const n=e.id;return"devtools.menubar.separator"===n||"vscode.menubar.separator"===n}Object.defineProperty(exports,"__esModule",{value:!0}),exports.isMenubarMenuItemSubmenu=e,exports.isMenubarMenuItemRecentAction=function(e){return void 0!==e.uri},exports.isMenubarMenuItemSeparator=n,exports.isMenubarMenuItemAction=function(r){return!e(r)&&!n(r)};
+}(require("licia/lazyImport")(require), require)

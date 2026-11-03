@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ITaskQueueService=exports.ETaskName=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;!function(e){e.SHOULD_WINDOW_CLOSE="SHOULD_WINDOW_CLOSE",e.ON_WINDOW_CLOSE="ON_WINDOW_CLOSE"}(r||(exports.ETaskName=r={})),exports.ITaskQueueService=(0,e.createDecorator)("ITaskQueueService");
+}(require("licia/lazyImport")(require), require)

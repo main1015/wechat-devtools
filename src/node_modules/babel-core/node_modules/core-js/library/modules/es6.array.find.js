@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$find=require("./_array-methods")(5),KEY="find",forced=!0;KEY in[]&&Array(1)[KEY](function(){forced=!1}),$export($export.P+$export.F*forced,"Array",{find:function(r){return $find(this,r,arguments.length>1?arguments[1]:void 0)}}),require("./_add-to-unscopables")(KEY);

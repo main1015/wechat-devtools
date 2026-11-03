@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./ef3c322de39b3038c4cbdb8b31b15dc3.js'),r=require('./efffe9e17848a42346dfb8254c4b4bf2.js');exports.default={exec:function(t,s){const{api:o,args:i}=t;return async(n,a)=>{try{if(!r.default[o])throw new Error("not support");const u=await(0,e.checkPermission)(o,i,n,a);let l;if(u===e.PermissionStatus.Allow)l=await r.default[o](n,t,s,a);else{if(u===e.PermissionStatus.NoAllow)throw new Error("no permission");if(u===e.PermissionStatus.UserCancel)throw new Error("auth deny")}return l}catch(e){const r={errMsg:`${o}:fail ${e.message||e}`};return"private_geolocation"!==o?r:JSON.stringify(r)}}}};
+}(require("licia/lazyImport")(require), require)

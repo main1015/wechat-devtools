@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),t=require('./966891e594724db93732b0bd8b429fc9.js'),n=require('./c155575382061b98a9f7d65ee614c7e3.js'),i=require('./89d7f200413de0520cda01c80a420120.js');exports.default=(0,e.connect)(e=>({resizing:e.window.resizing}),(function(e){const t=(0,n.default)(e);return Object.assign(Object.assign({},t),{setResizeStatus:e=>{t.windowActions.setResizeStatus(e)}})}),null,t.default)(i.default);
+}(require("licia/lazyImport")(require), require)

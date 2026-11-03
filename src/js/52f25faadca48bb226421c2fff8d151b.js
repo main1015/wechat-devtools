@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./b05868ee7d7ba0ad0a0cae9873999f74.js'),p=e.getAppServiceWxAppCodeCached,o=e.getAppServiceWxAppCodeOfPage;exports.default={getWxAppCode:p,getWxAppCodeOfPage:o,getWxAppCodeJsonOfPage:e.getWxAppCodeJsonOfPage,getWxAppCodeWxmlOfPage:e.getWxAppCodeWxmlOfPage};
+}(require("licia/lazyImport")(require), require)

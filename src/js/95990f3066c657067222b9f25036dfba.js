@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRequestPaymentOption=void 0,exports.IRequestPaymentOption={type:"object",properties:{timeStamp:{description:"时间戳，从 1970 年 1 月 1 日 00:00:00 至今的秒数，即当前的时间",type:"string"},nonceStr:{description:"随机字符串，长度为32个字符以下",type:"string"},package:{description:"统一下单接口返回的 prepay_id 参数值，提交格式如：prepay_id=***",type:"string"},signType:{description:"签名算法",enum:["HMAC-SHA256","MD5"],type:"string"},paySign:{description:"签名",type:"string"}},additionalProperties:!1,required:["nonceStr","package","paySign","timeStamp"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755660133198};
+}(require("licia/lazyImport")(require), require)

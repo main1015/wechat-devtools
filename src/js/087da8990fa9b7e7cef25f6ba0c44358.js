@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IBGalleryPanelWidget=void 0;const e=require("react"),r=require('./aafcefd9b46cd117c75fc21e2654165d.js'),t=require('./48068a976a80243f93c15f9ea5a67257.js');class a extends r.TogglableReactWidget{constructor(){super(...arguments),this.kind="interfacebuilder.panel.gallery"}get reactProps(){return Object.assign({},super.reactProps)}renderReact(r){return e.createElement(t.IBGalleryPanelReactExport,Object.assign({},this.reactProps))}}exports.IBGalleryPanelWidget=a;
+}(require("licia/lazyImport")(require), require)

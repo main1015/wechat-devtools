@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SettingRadio=function(t){return e.createElement("div",{className:"uiv2-padding","data-tutid":"tut-ab57831398d04ca8"},e.createElement("label",{className:a({"uiv2-radio":!0,"uiv2-radio-disabled":void 0!==t.disabled&&t.disabled}),onClick:t.onClick,"data-type":t.type,"data-tutid":"tut-d6fd9a3907024725"},e.createElement("i",{className:t.checked?"uiv2-radio-icon-o":"uiv2-radio-icon","data-tutid":"tut-2ab2a5f0407f4d9f"}),e.createElement("span",{className:"uiv2-radio-text","data-tutid":"tut-51a98e15efcb49ee"},t.label)))};const e=require("react"),a=require("classnames");
+}(require("licia/lazyImport")(require), require)

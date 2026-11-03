@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e,o;Object.defineProperty(exports,"__esModule",{value:!0}),exports.EBackendInvokeToSimulatorMessageCommands=exports.ESimulatorInvokeToBackendMessageCommands=void 0,function(e){e.RUNTIME_SOURCE="RUNTIME_SOURCE"}(e||(exports.ESimulatorInvokeToBackendMessageCommands=e={})),function(e){e.ACK_RUNTIME_SOURCE="ACK_RUNTIME_SOURCE",e.BACKEND_IS_READY_FOR_RUNTIME="BACKEND_IS_READY_FOR_RUNTIME"}(o||(exports.EBackendInvokeToSimulatorMessageCommands=o={}));
+}(require("licia/lazyImport")(require), require)

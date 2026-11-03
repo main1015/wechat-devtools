@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AppDirDevtoolsService=void 0;class AppDirDevtoolsService{init(){throw new Error("Method not implemented.")}get(e){throw new Error("Method not implemented.")}cleanDir(e){throw new Error("Method not implemented.")}}exports.AppDirDevtoolsService=AppDirDevtoolsService;
+}(require("licia/lazyImport")(require), require)

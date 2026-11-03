@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.setDebugWxssFile=function(i,r){(0,e.default)(s.ISkylineFileService).setDebugWxssFile(i,r)},exports.clearDebugWxssFiles=function(){(0,e.default)(s.ISkylineFileService).clearDebugWxssFiles()};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),s=require('./10428d744fcbee5b7abecf19b027406d.js');
+}(require("licia/lazyImport")(require), require)

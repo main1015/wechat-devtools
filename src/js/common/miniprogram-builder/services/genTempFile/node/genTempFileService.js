@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.GenTempFileService=void 0;const genTempFile_node_1=require("../common/genTempFile.node");class GenTempFileService extends genTempFile_node_1.nodeGenTempFile{}exports.GenTempFileService=GenTempFileService;
+}(require("licia/lazyImport")(require), require)

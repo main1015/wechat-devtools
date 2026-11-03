@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const t=require('./12f9142ff6dd9cc80d94dc657fed7430.js');exports.default=(e={serviceOutline:{0:{list:[],total:1}}},i={})=>{var s;switch(i.type){case t.default.FUWU_SET_SERVICES:{const t=i.data,c=t.filterServiceType,l=e.serviceOutline,a=((null===(s=l[c])||void 0===s?void 0:s.list)||[]).concat(t.list),r={};return Object.assign(Object.assign({},e),{serviceOutline:Object.assign(Object.assign({},l),{[c]:{list:a.filter(t=>!r[t.DocId]&&(r[t.DocId]=!0,!0)),total:t.total}})})}default:return e}};
+}(require("licia/lazyImport")(require), require)

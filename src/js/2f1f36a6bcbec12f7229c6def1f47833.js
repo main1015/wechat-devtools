@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.importGameEngineResource=void 0;const e=require('./7f5f6188729adda606437b8a916cd517.js'),n=require('./10c453e3aa4fdef4a7cf41ad282773db.js');exports.importGameEngineResource=i=>{try{({isOpen:!1,engineWindowIds:[]}).isOpen||(i=>{(0,n.showEntranceWindow)(),(0,e.dispatchAction)(e.ean.window.setEntrance,{tab:"minigame",minigame:{mode:"create"},gameEngineResourceId:i})})(i)}catch(e){}};
+}(require("licia/lazyImport")(require), require)

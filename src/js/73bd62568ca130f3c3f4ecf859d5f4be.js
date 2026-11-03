@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";const e=require('./12f9142ff6dd9cc80d94dc657fed7430.js'),s=require('./d9456d78bca59f40a85f1293c91e163d.js');module.exports=function(t={panelShow:!1,closeTs:0},n={}){switch(n.type){case e.default.GIT_TOGGLE_PANEL_SHOW:return Object.assign(Object.assign({},t),{panelShow:n.data.panelShow});case e.default.GIT_TOGGLE_PANEL_CLOSE_TS:return Object.assign(Object.assign({},t),{closeTs:n.data.ts});case s.REHYDRATE:return{panelShow:!1,closeTs:0};default:return t}};
+}(require("licia/lazyImport")(require), require)

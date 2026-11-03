@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRevokeBufferURLOption=void 0,exports.IRevokeBufferURLOption={type:"object",properties:{url:{description:"要撤销的 buffer URL",type:"string"}},additionalProperties:!1,required:["url"],$schema:"http://json-schema.org/draft-07/schema#",$version:1756708776554};
+}(require("licia/lazyImport")(require), require)

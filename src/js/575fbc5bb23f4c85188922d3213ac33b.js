@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.errcode=void 0,exports.errcode={SYSTEM_ERROR:-1,SUCCESS:0,AUTH_NOT_LOGIN:10001,AUTH_LOGIN_NOT_MATCH_APPID:10002,AUTH_USER_REJECT:10003,AUTH_NOT_DECLARATION:10004,AUTH_USER_TOURIST:10005,INVALID_PARAMS:20001,COMPILE_HOT_RELOAD_ERROR:30001,PLUGIN_LOG_RATE_LIMITED:40001};
+}(require("licia/lazyImport")(require), require)

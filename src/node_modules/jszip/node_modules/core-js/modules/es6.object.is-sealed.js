@@ -1,0 +1,1 @@
+var isObject=require("./_is-object");require("./_object-sap")("isSealed",function(e){return function(r){return!isObject(r)||!!e&&e(r)}});

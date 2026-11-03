@@ -1,0 +1,110 @@
+{
+  "name": "vscode-settings-editor",
+  "displayName": "Settings Editor",
+  "description": "VS Code visual editor for settings like prettierrc etc",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "publisher": "liriliri",
+  "files": [
+    "out",
+    "l10n"
+  ],
+  "categories": [
+    "Visualization"
+  ],
+  "icon": "icon.png",
+  "activationEvents": [
+    "onCustomEditor:settingsEditor.settingsedit",
+    "onCommand:settingsEditor.openFile",
+    "onLanguage:json",
+    "onLanguage:jsonc",
+    "onLanguage:properties"
+  ],
+  "main": "./extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "settingsEditor.settingsedit",
+        "displayName": "Settings Editor",
+        "selector": [
+          {
+            "filenamePattern": "*"
+          }
+        ],
+        "priority": "option"
+      }
+    ],
+    "commands": [
+      {
+        "command": "settingsEditor.openEditor",
+        "title": "Settings Editor: Open File in Settings Editor",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "settingsEditor.openSource",
+        "title": "Settings Editor: Open File in Source",
+        "icon": "$(go-to-file)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "settingsEditor.openEditor",
+          "when": "settingsEditor.openEditor",
+          "group": "navigation@200"
+        },
+        {
+          "command": "settingsEditor.openSource",
+          "when": "settingsEditor.openSource",
+          "group": "navigation@200"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "node .esbuild.config.js",
+    "format": "prettier \"*.{js,json}\" \"src/**/*.ts\" \"media/**/*.{ts,json,scss}\" --write",
+    "watch": "node .esbuild.config.js --watch",
+    "dev": "npm run watch",
+    "build": "npm run compile",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/vscode-settings-editor.git"
+  },
+  "devDependencies": {
+    "@stoplight/json-schema-tree": "^2.2.2",
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "@vscode/test-electron": "^2.2.0",
+    "esbuild": "^0.19.4",
+    "esbuild-sass-plugin": "^2.4.5",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.6.0",
+    "glob": "^8.0.3",
+    "json5": "^2.2.3",
+    "licia": "^1.37.1",
+    "luna-setting": "^0.7.0",
+    "micromark": "^3.1.0",
+    "mocha": "^10.1.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.8.3",
+    "process": "^0.11.10",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "image-size": "^1.0.2"
+  }
+}

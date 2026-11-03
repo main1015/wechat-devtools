@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=async function(t,n=""){const c=await(0,e.default)(r.IBackendCompileManager).getWxConfig(t.backendProjectContext.winId,{isAppService:!1,pagePath:n});return(0,a.default)(c)};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./f3b07b435517dbf05de9a7807dc99719.js'),a=require('./32a94100b6d4aeba60720dcdba2b1bbf.js');
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UPDATE_EVENT = exports.URL_PREFIX = exports.REPORT_KEY = exports.UPDATE_INSTANCE = exports.STORAGE_KEY = exports.CONFIG_KEY = void 0;
+var CONFIG_KEY;
+(function (CONFIG_KEY) {
+    CONFIG_KEY["SCENE_EN"] = "sceneEN";
+    CONFIG_KEY["SCENE_ZH"] = "sceneZH";
+    CONFIG_KEY["EXTNAME"] = "extname";
+    CONFIG_KEY["EXTENDED_LIB"] = "extendedlib";
+    CONFIG_KEY["WEAPP_SETTING"] = "weappsetting";
+    CONFIG_KEY["IDE_CONF"] = "ideconf";
+    CONFIG_KEY["DEVICE_CONF"] = "deviceconf";
+    CONFIG_KEY["QUALITY_CHECK_OPTION"] = "qualitycheckoption";
+    CONFIG_KEY["SINGLE_PAGE_TEMPLATE"] = "singlepagetemplate";
+    CONFIG_KEY["IB_COMPONT_LIB_MAP"] = "ibcomponentlibmap";
+    CONFIG_KEY["IDEPLUGIN_SETTING"] = "idepluginsetting";
+    CONFIG_KEY["WXAPPLIB_DEFAULT_INFO"] = "wxapplibdefaultinfo";
+    CONFIG_KEY["EDITOR_FILE_TEMPLATE"] = "editorfiletemplate";
+    CONFIG_KEY["ACCOUNT_CARD"] = "accountcard";
+    CONFIG_KEY["AI_TEMPLATE_PROMPT"] = "aitemplateprompt";
+})(CONFIG_KEY = exports.CONFIG_KEY || (exports.CONFIG_KEY = {}));
+exports.STORAGE_KEY = 'STATIC_CONFIG';
+exports.UPDATE_INSTANCE = 4 * 60 * 60 * 1000;
+exports.REPORT_KEY = 'static_config_update';
+exports.URL_PREFIX = 'https://devtools.wxqcloud.qq.com.cn/WechatWebDev/config';
+exports.UPDATE_EVENT = 'UPDATE_EVENT';

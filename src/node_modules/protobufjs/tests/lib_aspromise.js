@@ -1,0 +1,1 @@
+"undefined"!=typeof Promise&&require("../lib/aspromise/tests");

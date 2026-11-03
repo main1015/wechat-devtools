@@ -1,0 +1,1 @@
+var $export=require("./_export"),$entries=require("./_object-to-array")(!0);$export($export.S,"Object",{entries:function(e){return $entries(e)}});

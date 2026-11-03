@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LocalStorageHost=void 0;const e=require("electron"),t=require('./0d7a5c1c1660b56add4dd97a42121bec.js');exports.LocalStorageHost=class{constructor(){this._a=e.ipcRenderer.sendSync("create",t.ILocalstorageService)}getItem(e){return this._a.call("getItem",e)}setItem(e,t){}};

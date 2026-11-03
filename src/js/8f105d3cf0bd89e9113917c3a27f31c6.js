@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AppConfigService=void 0;const e=require("tslib"),i=require('./d5412d2773b861711912958f9f5b10f7.js'),t=require('./90efb22b7b67af7969f1f153175e7f32.js');let o=class{constructor(e){this.appConfigServiceHost=e}resetCache(){this._cache=void 0}async getAppConfig(e,t){const o=`${e}_${t}`;return this._cache&&this._cache.key===o||(this._cache={key:o,value:(0,i.makeDeepReadonly)(await this.appConfigServiceHost.getAppConfig(e,t))}),this._cache.value}};exports.AppConfigService=o,exports.AppConfigService=o=e.__decorate([e.__param(0,t.IAppConfigServiceHost)],o);
+}(require("licia/lazyImport")(require), require)

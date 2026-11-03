@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOS8Protocol=void 0;const e=require('./757cba44d56735e2805d22248540b757.js'),r=require('./2b57ae9d5e3794b4e391f1132d154dce.js');class o extends r.IOSProtocol{constructor(r){super(r),this._target.addMessageFilter("target::error",r=>(e.AdapterLogger.error("Error received (overriding) "+JSON.stringify(r)),r={id:r.id,result:{}},Promise.resolve(r)))}mapSelectorList(e){const r=e.range;for(let o=0;o<e.selectors.length;o++)e.selectors[o]={text:e.selectors[o]},void 0!==r&&(e.selectors[o].range=r);delete e.range}}exports.IOS8Protocol=o;
+}(require("licia/lazyImport")(require), require)

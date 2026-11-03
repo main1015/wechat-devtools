@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MessageHubService=void 0;const e=require('./6bf6fcbe00e15914103c2f6fb8e47e0f.js');class s extends e.BaseMessageHubService{async displayToWeb(e,s){this.invokeLocal(s)}async displayToWebByWinId(e,s){this.invokeLocal(s)}invokeLocal(e){if(!e)return;const s=this[e.method];"function"==typeof s&&s.apply(this,e.args||[])}}exports.MessageHubService=s;
+}(require("licia/lazyImport")(require), require)

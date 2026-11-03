@@ -1,0 +1,1 @@
+"use strict";var classof=require("./_classof"),test={};test[require("./_wks")("toStringTag")]="z",test+""!="[object z]"&&require("./_redefine")(Object.prototype,"toString",function(){return"[object "+classof(this)+"]"},!0);

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=[];for(let t=0;t<256;t++){let o=t;for(let e=0;e<8;e++)1&o?o=3988292384^o>>>1:o>>>=1;e[t]=o>>>0}function t(t,o){const r=o.length;for(let f=0;f<r;f++)t=e[255&(t^o[f])]^t>>>8;return t}exports.default=function(...e){let o=-1;for(const r of e)o=t(o,Buffer.from(r));return o=(-1^o)>>>0,o};
+}(require("licia/lazyImport")(require), require)

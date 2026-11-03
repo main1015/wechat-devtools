@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiLazyCodeLoadingService=void 0;const e=require("tslib"),o=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),t=require('./3461bd706f402e4f48e38302a706b560.js');class a extends o.ISimulatorSDKApiBaseService{async loadComponents(e,o){}async batchLoadSourceCodes(e,o){}async batchLoadWxssCodes(e,o){}}exports.SimulatorSDKApiLazyCodeLoadingService=a,e.__decorate([t.DCallRemoteASSDKApi],a.prototype,"loadComponents",null),e.__decorate([t.DCallRemoteASSDKApi],a.prototype,"batchLoadSourceCodes",null),e.__decorate([t.DCallRemoteASSDKApi],a.prototype,"batchLoadWxssCodes",null);
+}(require("licia/lazyImport")(require), require)

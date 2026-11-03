@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.OhosBuildService=void 0;const o=require('./36cc07d33c3795b6d3416870f54f3351.js'),e=require('./7ba7551a71375b10265119416df8a867.js');exports.OhosBuildService=class{ohosHapBuild(e,i,r){return o.hap.build(e,i,r)}ohosAppBuild(e,i,r){return o.app.build(e,i,r)}async runOhosApp(o,i){try{return void await e.ohos.run(o,i)}catch(r){try{await e.ohos.uninstall(o,i.bundleName)}catch(o){}await e.ohos.run(o,i)}}};
+}(require("licia/lazyImport")(require), require)

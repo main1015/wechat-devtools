@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=Content-Security-Policy content="
+      default-src 'none';
+      img-src 'self' data: blob: https: http:;
+      script-src 'self' blob: 'unsafe-inline' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline';
+      connect-src 'self' https: ws:;
+      font-src 'self' data: https://res.wx.qq.com;
+    "><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../static/dark.css><link rel="shortcut icon" href=../static/image/logo@2x.png><style type=text/css>body,html{width:100%;height:100%;margin:0;overflow:hidden;background-color:var(--global-background-color);color:var(--global-text-color)}button{font-family:inherit}#container,.log-feedback-window{width:100%;height:100%}.log-feedback-window{display:flex;flex-direction:column}.log-feedback-titlebar{position:relative;height:34px;line-height:34px;background-color:var(--global-top-background-color);text-align:center;-webkit-app-region:drag;user-select:none;flex:0 0 auto}.log-feedback-window-title{padding:0 88px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:13px}.log-feedback-window-actions{position:absolute;top:0;right:8px;height:34px;display:flex;align-items:center;gap:4px;-webkit-app-region:no-drag}.log-feedback-window-action{width:24px;height:24px;border:none;background:0 0;color:inherit;cursor:pointer;line-height:24px;padding:0}.log-feedback-window-action:hover{background-color:rgba(127,127,127,.16)}.log-feedback-panel{box-sizing:border-box;padding:20px 24px 24px;flex:1 1 auto;overflow:hidden;display:flex;flex-direction:column}.log-feedback-group-hint,.log-feedback-hint,.log-feedback-success-detail{color:#7f8389;line-height:20px;margin-bottom:12px}.log-feedback-success-detail{-webkit-user-select:text;user-select:text;cursor:text}.log-feedback-success-detail::selection{background-color:rgba(87,145,240,.35);color:inherit}.log-feedback-success-detail::-moz-selection{background-color:rgba(87,145,240,.35);color:inherit}.log-feedback-field{margin-bottom:12px}.log-feedback-label{margin-bottom:6px;font-size:13px}.log-feedback-input{width:100%}.log-feedback-input textarea{min-height:150px;resize:none}.log-feedback-error{margin-top:2px;color:#fa5151;line-height:20px}.log-feedback-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:auto;padding-top:20px}.log-feedback-qrcode{display:block;width:82%;max-width:420px;margin:0}</style><script>window.exports={}</script></head><body class=dark><div id=container></div></body><script>function loadEntry() {
+    const logFeedbackWindow = window.__loadEntry('./log-feedback-window.js')
+    logFeedbackWindow.setup()
+  }
+  if (!window.__haspreload) {
+    loadEntry()
+  } else {
+    if (window.__preloadReady) {
+      loadEntry()
+    } else {
+      window.__preloadReadyFunc = loadEntry
+    }
+  }</script></html>

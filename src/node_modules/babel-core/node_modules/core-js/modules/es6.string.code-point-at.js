@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$at=require("./_string-at")(!1);$export($export.P,"String",{codePointAt:function(t){return $at(this,t)}});

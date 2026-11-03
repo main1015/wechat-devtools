@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./3446f626cb485213374535d81194867a.js'),r=require('./1831e629424a31ffe03d913c172680b0.js'),o=require('./ebca228cc5a70e36159b19ec6f99fabe.js'),{VERSION_BEGIN:n,VERSION_END:t}=o.ConfigCommon,i=e=>{let r=e.slice(n,t).readInt32BE(0);if(1===r){const o=e.slice(13,14);14!==o[0]&&237!==o[0]||(console.error("这是一个开发者工具给出去的打包脚本打错了的包，注意升级打包脚本"),r=0)}return r};exports.default={unpack:(o,n)=>{const t=i(o);if(0===t)return console.info("版本0"),(0,e.default)(o,n);if(10===t)return console.info("版本10"),(0,r.default)(o,n);throw new Error("非法的 wxvpkg 包")},getVersion:i};
+}(require("licia/lazyImport")(require), require)

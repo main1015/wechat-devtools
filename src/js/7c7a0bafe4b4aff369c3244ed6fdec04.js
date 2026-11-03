@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isIOS26RestrictedSDKVersion=function(r){return!!r&&(0,e.compareVersion)(r,"1.7.0")>=0},exports.isIOS26DeviceVersion=function(r){const o=function(e){if(!e)return"";const r=(""+e).match(/\d+(?:\.\d+)*/);return(null==r?void 0:r[0])||""}(r);return!!o&&(0,e.compareVersion)(o,"26.0")>=0};const e=require('./ea5fd44bb5d939b6bf47dfbf43aeb2c4.js');
+}(require("licia/lazyImport")(require), require)

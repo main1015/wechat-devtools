@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.DBType=exports.CmdTipsType=exports.TipsType=exports.MsgType=void 0,exports.MsgType={tips:1,cmdTips:2,systemMsg:3},exports.TipsType={toast:1,info:2,link:3},exports.CmdTipsType={showNewFeature:1,visitBBS:2,alarm:4,enableNetworkTransportLog:5,disbaleNetworkTransportLog:6},exports.DBType={tools:1,system:2,bbs:3,cloud:4,alarm:5},exports.default={MsgType:exports.MsgType,TipsType:exports.TipsType,CmdTipsType:exports.CmdTipsType,DBType:exports.DBType};
+}(require("licia/lazyImport")(require), require)

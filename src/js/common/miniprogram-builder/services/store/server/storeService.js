@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerStoreService=void 0;class ServerStoreService{constructor(){this.getValue=async()=>({}),this.getValueByRuntimeId=async()=>({})}createStore(){}getState(){}subscribe(e){return()=>{}}unsubscribe(e){return()=>{}}dispatch(e){}}exports.ServerStoreService=ServerStoreService;
+}(require("licia/lazyImport")(require), require)

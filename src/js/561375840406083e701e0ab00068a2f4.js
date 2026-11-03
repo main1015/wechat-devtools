@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";module.exports=class{constructor(t,e=1e3){this._map={},this._keyOrder=[],this._capacity=0,this._cleanInterval=1e3,this._realClean=()=>{if(Object.keys(this._map).length<this._capacity&&this._keyOrder.length<this._capacity)return;const t=[],e={};for(const i of this._keyOrder){if(t.length>=this._capacity)break;e[i]||(e[i]=this._map[i],t.push(i))}this._keyOrder=t,this._map=e},this._capacity=t,this._cleanInterval=e}get(t){const e=this._map[t];if(e)return this._keyOrder.unshift(t),this._clean(),e}set(t,e){this._map[t]=e,this._keyOrder.unshift(t),this._clean()}_clean(){clearTimeout(this._cleanTimer),this._cleanTimer=setTimeout(this._realClean,this._cleanInterval)}};
+}(require("licia/lazyImport")(require), require)

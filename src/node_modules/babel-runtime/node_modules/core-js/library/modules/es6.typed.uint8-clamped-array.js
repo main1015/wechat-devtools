@@ -1,0 +1,1 @@
+require("./_typed-array")("Uint8",1,function(r){return function(n,t,e){return r(this,n,t,e)}},!0);

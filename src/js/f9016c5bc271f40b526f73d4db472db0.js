@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.aegisTransport=exports.AegisTransport=void 0;const e=require('./6a4c78d1b1ded2bcecc19f6b18bfc11b.js'),r=require('./30b1550fa2e235a30c3f8b4bec7c59a3.js');class s{write(s,o){switch(e.LogLevel[s].toLowerCase()){case"debug":case"warn":r.infoAll(o);break;case"error":r.error(o);break;case"info":default:r.info(o)}return!0}}exports.AegisTransport=s,exports.aegisTransport=new s;
+}(require("licia/lazyImport")(require), require)

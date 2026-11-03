@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.readFileTask=void 0;const readFileTask=async(e,s,a,o)=>await async function(e,s){const a=Date.now(),r=o.source.sourceCode;return o.targetPath=e,o.source.sourceCode=r,o.source.sourcePath=e,o.target.code=r,o.process.push({cost:Date.now()-a,pluginName:"summer-readFileTask",action:"load"}),o}(s);exports.readFileTask=readFileTask;
+}(require("licia/lazyImport")(require), require)

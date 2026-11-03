@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.registerAppEventHandlers=void 0,exports.registerProjectWindowEventHandlers=function(t,n){e.registerWindowOpenHandler.call(this,t,n),r.registerSelectBluetoothDeviceHandler.call(this,t)};const e=require('./2e9a1f0099fc80523d3b85ebe3394e0d.js'),r=require('./e0e963bb99316f34b86a625d4e24bb87.js');var t=require('./b812cdf27ebf2146a933704ed4c503f7.js');Object.defineProperty(exports,"registerAppEventHandlers",{enumerable:!0,get:function(){return t.registerAppEventHandlers}});
+}(require("licia/lazyImport")(require), require)

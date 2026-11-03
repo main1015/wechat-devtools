@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.DialogsModel=void 0;const i=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');class o extends i.Disposable{constructor(){super(...arguments),this.dialogs=[],this._onWillShowDialog=this._register(new i.Emitter),this.onWillShowDialog=this._onWillShowDialog.event,this._onDidShowDialog=this._register(new i.Emitter),this.onDidShowDialog=this._onDidShowDialog.event}show(o){const e=new i.DeferredPromise,s={args:o,close:i=>{this.dialogs.splice(0,1),e.complete(i),this._onDidShowDialog.fire()}};return this.dialogs.push(s),this._onWillShowDialog.fire(),{item:s,result:e.p}}}exports.DialogsModel=o;
+}(require("licia/lazyImport")(require), require)

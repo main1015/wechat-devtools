@@ -1,0 +1,1 @@
+"use strict";var toObject=require("./_to-object"),toIndex=require("./_to-index"),toLength=require("./_to-length");module.exports=function(t){for(var e=toObject(this),o=toLength(e.length),r=arguments.length,n=toIndex(r>1?arguments[1]:void 0,o),i=r>2?arguments[2]:void 0,d=void 0===i?o:toIndex(i,o);d>n;)e[n++]=t;return e};

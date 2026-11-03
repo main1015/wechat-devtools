@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.startMonitor=function(){(0,o.monitorNPMRegistry)(),(0,t.monitorLocalFunctionSDKVersion)()},exports.stopMonitor=function(){(0,o.stopMonitorNPMRegistry)(),(0,t.stopMonitorLocalFunctionSDKVersion)()};const o=require('./f0367a62fccc7d7c2fd66e29169d125c.js'),t=require('./183ea647e42ac5f4b896232ddfe4ccce.js');
+}(require("licia/lazyImport")(require), require)

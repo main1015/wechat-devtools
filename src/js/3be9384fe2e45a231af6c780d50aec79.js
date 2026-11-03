@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.PageInspectionTarget=void 0;class t{constructor(t,e,r){this.pageIdentity=t,this.wxmlTextDocumentVersion=e,this.nodeStructuredId=r}isEqual(t){return!!t&&(t===this||t.pageIdentity===this.pageIdentity&&t.wxmlTextDocumentVersion===this.wxmlTextDocumentVersion&&t.nodeStructuredId===this.nodeStructuredId)}isEqualRoughly(t){return!!t&&(t===this||t.pageIdentity===this.pageIdentity&&t.nodeStructuredId===this.nodeStructuredId)}static isSameInspectionTarget(t,e){return t.isEqual(e)}isPageInspectionTarget(e){return e instanceof t}}exports.PageInspectionTarget=t;
+}(require("licia/lazyImport")(require), require)

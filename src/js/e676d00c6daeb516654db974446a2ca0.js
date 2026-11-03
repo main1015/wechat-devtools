@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.RunOnceScheduler=exports.Barrier=exports.Promises=exports.IdleValue=exports.DeferredPromise=void 0;const r=require('./eab2b56000105f532ed7d42c057003db.js');exports.DeferredPromise=r.vsbase.vs.base.common.async.$get().DeferredPromise,e=r.vsbase.vs.base.common.async.$get(),exports.IdleValue=e.IdleValue,exports.Promises=e.Promises,exports.Barrier=e.Barrier,exports.RunOnceScheduler=e.RunOnceScheduler;
+}(require("licia/lazyImport")(require), require)

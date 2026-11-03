@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),s=require('./c2f6ef5137b9a20b7e2df586d5a7d59a.js'),a=require('./8dbcab3aedc7c63e32a5c099495ff684.js');exports.default=async()=>{const t=(0,e.default)(r.IProjectManagerService);return await t.isGame()?a.default:s.default};
+}(require("licia/lazyImport")(require), require)

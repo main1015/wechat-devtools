@@ -1,0 +1,1 @@
+"use strict";function joinPath(e){return e.length>0?e.join("/")+"/":""}function resolveDotSegments(e){var t=[];return e.forEach(function(e){".."!==e?"."!==e&&t.push(e):t.length>0&&t.splice(t.length-1,1)}),t}module.exports={join:joinPath,resolveDotSegments:resolveDotSegments};

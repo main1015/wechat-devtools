@@ -1,0 +1,1 @@
+var tape=require("tape"),Test=tape.Test,deepEqual=require("./deep-equal");Test.prototype.deepEqual=Test.prototype.deepEquals=Test.prototype.isEquivalent=Test.prototype.same=function(e,t,a,p){this._assert(deepEqual(e,t,{strict:!0}),{message:a||"should be equivalent",operator:"deepEqual",actual:e,expected:t,extra:p})};

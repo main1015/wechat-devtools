@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getBuildPanelViewPane=function(i,n){var r;return(r=class extends i{renderBody(i){super.renderBody(i),this._parentDomElement=i,this._buildPanelView=new e.BuildPanelView(this._parentDomElement),this._render(),this.onDidChangeBodyVisibility(e=>{e&&this._render()})}_render(){var e;this.isVisible()&&(null===(e=this._buildPanelView)||void 0===e||e.render())}}).ID="workbench.panel.buildPanel2",r.Name=n.localize("codeBuild","Build"),r};const e=require('./bf8a04a3848b32db6109163e7f235c3b.js');
+}(require("licia/lazyImport")(require), require)

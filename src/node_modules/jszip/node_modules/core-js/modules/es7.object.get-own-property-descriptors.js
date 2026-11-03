@@ -1,0 +1,1 @@
+var $export=require("./_export"),ownKeys=require("./_own-keys"),toIObject=require("./_to-iobject"),gOPD=require("./_object-gopd"),createProperty=require("./_create-property");$export($export.S,"Object",{getOwnPropertyDescriptors:function(e){for(var r,t=toIObject(e),o=gOPD.f,p=ownKeys(t),c={},i=0;p.length>i;)createProperty(c,r=p[i++],o(t,r));return c}});

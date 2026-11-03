@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.buildInPluginRegister=void 0;const e=require('./db4ed6cbfe9c7ce10f3be22ca64c66f3.js'),r=require('./7a999743cfb952249263318ffd0ce4e0.js'),l=require('./f6331418a0d1777069618c4ae7b7ff67.js'),n=[e.WXMPPlugin.shared,r.LanDebugPlugin.shared,l.MpHelperPlugin.shared];exports.buildInPluginRegister=e=>{n.forEach(r=>{r.handler&&e.addProtocolHandler(r.protocol,r.handler,r.closeHandler),e.addPluginHandler(r.protocol,r)})};
+}(require("licia/lazyImport")(require), require)

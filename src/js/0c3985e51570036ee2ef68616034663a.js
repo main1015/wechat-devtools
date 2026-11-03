@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IUpgraderService=exports.EUpdatePackType=exports.EVersionTypeValue=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r,t;!function(e){e.Stable="0",e.Rc="1",e.Nightly="2",e.Engine="4",e.Education="5",e.Beta="6"}(r||(exports.EVersionTypeValue=r={})),function(e){e[e.INSTALLER=0]="INSTALLER",e[e.BIGCODE=1]="BIGCODE",e[e.SMALLCODE=2]="SMALLCODE"}(t||(exports.EUpdatePackType=t={})),exports.IUpgraderService=(0,e.createDecorator)("IUpgraderService");
+}(require("licia/lazyImport")(require), require)

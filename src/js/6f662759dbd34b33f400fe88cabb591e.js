@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.bufToStr=function(e){return(0,t.bytesToStr)((0,t.convertBin)(e,"Uint8Array"))},exports.getPassthroughQuery=function(){const e=(new t.Url).query;return(0,t.pick)(e,["ticket","testTicket","cloudRuntimeTicket","debug","uid","scene","nativeExtraData"])},exports.correctSrc=function(e){if(e=(0,t.trim)(e),(0,t.isUrl)(e)||(0,t.startWith)(e,"blob:"))return e;(0,t.startWith)(e,"/__pageframe__")&&(e=e.replace("/__pageframe__",""));return e};const t=require("licia/browser");
+}(require("licia/lazyImport")(require), require)

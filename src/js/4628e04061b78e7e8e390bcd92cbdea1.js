@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";const e=require("eventemitter3");class t extends e.EventEmitter{constructor(){super(),this.instanceScopeListeners=new Set,this.instanceScope=()=>({on:(e,t)=>(this.on(e,t),this.instanceScopeListeners.add({event:e,fn:t}),this),once:(e,t)=>(this.once(e,t),this.instanceScopeListeners.add({event:e,fn:t}),this),off:this.off.bind(this)}),this.initAutoClean()}initAutoClean(){this.on("RESET_INSTANCE",()=>{for(const{event:e,fn:t}of this.instanceScopeListeners)this.off(e,t);this.instanceScopeListeners.clear()})}}module.exports=new t;
+}(require("licia/lazyImport")(require), require)

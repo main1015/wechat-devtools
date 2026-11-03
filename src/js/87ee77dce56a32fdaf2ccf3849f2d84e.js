@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getBackendProjectContext=async function(){const i=(0,t.default)(o.ISimulatorService),a=await i.getSid(),c=i.getSessionId(),n=(await(0,t.default)(r.IProjectManagerService).getProject()).projectpath,s=await i.getSimulatorCompileOptions();return{backendContextFromWeb:!0,sid:a,winId:e.default.winId,sessionId:c,projectpath:n,compileOptions:s}};const e=require('./cd05aced5dc062793cd42e4547966595.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js'),o=require('./dab6dee2df816724ebef200cd323a0e6.js'),r=require('./1eeae7c78d763565f3e642f8f25d0053.js');
+}(require("licia/lazyImport")(require), require)

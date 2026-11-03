@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ClipboardService=void 0;const e=require("electron");exports.ClipboardService=class{writeText(r){e.clipboard.writeText(r)}async readText(){return e.clipboard.readText()}async copyDataURI(r){try{const t=e.nativeImage.createFromDataURL(r);return e.clipboard.writeImage(t),!0}catch(e){return!1}}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IInvokeLockStepMethodResult=void 0,exports.IInvokeLockStepMethodResult={type:"object",properties:{errCode:{type:"number"},id:{type:"number"}},additionalProperties:!1,required:["errCode","id"],$schema:"http://json-schema.org/draft-07/schema#",$version:1756795261892};
+}(require("licia/lazyImport")(require), require)

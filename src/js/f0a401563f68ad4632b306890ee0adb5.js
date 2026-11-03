@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const t=new Set;exports.default={select:(t,e)=>{try{const r=e.split(".");let c=t;for(const t of r)c=c[t];return c}catch(t){return null}},getType:t=>Object.prototype.toString.call(t).slice(8,-1),getMergeData:(t,e)=>{try{const r=e.split("."),c={};let n=c,o=t;for(let t=0,e=r.length;t<e;t++){const e=r[t];t<r.length-1?(n[e]={},n=n[e],o=o[e]||{}):n[e]=o[e]}return c}catch(t){return{}}},actionListenerMiddleware:()=>e=>r=>(t.forEach(t=>{try{t(r)}catch(t){}}),e(r)),addActionListener:e=>{t.add(e)},removeActionListener:e=>{t.delete(e)}};
+}(require("licia/lazyImport")(require), require)

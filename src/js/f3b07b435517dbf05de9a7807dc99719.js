@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IBackendCompileManager=exports.IBackendManager=exports.BACKEND_SERVER_ARGS_SPLITER=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.BACKEND_SERVER_ARGS_SPLITER="argsargs",exports.IBackendManager=(0,e.createDecorator)("IBackendManager"),exports.IBackendCompileManager=(0,e.createDecorator)("IBackendCompileManager");
+}(require("licia/lazyImport")(require), require)

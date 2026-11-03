@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.checkFirstParamMustBeProject=function(t,e){let r="",o=!0;if("string"==typeof e[0])r=e[0],o=!1;else{if("object"!=typeof e[0]||"string"!=typeof e[0].projectpath)throw new Error(t+": first parameter must be project or projectpath");r=e[0].projectpath}return{projectpath:r,isProject:o}};
+}(require("licia/lazyImport")(require), require)

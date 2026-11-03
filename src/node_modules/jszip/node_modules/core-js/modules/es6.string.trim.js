@@ -1,0 +1,1 @@
+"use strict";require("./_string-trim")("trim",function(r){return function(){return r(this,3)}});

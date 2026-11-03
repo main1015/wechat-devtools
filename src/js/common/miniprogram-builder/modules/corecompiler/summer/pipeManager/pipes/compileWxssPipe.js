@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.compileWxssPipe=void 0;const compilewxssService_1=require("../../../../../services/compilewxss/common/compilewxssService"),types_1=require("../types");exports.compileWxssPipe={name:types_1.EPipeCMD.COMPILE_WXSS,execute:async(e,s)=>await e.getService(compilewxssService_1.ICompilewxssService).compileWxss(s)};
+}(require("licia/lazyImport")(require), require)

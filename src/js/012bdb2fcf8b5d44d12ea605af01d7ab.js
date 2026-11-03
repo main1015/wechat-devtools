@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiPhoneServiceBase=void 0;const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),i=require('./2f3f0dbdb0cd8a2d6148fac53ed87bcd.js');class t extends r.ISimulatorSDKApiBaseService{get jsApiService(){return(0,e.default)(i.ISimulatorSDKJsApiPhoneService)}async getPhoneNumber(e,r){return this.jsApiService.getPhoneNumber(e,0,r)}}exports.SimulatorSDKApiPhoneServiceBase=t;
+}(require("licia/lazyImport")(require), require)

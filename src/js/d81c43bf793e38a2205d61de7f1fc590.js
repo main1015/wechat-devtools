@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),r=require('./18da7cf257f1927426cab28c54b0a4c7.js'),t=require('./d5412d2773b861711912958f9f5b10f7.js'),o=require('./d790b88e00b81509f5106bd734f68f04.js');exports.default=(0,e.connect)(e=>{const r=e.simulator.keyboard||{};return Object.assign({},r)},e=>({hideKeyboard:t.bindActionCreators(r.default.hideKeyboard,e)}))(o.default);
+}(require("licia/lazyImport")(require), require)

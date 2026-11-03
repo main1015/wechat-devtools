@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SelfMessagerProxy=void 0;const e=require('./dc253d439755506ca9dcdfe19319195f.js');class s extends e.ABMessagerProxy{constructor(){super(...arguments),this._channelHandlerMap=new Map}originSend(e,s){const r=this._channelHandlerMap.get(e)||[];for(const e of r)e(s)}originOn(e,s){const r=this._channelHandlerMap.get(e)||[];r.push(s),this._channelHandlerMap.set(e,r)}dispose(){this._channelHandlerMap.clear()}}exports.SelfMessagerProxy=s;
+}(require("licia/lazyImport")(require), require)

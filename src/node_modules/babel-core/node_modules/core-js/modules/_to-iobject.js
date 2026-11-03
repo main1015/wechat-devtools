@@ -1,0 +1,1 @@
+var IObject=require("./_iobject"),defined=require("./_defined");module.exports=function(e){return IObject(defined(e))};

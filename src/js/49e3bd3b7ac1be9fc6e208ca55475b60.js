@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";function e(){var e;return!!(null===(e=null===process||void 0===process?void 0:process.versions)||void 0===e?void 0:e.electron)}Object.defineProperty(exports,"__esModule",{value:!0}),exports.isElectron=e,exports.isElectronMain=function(){if(!e())return!1;return!!require("electron").BrowserWindow},exports.isElectronRender=function(){if("undefined"!=typeof ENV_RENDERER)return!0;if(!e())return!1;return!!global.document},exports.isNode=function(){return!!global.isNodeProcess},exports.isWebIDE=function(){return"undefined"!=typeof WEBIDE_WEBPECK_DEFINE_PLUGIN},exports.isBackend=function(){return!0===global.BACKEND};
+}(require("licia/lazyImport")(require), require)

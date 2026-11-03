@@ -1,0 +1,1 @@
+var $export=require("./_export");$export($export.S,"Number",{isNaN:function(r){return r!=r}});

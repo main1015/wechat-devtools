@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.InspectorService=void 0;const e=require("tslib"),t=require('./36bdd018ddae3596c5b9230a8f320bb2.js');let r=class{constructor(e){this.webviewManagerService=e,this.devtoolsview=null}createWebview(e){return this.devtoolsview=this.webviewManagerService.createWebview(e),this.devtoolsview}openDevTools(){this.devtoolsview&&this.devtoolsview.showDevTools(!0)}};exports.InspectorService=r,exports.InspectorService=r=e.__decorate([e.__param(0,t.IWebviewManagerService)],r);
+}(require("licia/lazyImport")(require), require)

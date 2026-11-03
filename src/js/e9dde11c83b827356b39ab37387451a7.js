@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("js-beautify").html,t=require("js-beautify").js_beautify,s=require("perfectionist"),r=require("postcss");exports.default=(i,c)=>{const n=i.code,o=i.fileType;let a;if("css"===o)a=r([s({indentSize:c,cascade:!1,trimTrailingZeros:!1,trimLeadingZero:!1,zeroLengthNoUnit:!1})]).process(n).css;else if("xml"===o){const t=n.replace(/<wxs/g,"<script").replace(/<\/wxs/g,"</script");a=e(t,{indent_size:c,unformatted:[],content_unformatted:["text"]}),a=a.replace(/<script/g,"<wxs").replace(/<\/script/g,"</wxs")}else"javascript"===o&&(a=t(n,{indent_size:c}));return a};
+}(require("licia/lazyImport")(require), require)

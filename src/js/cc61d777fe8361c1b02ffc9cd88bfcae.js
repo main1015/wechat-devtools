@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ILocaleServiceMain=exports.ILocaleService=exports.ELocale=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var o;!function(e){e.en="en",e.zh="zh",e.systemLocale="$SYSTEM"}(o||(exports.ELocale=o={})),exports.ILocaleService=(0,e.createDecorator)("ILocaleService"),exports.ILocaleServiceMain=(0,e.createDecorator)("ILocaleServiceMain");
+}(require("licia/lazyImport")(require), require)

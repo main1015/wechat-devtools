@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("sub",function(t){return function(){return t(this,"sub","","")}});

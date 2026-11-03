@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IBackendProjectManagerService=exports.IProjectManagerServiceMain=exports.IProjectManagerService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IProjectManagerService=(0,e.createDecorator)("IProjectManagerService"),exports.IProjectManagerServiceMain=(0,e.createDecorator)("IProjectManagerServiceMain"),exports.IBackendProjectManagerService=(0,e.createDecorator)("IBackendProjectManagerService");
+}(require("licia/lazyImport")(require), require)

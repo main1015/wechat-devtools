@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./7ba7551a71375b10265119416df8a867.js');exports.default={generateAndroidAPK:t=>async(r,s)=>{const i=s().project.current;return await e.buildAndroidAPKForCli(Object.assign(Object.assign({},t),{project:i}))},generateIosIPA:t=>async(r,s)=>{const i=s().project.current;return await e.buildiOSIPAForCli(Object.assign(Object.assign({},t),{project:i}))}};
+}(require("licia/lazyImport")(require), require)

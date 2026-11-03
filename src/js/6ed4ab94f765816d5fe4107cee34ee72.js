@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UIDeferred=void 0;const e=require("react");class r extends e.Component{constructor(e){super(e),this._resolved=!1,this.state={show:!1}}render(){return this.state.show?this.props.renderContent():this.props.renderPlaceHolder?this.props.renderPlaceHolder():null}resolveFn(){this._resolved||(this._resolved=!0,clearTimeout(this._timer),this.setState({show:!0}))}componentDidMount(){this.resolveFn()}}exports.UIDeferred=r;
+}(require("licia/lazyImport")(require), require)

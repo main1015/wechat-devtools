@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(){t||(t=new s("ANDROIDDEVTOOLS"));return t};const e=require('./5e6729400ac4c8f046ecb20ce9a72736.js');class s extends e.Messager{constructor(e){super(e),this.ready=!0}triggerOnEvent(e,s){this.send({command:"ON_EVENT",data:{eventName:e,res:s}})}callback(e,s){this.send({command:"INVOKE_CALLBACK",data:{callbackID:e,res:s}})}}let t;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),o=require('./5cd41701460b6113adbf1f8f645cdd15.js'),t=require('./076fb63825c9515d9694caf6b2eb66fc.js'),i=require('./57221fe24fac39e008d6b3427f88db70.js');exports.default=(0,e.connect)(e=>{var o,t;return{manifest:null===(o=e.config.pluginManifests)||void 0===o?void 0:o.scfdebug,qcloudWebsite:(null===(t=e.window.cloud)||void 0===t?void 0:t.qcloudWebsite)||{},theme:e.settings.appearance.devtoolsTheme}},e=>({windowActions:o.default.bindActionCreators({setCloud:t.default.setCloud},e)}))(i.QCloudWebsiteWindow);
+}(require("licia/lazyImport")(require), require)

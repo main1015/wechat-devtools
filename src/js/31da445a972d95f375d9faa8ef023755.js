@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./046aafa51723e0b9f12bd58599007fec.js'),s=require('./91ba323540025b59834307936f276644.js');exports.default=()=>{const t=[],o=e.default.getState().plugin.pluginManifests;["appdata","audits","cloudconsolev1","qywx_simulator_plugin","sensor","storage","trace","wxml","search","api-mock"].forEach(e=>{const s=o[e];s?t.push(s.version):t.push("0")}),(0,s.default)("plugins_version",!0,t.join(","))};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$at=require("./_string-at")(!0);$export($export.P,"String",{at:function(t){return $at(this,t)}});

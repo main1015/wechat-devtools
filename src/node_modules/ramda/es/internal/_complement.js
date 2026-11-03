@@ -1,0 +1,1 @@
+export default function _complement(t){return function(){return!t.apply(this,arguments)}}

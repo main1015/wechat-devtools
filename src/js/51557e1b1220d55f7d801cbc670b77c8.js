@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.InterruptibleTask=exports.ES6CompileEvent=exports.AbortEvent=void 0,exports.AbortEvent="abort",exports.ES6CompileEvent="es6CompileEvent";exports.InterruptibleTask=class{constructor(...t){this._aborted=!1,this._args=t,this._promise=this.run(...t)}then(t,e){return this._promise.then(t,e)}catch(t){return this._promise.catch(t)}abort(){this._aborted||(this._aborted=!0)}};
+}(require("licia/lazyImport")(require), require)

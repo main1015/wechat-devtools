@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react"),r=require("react-redux"),t=require('./1e53c1002eb0eef65b6111f241ad1114.js'),o=require('./06499324b5933c1cfaa0067166bc7d83.js');class s extends e.Component{constructor(){super(...arguments),this.onConfirmCallback=e=>{"function"==typeof this.props.callback&&this.props.callback(e),this.props.setConfirm({show:!1})}}render(){return this.props.show?e.createElement(t.default,Object.assign({},this.props,{callback:this.onConfirmCallback})):null}}exports.default=(0,r.connect)(e=>{const r=e.webdebugger.confirmInfo;return Object.assign({},r)},e=>({setConfirm:r=>{e(o.default.setConfirm(r))}}))(s);
+}(require("licia/lazyImport")(require), require)

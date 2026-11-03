@@ -1,0 +1,1 @@
+var gOPD=require("./_object-gopd"),$export=require("./_export"),anObject=require("./_an-object");$export($export.S,"Reflect",{getOwnPropertyDescriptor:function(e,r){return gOPD.f(anObject(e),r)}});

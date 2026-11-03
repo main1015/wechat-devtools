@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiClipboardService=void 0;const a=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),i=require('./19fe6c4357c63f99992c03784b6b955c.js');class t extends a.ISimulatorSDKApiBaseService{async getClipboardData(a,t){try{const a=await(0,i.clipboardReadText)();return this.apiOk("getClipboardData",{data:a})}catch(a){return this.apiFail("getClipboardData","fail to read clipboard")}}async setClipboardData(a,t){try{return(0,i.clipboardCopyText)(a.data),this.apiOk("setClipboardData")}catch(a){return this.apiFail("setClipboardData","fail to write clipboard")}}}exports.SimulatorSDKApiClipboardService=t;
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getEngineIgnoreList=function(t){try{if(!t)return[];const r=[];if(r.push(...s.watchOptions.ignore),t.miniprogramRoot){const s=e.posix.join(t.miniprogramRoot.replace(/\\/g,"/"),"__temp/**/*");r.push(s)}return r}catch(e){return console.error(e),[]}};const e=require("path"),s={watchOptions:{ignore:["assets/**/*.mgepackage/Assets/**","assets/**/*.mgepackage/Library/**","assets/**/*.mgepackage/!(group.manifest.json)*","assets/**/.buildin/**/*","**/__UnityPkg*/**/*","**/__UnityPkg*","assets/**/.git/**/*","assets/**/.git/","assets/**/.gitignore"]}};
+}(require("licia/lazyImport")(require), require)

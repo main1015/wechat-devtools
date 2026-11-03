@@ -1,0 +1,7 @@
+<!DOCTYPE html><!-- electron 弹窗插件，插件是跑在一个安全的 webview 沙箱里的 --><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=Content-Security-Policy content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data:;
+    frame-src devtools://
+  "><link rel=stylesheet href=../static/app.css><link rel=stylesheet href=../js/vendor/dev/wx-components.css><link rel="shortcut icon" href=../static/image/logo@2x.png><style>webview{position:absolute;width:100%;height:100%}</style><script>window.exports={}</script></head><body><webview id=webview></webview></body><script>function loadEntry(){window.__loadEntry("./electron.nodeInspectorWindow.js")}window.__haspreload?window.__preloadReady?loadEntry():window.__preloadReadyFunc=loadEntry:loadEntry()</script></html>

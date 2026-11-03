@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGetChatForwardMaterialsResult=void 0,exports.IGetChatForwardMaterialsResult={type:"object",properties:{materials:{description:"聊天转发素材列表",type:"array",items:{}}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1756718481564};
+}(require("licia/lazyImport")(require), require)

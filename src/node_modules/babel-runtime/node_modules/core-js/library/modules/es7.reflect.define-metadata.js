@@ -1,0 +1,1 @@
+var metadata=require("./_metadata"),anObject=require("./_an-object"),toMetaKey=metadata.key,ordinaryDefineOwnMetadata=metadata.set;metadata.exp({defineMetadata:function(a,e,t,n){ordinaryDefineOwnMetadata(a,e,anObject(t),toMetaKey(n))}});

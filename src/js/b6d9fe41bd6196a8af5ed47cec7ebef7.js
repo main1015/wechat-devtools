@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IShowActionSheetResult=void 0,exports.IShowActionSheetResult={type:"object",properties:{tapIndex:{description:"用户点击的按钮序号，从上到下的顺序，从0开始",type:"number"}},additionalProperties:!1,required:["tapIndex"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755674617428};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LogService=void 0;const e=require('./369ac904db1899c6cb330e8048cb5505.js');class r extends e.RemoteLogService{constructor(){super(),this._source=this.getSourceFromHref()}getSourceFromHref(){if("undefined"==typeof window)return"RENDERER";try{const e=window.location.pathname,r=(e.split("/").pop()||"").match(/^electron-(.+)\.html$/);if(r)return r[1].toUpperCase()}catch(e){}return"RENDERER"}}exports.LogService=r;
+}(require("licia/lazyImport")(require), require)

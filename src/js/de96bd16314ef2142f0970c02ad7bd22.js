@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react"),t=require("react-redux"),s=require('./d9456d78bca59f40a85f1293c91e163d.js');exports.default=(0,t.connect)(e=>({maskType:e.window.mask.show?e.window.mask.type:""}),null)((function(t){return e.useMemo(()=>t.maskType===s.default.MASK_TYPE.GLOBAL_BLOCKING?e.createElement("div",{className:"ui-mask ui-mask-transparent","data-tutid":"tut-1d56cee7e15b4d2a",style:{position:"fixed"}}):null,[t.maskType])}));
+}(require("licia/lazyImport")(require), require)

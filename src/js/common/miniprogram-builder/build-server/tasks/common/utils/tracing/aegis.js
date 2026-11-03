@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";let aegisInstance;function error(e){null==aegisInstance||aegisInstance.error(e)}function info(e){null==aegisInstance||aegisInstance.info(e)}function reportTime(e,n){null==aegisInstance||aegisInstance.reportTime(e,n)}var VersionTypeValue;Object.defineProperty(exports,"__esModule",{value:!0}),exports.error=error,exports.info=info,exports.reportTime=reportTime,function(e){e.Stable="0",e.Rc="1",e.Nightly="2",e.Engine="4"}(VersionTypeValue||(VersionTypeValue={}));
+}(require("licia/lazyImport")(require), require)

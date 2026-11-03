@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IExtendedlibServiceWeb=exports.IExtendedlibService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.IExtendedlibService=(0,e.createDecorator)("IExtendedlibService"),exports.IExtendedlibServiceWeb=(0,e.createDecorator)("IExtendedlibServiceWeb");
+}(require("licia/lazyImport")(require), require)

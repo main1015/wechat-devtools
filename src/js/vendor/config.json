@@ -1,0 +1,20 @@
+{
+	"includedLibs": {
+    "2.25.3": {
+      "version": "2.25.3",
+      "numberVersion": 806,
+      "md5": "jKnnLDFH5Mp5V2xnhXT+zp8LjcYog1xJNtjRg2so7r3NMo6Tlb67Livi1c5rckoaX1zb1zZBS8vP5HJw6mBJ4po2Xs4Hh80n/bHc5oI2qzGIFcYWr1/SnkvJxb5r26DTj209EyjMWCCQzC8dOCOUQz5csLdbi4csP26gZA7PvNw=",
+      "url": "https://res.servicewechat.com/weapp/public/commlib/806.wxapkg"
+    }
+	},
+	"configVersion": 1661323315556,
+	"libs": {
+		"alpha": {
+			"WACloud.js": "7474030abe72b5924617dc6b878fe4c2"
+		}
+	},
+	"wcc": "13c44e505afc057b454a901e9ed21fe5",
+	"wcsc": "c483c4e884049f13c79f7574f099968d",
+	"wcc.exe": "33807bac814b4b639d98be3270bdc56c",
+	"wcsc.exe": "d45f45f109afa238cd83c8ad1d0e2a5e"
+}

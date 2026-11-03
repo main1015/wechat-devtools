@@ -1,0 +1,1 @@
+export default function _aperture(r,e){for(var t=0,a=e.length-(r-1),l=new Array(a>=0?a:0);t<a;)l[t]=Array.prototype.slice.call(e,t,t+r),t+=1;return l}

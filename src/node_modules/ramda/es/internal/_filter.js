@@ -1,0 +1,1 @@
+export default function _filter(t,e){for(var r=0,n=e.length,f=[];r<n;)t(e[r])&&(f[f.length]=e[r]),r+=1;return f}

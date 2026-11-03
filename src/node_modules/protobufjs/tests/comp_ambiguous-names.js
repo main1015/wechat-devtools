@@ -1,0 +1,1 @@
+var tape=require("tape"),protobuf=require(".."),proto='syntax = "proto3";message A {  string whatever = 1;}message B {  A A = 1;}';tape.test("ambiguous names",function(e){protobuf.parse(proto),e.pass("should parse without errors"),e.end()});

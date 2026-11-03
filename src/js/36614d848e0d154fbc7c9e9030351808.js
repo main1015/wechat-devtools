@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorBundleService=exports.ESimulatorBundleFile=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;!function(e){e.Runtime="sc-runtime",e.Native="sc-native",e.Appservice="sc-appservice",e.Webview="sc-webview",e.AppContext="appcontext",e.ServieWorker="httpServerProxyServiceWorker"}(r||(exports.ESimulatorBundleFile=r={})),exports.ISimulatorBundleService=(0,e.createDecorator)("ISimulatorBundleService");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+"use strict";require('../../../js/unpack/module-fallback.js'),require('../../../js/electron/backend/index.js');

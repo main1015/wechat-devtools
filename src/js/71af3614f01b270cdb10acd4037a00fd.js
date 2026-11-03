@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ILoadWAFileResult=void 0,exports.ILoadWAFileResult={type:"object",properties:{base64:{description:"base64 编码的文件内容",type:"string"},__cover:{description:"覆盖字段，用于类型转换",type:"object",properties:{base64:{type:"string"}},additionalProperties:!1,required:["base64"]}},additionalProperties:!1,required:["base64"],$schema:"http://json-schema.org/draft-07/schema#",$version:1756708831617};
+}(require("licia/lazyImport")(require), require)

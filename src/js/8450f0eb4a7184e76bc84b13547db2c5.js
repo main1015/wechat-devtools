@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRemoteStoreService=exports.REMOTE_STORE_BUSINESS_TYPE=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var t;!function(e){e[e.settingSync=1]="settingSync",e[e.idepluginAuth=2]="idepluginAuth",e[e.miniapp=3]="miniapp",e[e.devtoolsLocation=4]="devtoolsLocation",e[e.idepluginAgreement=5]="idepluginAgreement"}(t||(exports.REMOTE_STORE_BUSINESS_TYPE=t={})),exports.IRemoteStoreService=(0,e.createDecorator)("IRemoteStoreService");
+}(require("licia/lazyImport")(require), require)

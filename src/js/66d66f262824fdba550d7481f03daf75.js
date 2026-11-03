@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGetBatteryInfoResult=void 0,exports.IGetBatteryInfoResult={type:"object",properties:{isLowPowerModeEnabled:{type:"boolean"},isCharging:{description:"是否正在充电中",type:"boolean"},level:{description:"设备电量，范围 1 - 100",type:"string"}},additionalProperties:!1,required:["isCharging","isLowPowerModeEnabled","level"],$schema:"http://json-schema.org/draft-07/schema#",$version:1747894649688};
+}(require("licia/lazyImport")(require), require)

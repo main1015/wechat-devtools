@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.registerCommonFileMenu=function(){(0,e.registerMenubarFileMenu)({order:1})};const e=require('./271f4e0dffd830b8b928080a0d51fb61.js');

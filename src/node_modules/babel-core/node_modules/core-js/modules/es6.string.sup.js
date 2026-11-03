@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("sup",function(t){return function(){return t(this,"sup","","")}});

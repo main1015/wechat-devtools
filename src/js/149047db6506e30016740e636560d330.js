@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FALLBACK_MENUBAR_SCOPES=void 0,exports.pickFallbackMenubarMenus=function(e){const o={};for(const t of exports.FALLBACK_MENUBAR_SCOPES)e[t]&&(o[t]=e[t]);return o};const e=require('./d1840b96cc88e8db729f96f09f51a45e.js');exports.FALLBACK_MENUBAR_SCOPES=[e.TopLevalMenuName.Application,e.TopLevalMenuName.Project,e.TopLevalMenuName.Edit,e.TopLevalMenuName.Settings];
+}(require("licia/lazyImport")(require), require)

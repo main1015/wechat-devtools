@@ -1,0 +1,1 @@
+export default function _isRegExp(t){return"[object RegExp]"===Object.prototype.toString.call(t)}

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.ESimulatorWebviewWexinJsBridgeCommand=exports.PageframeUserScriptPathDelimiterSlash=exports.SlashPageframeUserScriptPathDelimiter=exports.PageframeUserScriptPathDelimiter=void 0,exports.PageframeUserScriptPathDelimiter="_",exports.SlashPageframeUserScriptPathDelimiter="/_",exports.PageframeUserScriptPathDelimiterSlash="_/",function(e){e.On="WEBVIEW_ON_EVENT",e.InvokeCallback="WEBVIEW_INVOKE_CALLBACK",e.Subscribe="APPSERVICE_PUBLISH",e.Invoke="WEBVIEW_INVOKE",e.Publish="WEBVIEW_PUBLISH"}(e||(exports.ESimulatorWebviewWexinJsBridgeCommand=e={}));
+}(require("licia/lazyImport")(require), require)

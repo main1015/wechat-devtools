@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ElectronPluginFileReaderService=void 0;const pluginFileReader_base_1=require("../common/pluginFileReader.base");class ElectronPluginFileReaderService extends pluginFileReader_base_1.BasePluginFileReaderService{}exports.ElectronPluginFileReaderService=ElectronPluginFileReaderService;
+}(require("licia/lazyImport")(require), require)

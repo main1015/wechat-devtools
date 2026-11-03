@@ -1,0 +1,1 @@
+var global=require("./_global"),core=require("./_core"),LIBRARY=require("./_library"),wksExt=require("./_wks-ext"),defineProperty=require("./_object-dp").f;module.exports=function(e){var r=core.Symbol||(core.Symbol=LIBRARY?{}:global.Symbol||{});"_"==e.charAt(0)||e in r||defineProperty(r,e,{value:wksExt.f(e)})};

@@ -1,0 +1,1 @@
+"use strict";exports.defineTags=function(e){e.defineTag("template",{mustHaveValue:!0,canHaveType:!1,canHaveName:!1,onTagged:function(e,a){(e.templates||(e.templates=[])).push(a.text)}}),e.defineTag("tstype",{mustHaveValue:!0,canHaveType:!1,canHaveName:!1,onTagged:function(e,a){e.tsType=a.text}})};

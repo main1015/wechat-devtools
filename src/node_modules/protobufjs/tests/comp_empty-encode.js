@@ -1,0 +1,1 @@
+var tape=require("tape"),protobuf=require("..");tape.test("empty messages",function(e){var t=(new protobuf.Root).addJSON({Test:{fields:{}}}).lookup("Test").encodeDelimited({}).finish();e.equal(t.length,1,"should encodeDelimited to a buffer of length 1"),e.equal(t[0],0,"should encodeDelimited a length of 0"),e.end()});

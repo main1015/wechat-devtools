@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WebIDESettingService=void 0;const e=require("tslib"),t=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),i=require('./8e4ca659efe30ac676c24d733ecb4908.js');let r=class extends i.IDESettingService{constructor(e,t){super(e),this.globalStoreService=e,this.ideSettingHost=t}onDynamicEditSettingEvent(){return this.ideSettingHost.onDynamicEditSettingEvent()}triggerEditSettingEvent(e,t){return this.ideSettingHost.triggerEditSettingEvent(e,t)}};exports.WebIDESettingService=r,exports.WebIDESettingService=r=e.__decorate([e.__param(0,t.IGlobalStoreService),e.__param(1,t.IIDESettingServiceHost)],r);
+}(require("licia/lazyImport")(require), require)

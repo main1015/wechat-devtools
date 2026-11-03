@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";const t="darwin"===process.platform;let i,c=!1;module.exports=async function(n,e){if(!t&&e&&c)return;const o=(+new Date).toString();return n=Object.assign({type:"basic",iconUrl:"https://mmbiz.qpic.cn/mmbiz_png/icTdbqWNOwNQ1qSjicRG2Sd0tCZsjqmkmpUsZWPQ4YyuRwKibg8FeLE2x9k7OkHgu5uFc5VtcuuODGAQZZxiaR5iaiaQ/0?wx_fmt=png",priority:2},n),i||(i={},chrome.notifications.onButtonClicked.addListener((t,c)=>{i[t]&&("function"==typeof i[t]&&i[t](c),chrome.notifications.clear(t))}),chrome.notifications.onClosed.addListener((t,i)=>{c=!1})),i[o]=n.callback,delete n.callback,chrome.notifications.create(o,n),c=!0,o};
+}(require("licia/lazyImport")(require), require)

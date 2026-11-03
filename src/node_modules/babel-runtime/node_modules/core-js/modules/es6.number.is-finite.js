@@ -1,0 +1,1 @@
+var $export=require("./_export"),_isFinite=require("./_global").isFinite;$export($export.S,"Number",{isFinite:function(e){return"number"==typeof e&&_isFinite(e)}});

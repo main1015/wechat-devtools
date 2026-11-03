@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Barrier2=exports.Barrier=void 0;exports.Barrier=class{constructor(){this._isOpen=!1,this._promise=new Promise((e,s)=>{this._completePromise=e})}isOpen(){return this._isOpen}open(){this._isOpen=!0,this._completePromise(!0)}wait(){return this._promise}};exports.Barrier2=class{constructor(){this._t=void 0,this._isOpen=!1,this._promise=new Promise((e,s)=>{this._completePromise=e})}isOpen(){return this._isOpen}open(e){this.isOpen()||(this._t=e,this._isOpen=!0,this._completePromise(e))}wait(){return this._promise}set(e){this._t=e,this.open(e)}sync(){return this._t}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+var $export=require("./_export"),microtask=require("./_microtask")(),process=require("./_global").process,isNode="process"==require("./_cof")(process);$export($export.G,{asap:function(r){var e=isNode&&process.domain;microtask(e?e.bind(r):r)}});

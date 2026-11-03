@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IStartBluetoothDevicesDiscoveryResult=void 0,exports.IStartBluetoothDevicesDiscoveryResult={type:"object",properties:{isDiscovering:{type:"boolean"}},additionalProperties:!1,required:["isDiscovering"],$schema:"http://json-schema.org/draft-07/schema#",$version:1747894649686};
+}(require("licia/lazyImport")(require), require)

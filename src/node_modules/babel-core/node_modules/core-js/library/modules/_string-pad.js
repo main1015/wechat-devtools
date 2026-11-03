@@ -1,0 +1,1 @@
+var toLength=require("./_to-length"),repeat=require("./_string-repeat"),defined=require("./_defined");module.exports=function(e,r,t,n){var i=String(defined(e)),g=i.length,l=void 0===t?" ":String(t),a=toLength(r);if(a<=g||""==l)return i;var d=a-g,h=repeat.call(l,Math.ceil(d/l.length));return h.length>d&&(h=h.slice(0,d)),n?h+i:i+h};

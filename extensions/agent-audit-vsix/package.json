@@ -1,0 +1,73 @@
+{
+  "name": "mp-agent-audit",
+  "displayName": "评测",
+  "publisher": "wechat.miniprogram",
+  "repository": {
+    "type": "git",
+    "url": "https://git.woa.com/wxweb/agent-audit-vsix"
+  },
+  "description": "小程序审核助手 - 侧边栏 + 编辑区 WebView",
+  "version": "0.0.1",
+  "icon": "resources/mini-program-logo.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "mp-agent-audit",
+          "title": "评测",
+          "icon": "resources/mini-program-logo.svg"
+        }
+      ]
+    },
+    "views": {
+      "mp-agent-audit": [
+        {
+          "id": "mpAgentAuditSidebar",
+          "name": "评测",
+          "type": "webview"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "mpAgentAudit.reload",
+        "title": "重新加载远程插件"
+      }
+    ],
+    "configuration": {
+      "title": "评测",
+      "properties": {
+        "mpAgentAudit.serverUrl": {
+          "type": "string",
+          "default": "",
+          "description": "远程服务 base URL，留空使用线上默认值"
+        },
+        "mpAgentAudit.devtoolsCliPath": {
+          "type": "string",
+          "default": "",
+          "description": "微信开发者工具 CLI 可执行文件路径（mac 如 /Applications/wechatwebdevtools.app/Contents/MacOS/cli，win 如 <安装路径>\\cli.bat），留空则自动探测 wechatidecli"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "pnpm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "build-ide": "rm -rf ./out_ide && tsc -p ./ --outDir ./out_ide && node ./script/copy.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "@types/vscode": "^1.60.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRemoveScrollViewOption=void 0,exports.IRemoveScrollViewOption={type:"object",properties:{viewId:{type:"string"},independent:{type:"boolean"}},additionalProperties:!1,required:["viewId"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755833965864};
+}(require("licia/lazyImport")(require), require)

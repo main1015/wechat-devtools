@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorResourceBaseService=exports.ISimulatorResourceService=exports.SimulatorResourceVendorFileLists=exports.ESimulatorResourceType=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;!function(e){e.PACKAGE="PACKAGE",e.VENDOR="VENDOR"}(r||(exports.ESimulatorResourceType=r={})),exports.SimulatorResourceVendorFileLists=["WAService.js","WAServiceMainContext.js","WASubContext.js","WAWebview.js"],exports.ISimulatorResourceService=(0,e.createDecorator)("ISimulatorResourceService");exports.SimulatorResourceBaseService=class{init(){return Promise.resolve()}syncVendorFile(e,r){}syncPackageFile(e){}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKJsApiUiService=exports.uiJsApis=void 0;const i=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:e}=i.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.uiJsApis=["setNavigationBarTitle","setNavigationBarColor","showNavigationBarLoading","hideNavigationBarLoading","setBackgroundColor","setBackgroundTextStyle"],exports.ISimulatorSDKJsApiUiService=e("ISimulatorSDKJsApiUiService");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./ca8e8cbda2d1954fa63352c5e8a76dc8.js'),r=require('./f9016c5bc271f40b526f73d4db472db0.js');e.default.addTransport(e.fileTransport),e.default.addTransport(e.consoleTransport),e.default.addTransport(r.aegisTransport);const t=new Proxy(e.default,{get:(e,r)=>e[r]});exports.default=t;
+}(require("licia/lazyImport")(require), require)

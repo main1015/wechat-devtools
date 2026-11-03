@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.settingsEnableConfigWhenProjectClosed=exports.settingsEnableConfigWhenProjectOpend=void 0,exports.settingsEnableConfigWhenProjectOpend={general:!0,appearance:!0,edit:!0,proxy:!0,shortcut:!0,security:!0,extensions:!0},exports.settingsEnableConfigWhenProjectClosed={general:!0,appearance:!0,edit:!1,proxy:!0,shortcut:!1,extensions:!1,security:!0};
+}(require("licia/lazyImport")(require), require)

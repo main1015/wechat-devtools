@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.bindActionCreators=void 0;const t=t=>{const o=Object.prototype.toString.call(t);return"[object Function]"===o||"[object AsyncFunction]"===o},o=t=>!!t&&"function"==typeof t.then,n=(t,n)=>function(){const e=t(...arguments);return o(e)?e.then(n):n(e)};exports.bindActionCreators=(o,e)=>{if(t(o))return n(o,e);const r=Object.keys(o),c={};for(const s of r){const r=o[s];t(r)&&(c[s]=n(r,e))}return c};
+}(require("licia/lazyImport")(require), require)

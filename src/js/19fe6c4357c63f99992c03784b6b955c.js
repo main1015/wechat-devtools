@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.clipboardCopyText=function(t){(0,e.default)(r.IClipboardService).writeText(t)},exports.clipboardReadText=function(){return(0,e.default)(r.IClipboardService).readText()},exports.copyDataURI=function(t){(0,e.default)(r.IClipboardService).copyDataURI(t)};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./f8e02da2b50bc6e80a81a4b534c446ac.js');
+}(require("licia/lazyImport")(require), require)

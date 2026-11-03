@@ -1,0 +1,1 @@
+export default function _isPlaceholder(e){return null!=e&&"object"==typeof e&&!0===e["@@functional/placeholder"]}

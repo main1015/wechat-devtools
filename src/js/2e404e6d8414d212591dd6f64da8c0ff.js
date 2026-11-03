@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),r=require('./d5412d2773b861711912958f9f5b10f7.js'),t=require('./18da7cf257f1927426cab28c54b0a4c7.js'),i=require('./35ab249e7132a61c4e9289d213cde4d4.js');exports.default=(0,e.connect)(e=>{const r=e.simulator.pickerInfo||{},t=e.toolbar.deviceInfo.os||"iOS";return{show:r.show&&"time"===r.mode,current:r.current,start:r.start||"",end:r.end||"",callbackID:r.callbackID,webviewID:r.webviewID,api:r.api,headerText:r.headerText,os:t}},e=>({hidePicker:r.bindActionCreators(t.default.hidePicker,e)}))(i.default);
+}(require("licia/lazyImport")(require), require)

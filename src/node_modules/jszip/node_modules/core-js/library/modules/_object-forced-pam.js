@@ -1,0 +1,1 @@
+module.exports=require("./_library")||!require("./_fails")(function(){var e=Math.random();__defineSetter__.call(null,e,function(){}),delete require("./_global")[e]});

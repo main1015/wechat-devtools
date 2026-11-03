@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ICustomCommandService=exports.ECustomCommand=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var o;!function(e){e.beforeCompile="beforeCompile",e.beforePreview="beforePreview",e.beforeUpload="beforeUpload"}(o||(exports.ECustomCommand=o={})),exports.ICustomCommandService=(0,e.createDecorator)("ICustomCommandService");
+}(require("licia/lazyImport")(require), require)

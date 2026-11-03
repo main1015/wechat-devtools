@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getMessageCenterPort=async function(){if(t.default.messageCenterPort)return t.default.messageCenterPort;return(0,e.default)(r.IGlobalStoreService).ensureGet("messageCenterPort")};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),t=require('./cd05aced5dc062793cd42e4547966595.js');
+}(require("licia/lazyImport")(require), require)

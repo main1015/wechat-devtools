@@ -1,0 +1,1 @@
+"use strict";var IEmmitEvents;Object.defineProperty(exports,"__esModule",{value:!0}),exports.IEmmitEvents=void 0,function(e){e.add="add",e.unlink="unlink",e.change="change",e.addDir="addDir",e.unlinkDir="unlinkDir"}(IEmmitEvents=exports.IEmmitEvents||(exports.IEmmitEvents={}));

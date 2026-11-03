@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.openIDESettingsFactory=exports.openIDESettings=void 0;const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js'),n=require('./7f5f6188729adda606437b8a916cd517.js');exports.openIDESettings=async(o="general",i)=>{const r=(0,t.default)(e.IWindowService);await r.openSettingWindow(o);const s=(0,t.default)(e.ITransferActionService);await s.dispatchClientAction(e.CSettingWindowId,n.ean.setting.setCurrentSettingCategory,o,i)};exports.openIDESettingsFactory=(e="general")=>async()=>{(0,exports.openIDESettings)(e)};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js'),t=require('./7795afd69ff1701f1d31cc652623f4aa.js');class r extends e.Disposable{constructor(e=!1){super(),this._emmiterMap=new Map,e&&(this._callbackManager=new t.CallbackManager)}_createEmmiter(t=!0){const r=new e.Emitter;return t?this._register(r):r}_getEmmiter(e,t=!0){if(!this._emmiterMap.has(e)&&t){const t=this._createEmmiter();this._emmiterMap.set(e,t)}return this._emmiterMap.get(e)}callback(e,t,...r){var a;null===(a=this._callbackManager)||void 0===a||a.callback(e,t,...r)}}exports.default=r;
+}(require("licia/lazyImport")(require), require)

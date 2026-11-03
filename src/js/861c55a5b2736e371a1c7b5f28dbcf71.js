@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(r){return e.useMemo(()=>e.createElement("div",{style:{flex:"1 1 0%",display:"block",fontSize:16,color:"rgb(153, 153, 153)",letterSpacing:2},"data-tutid":"tut-b20487fcf17b4bd4"},t.default.config.SHUTDOWN_TIPS_ON_DEVTOOLS),[])};const e=require("react"),t=require('./78f914c66d30c9c049225e21f0ce1e7f.js');
+}(require("licia/lazyImport")(require), require)

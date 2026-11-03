@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IShareAppMessageToSpecificContactDirectlyOption=void 0,exports.IShareAppMessageToSpecificContactDirectlyOption={type:"object",properties:{title:{type:"string"},desc:{type:"string"},imageUrl:{type:"string"},openId:{type:"string"}},additionalProperties:!1,required:["openId"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755741545048};
+}(require("licia/lazyImport")(require), require)

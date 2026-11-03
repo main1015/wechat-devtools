@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(t){const a=e.useCallback(e=>{t.disabled||t.onClick(e)},[t.disabled,t.onClick]);return e.createElement("div",{style:Object.assign({WebkitAppRegion:"no-drag"},t.style),className:`${t.iconName} ${i({"simulator-actionbar-item-disabled":t.disabled,"simulator-actionbar-icon-item":!t.isPopup})}`,onClick:a,title:t.title})};const e=require("react"),i=require("licia/className");
+}(require("licia/lazyImport")(require), require)

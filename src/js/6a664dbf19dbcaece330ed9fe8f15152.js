@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ProjectCodeSizeServiceForWeb=void 0;const e=require('./659e736630a0f6f2c6888c09786072db.js'),i=require('./cd05aced5dc062793cd42e4547966595.js'),r=require('./bbe40a0b482920fcb9072246c95241b8.js'),o=require('./86e8ca5e0f3b20563909286017883f64.js');class c extends e.default{async getPluginCodeSize(){return(0,r.callBackendServiceByWinId)(i.default.winId,o.IProjectCodeSizeService).getPluginCodeSize(i.default.winId)}async getWeappCodeSize(){return(0,r.callBackendServiceByWinId)(i.default.winId,o.IProjectCodeSizeService).getWeappCodeSize(i.default.winId)}}exports.ProjectCodeSizeServiceForWeb=c;
+}(require("licia/lazyImport")(require), require)

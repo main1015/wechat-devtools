@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRemoteDebugInfoOption=void 0,exports.IRemoteDebugInfoOption={type:"object",properties:{command:{description:"调试命令",type:"string"},callbackID:{description:"回调ID",type:"string"},data:{description:"调试数据"},method:{description:"方法名",type:"string"},params:{description:"参数"}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1756718364366};
+}(require("licia/lazyImport")(require), require)

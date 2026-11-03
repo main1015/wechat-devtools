@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.default={SelfManagedMap:class{constructor(){this._map=new Map}add(e){const t=this._map.get(e);"number"==typeof t?this._map.set(e,t+1):this._map.set(e,1)}delete(e){const t=this._map.get(e);if("number"==typeof t){const s=t-1;s<=0?this._map.delete(e):this._map.set(e,s)}}get size(){return this._map.size}}};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+"use strict";var ghpages=require("gh-pages"),path=require("path");ghpages.publish(path.join(__dirname,"..","docs"),{logger:function(e){console.log(e)}},function(e){e?console.error(e):console.log("done")});

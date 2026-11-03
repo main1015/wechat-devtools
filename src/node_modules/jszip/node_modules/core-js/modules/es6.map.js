@@ -1,0 +1,1 @@
+"use strict";var strong=require("./_collection-strong");module.exports=require("./_collection")("Map",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{get:function(t){var r=strong.getEntry(this,t);return r&&r.v},set:function(t,r){return strong.def(this,0===t?0:t,r)}},strong,!0);

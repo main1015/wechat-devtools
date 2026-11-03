@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class WaitAble{constructor(){this._ready=!1,this._waitForReadyQueue=[]}wait(e){return this._waitPromise=new Promise((async(t,a)=>{if(this._ready)t(!0);else if(this._waitForReadyQueue.push({resolve:t,reject:a}),e)try{await(null==e?void 0:e()),this.makeReady()}catch(e){this.makeError(e)}else this.makeReady()})),this._waitPromise}checkIsReady(){return this._waitPromise}makeReady(e){this._ready=!0,this._waitForReadyQueue.forEach((({resolve:t})=>{t(e)})),this._waitForReadyQueue=[]}makeError(e){this._ready=!1,this._waitForReadyQueue.forEach((({reject:t})=>{t(e)})),this._waitForReadyQueue=[]}}exports.default=WaitAble;
+}(require("licia/lazyImport")(require), require)

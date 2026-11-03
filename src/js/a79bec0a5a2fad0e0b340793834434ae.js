@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./f792afbfa81e9f86490b8154a9ce789e.js'),g=require('./47191ec06d6676eb4de5d6086e31e907.js');global.debugTcb=(i=!0)=>{global.debuggingTcb=i;g.default.get(e.EIDEPluginId.CLOUD).triggerOnEvent(e.EIDECloudPluginEvent.DEBUG_STATE_CHANGED,i)};
+}(require("licia/lazyImport")(require), require)

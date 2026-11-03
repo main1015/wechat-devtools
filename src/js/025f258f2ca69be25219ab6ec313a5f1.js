@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IInjectSubPackagesOption=void 0,exports.IInjectSubPackagesOption={type:"object",properties:{subPackages:{type:"array",items:{type:"string"}}},additionalProperties:!1,required:["subPackages"],$schema:"http://json-schema.org/draft-07/schema#",$version:1761897171293};
+}(require("licia/lazyImport")(require), require)

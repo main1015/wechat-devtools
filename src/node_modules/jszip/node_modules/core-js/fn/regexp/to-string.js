@@ -1,0 +1,1 @@
+"use strict";require("../../modules/es6.regexp.to-string"),module.exports=function(e){return RegExp.prototype.toString.call(e)};

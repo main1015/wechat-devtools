@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiAccountService=exports.AccountApis=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.AccountApis=["login","refreshSession","operateWXData","authorize","openWeRunSetting","chooseInvoiceTitle","openAddress","addPhoneContact","getPermissionBytes","getPluginPermissionBytes","getAppUserInfo","logout","guestLogin"],exports.ISimulatorSDKApiAccountService=(0,e.createDecorator)("ISimulatorSDKApiAccountService");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.NWNativeModule=void 0;const nativeModule_impl_1=require("../common/nativeModule.impl");class NWNativeModule extends nativeModule_impl_1.nativeModuleImpl{}exports.NWNativeModule=NWNativeModule;
+}(require("licia/lazyImport")(require), require)

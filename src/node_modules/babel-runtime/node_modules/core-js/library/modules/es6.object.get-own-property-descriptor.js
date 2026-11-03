@@ -1,0 +1,1 @@
+var toIObject=require("./_to-iobject"),$getOwnPropertyDescriptor=require("./_object-gopd").f;require("./_object-sap")("getOwnPropertyDescriptor",function(){return function(r,e){return $getOwnPropertyDescriptor(toIObject(r),e)}});

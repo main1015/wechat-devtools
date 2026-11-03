@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ThemingConfigFilesChangeEvent=void 0,exports.anyOf=function(e,t){if(Array.isArray(e)){for(const r of e){const e=t(r);if(e)return e}return}return t(e)};class e{constructor(e){this.changes=e}contains(e,...t){const r=e.toString();return this.changes.findIndex(e=>e.resource.toString()===r)>=0}affects(e,...t){return this.contains(e,...t)}getAdded(){return[]}gotAdded(){return!1}getDeleted(){return[]}gotDeleted(){return!1}getUpdated(){return[...this.changes]}gotUpdated(){return!0}filter(t){const r=[];for(const e of this.changes)t(e)&&r.push(e);return new e(r)}}exports.ThemingConfigFilesChangeEvent=e;
+}(require("licia/lazyImport")(require), require)

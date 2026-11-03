@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),t=require('./18da7cf257f1927426cab28c54b0a4c7.js'),s=require('./5cd41701460b6113adbf1f8f645cdd15.js'),a=require('./40d3a9b3e466daa21edd9a5c0f977083.js');exports.default=(0,e.connect)(e=>{const t=e.simulator.facial;return Object.assign(Object.assign({},t),{success:4==t.qrcodeState})},e=>({setFacial:s.default.bindActionCreators(t.default.setFacial,e)}))(a.default);
+}(require("licia/lazyImport")(require), require)

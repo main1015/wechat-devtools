@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var a;Object.defineProperty(exports,"__esModule",{value:!0}),function(a){a[a.SimulatorAppService=100]="SimulatorAppService",a[a.SimulatorTabBar=101]="SimulatorTabBar",a[a.SimulatorCompileTipsCover=102]="SimulatorCompileTipsCover",a[a.SimulatorStatusBar=103]="SimulatorStatusBar",a[a.SimulatorIsland=104]="SimulatorIsland",a[a.SimulatorNotch=104]="SimulatorNotch",a[a.GameSimulatorCoverView=996]="GameSimulatorCoverView",a[a.SimulatorToast=997]="SimulatorToast",a[a.SimulatorModal=998]="SimulatorModal",a[a.SimulatorActionSheet=999]="SimulatorActionSheet",a[a.SimulatorCapsule=1e3]="SimulatorCapsule",a[a.SimulatorPage=1001]="SimulatorPage"}(a||(a={})),exports.default=a;
+}(require("licia/lazyImport")(require), require)

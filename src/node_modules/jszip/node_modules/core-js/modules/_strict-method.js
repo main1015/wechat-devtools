@@ -1,0 +1,1 @@
+var fails=require("./_fails");module.exports=function(l,n){return!!l&&fails(function(){n?l.call(null,function(){},1):l.call(null)})};

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.errors=void 0,exports.errors={1e3:{code:1e3,msg:"登录态无效"},1001:{code:1001,msg:"缺失登录态"},1002:{code:1002,msg:"身份校验失败"},1003:{code:1003,msg:"网络校验失败"},1e4:{code:1e4,errmsg:"消息发送失败"},10001:{code:10001,errmsg:"参数传递错误或类型错误"},10002:{code:10002,errmsg:"存在不合法的 task 类型: %s"},10003:{code:10003,errmsg:"输入了不存在的 task 类型: %s"},10004:{code:10004,errmsg:"没有找到 task 对应进程或空闲进程: %s"},10005:{code:10005,errmsg:"未知错误"}};
+}(require("licia/lazyImport")(require), require)

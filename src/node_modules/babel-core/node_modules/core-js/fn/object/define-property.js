@@ -1,0 +1,1 @@
+require("../../modules/es6.object.define-property");var $Object=require("../../modules/_core").Object;module.exports=function(e,r,o){return $Object.defineProperty(e,r,o)};

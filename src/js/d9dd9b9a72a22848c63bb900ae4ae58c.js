@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.setDebuggee=function(t,a,s){s?e.sharedManager.set(a,t):e.sharedManager.remove(a)};class e{constructor(){this._map=new Map}static get sharedManager(){return this._sharedManager||(this._sharedManager=new this),this._sharedManager}set(e,t){t?this._map.set(e,t):this._map.delete(e)}get(e){return this._map.get(e)}remove(e){this._map.delete(e)}forEach(e=(()=>{})){this._map.forEach(e)}reset(e){if(0===e.length)return void this._map.clear();const t=new Map;for(const a of e)this._map.has(a)&&t.set(a,this._map.get(a));this._map.clear(),this._map=t}}exports.default=e;
+}(require("licia/lazyImport")(require), require)

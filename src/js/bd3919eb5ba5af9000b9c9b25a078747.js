@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.generateDataPathMd5=i,exports.getLocalDataPath=n,exports.getDataPathSync=function(){const t=i();return e.join(n(),t)};const e=require("path"),t=require("crypto"),a=require("electron"),r=require('./cd05aced5dc062793cd42e4547966595.js'),o=directRequire("licia/isWindows");function i(){if(r.default.isDev)return"111111111111111111111111111111111";const e=process.env.ELECTRON_BASE_APP_PATH||a.app.getAppPath(),o=t.createHash("md5");return o.update(e),o.digest("hex")}function n(){return o?e.join(a.app.getPath("home"),"AppData","Local",a.app.getName(),"User Data"):a.app.getPath("userData")}
+}(require("licia/lazyImport")(require), require)

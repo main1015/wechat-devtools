@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IUpdateShareMenuOption=void 0,exports.IUpdateShareMenuOption={type:"object",properties:{withShareTicket:{type:"boolean"},isDynamic:{type:"boolean"}},additionalProperties:!1,$schema:"http://json-schema.org/draft-07/schema#",$version:1755741540641};
+}(require("licia/lazyImport")(require), require)

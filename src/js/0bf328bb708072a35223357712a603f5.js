@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKApiRecorderService=void 0;const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./1eeae7c78d763565f3e642f8f25d0053.js'),o=require('./25880e67e268320699734bd9a9a71c4d.js');class i extends o.SimulatorSDKApiRecorderServiceBase{getProject(){return(0,e.default)(r.IProjectManagerService).getRawProject()}}exports.SimulatorSDKApiRecorderService=i;
+}(require("licia/lazyImport")(require), require)

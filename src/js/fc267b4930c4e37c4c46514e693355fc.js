@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react"),t=require('./b13c2c668609cba404080237f3abc874.js'),r=require('./641bb593c076c9baaecb9bf801766b19.js');class s extends e.Component{constructor(e){super(e),this.state={mount:!0}}render(){return this.state.mount?e.createElement(r.Provider,{injector:t.Root.iis},e.createElement("div",Object.assign({},this.props,{style:{width:"100%",height:"100%"},"data-tutid":"tut-1705dd4a802843ee"}),this.props.children)):e.createElement("div",{"data-tutid":"tut-15807c8c9de64755"})}}exports.default=s;
+}(require("licia/lazyImport")(require), require)

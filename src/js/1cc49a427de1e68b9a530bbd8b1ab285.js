@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.eventCenter=exports.EVENT=void 0;const E=require("events");exports.EVENT={CONSOLE_DISPLAY_MESSAGE:"CONSOLE_DISPLAY_MESSAGE",SIMULATOR_BEFORE_LAUNCH:"SIMULATOR_BEFORE_LAUNCH",LOGIN_EXPIRED:"LOGIN_EXPIRED",MULTI_PICKER_CHANGE:"MULTI_PICKER_CHANGE",CLOSE_MULTI_PICKER:"CLOSE_MULTI_PICKER",REQUEST_ERROR:"REQUEST_ERROR",GET_STORE_ACTION:"GET_STORE_ACTION"},exports.eventCenter=new E.EventEmitter;
+}(require("licia/lazyImport")(require), require)

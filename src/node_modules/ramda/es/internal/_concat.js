@@ -1,0 +1,1 @@
+export default function _concat(t,n){var e;n=n||[];var r=(t=t||[]).length,l=n.length,o=[];for(e=0;e<r;)o[o.length]=t[e],e+=1;for(e=0;e<l;)o[o.length]=n[e],e+=1;return o}

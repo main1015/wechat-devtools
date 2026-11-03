@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.LoginEmitter=exports.LoginEmitType=void 0;const e=require("events");var t;!function(e){e.update="userInfoUpdate"}(t||(exports.LoginEmitType=t={}));class s extends e.EventEmitter{static get shareInstance(){return this._shareInstance||(this._shareInstance=new this),this._shareInstance}}exports.LoginEmitter=s;
+}(require("licia/lazyImport")(require), require)

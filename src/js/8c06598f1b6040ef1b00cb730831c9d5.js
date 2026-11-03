@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(){Error.prepareStackTrace=(t,s)=>{const c=[];return c.push(t.toString()),(0,r.default)(s,r=>{let t="    at "+r.toString();(0,e.default)(t,"app-service.js")&&(t=t.replace(/\(.*app-service\.js/,"(https://usr/app-service.js")),(0,e.default)(t,"WAService.js")&&(t=t.replace(/\(.*WAService\.js/,"(WAService.js")),(0,e.default)(t,"public/browser")||c.push(t)}),c.join("\n")}};const e=require("licia/contain"),r=require("licia/each");
+}(require("licia/lazyImport")(require), require)

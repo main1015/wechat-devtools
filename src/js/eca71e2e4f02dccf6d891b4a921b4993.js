@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.NoticeCenterSidebarContainer=void 0;const e=require("react-redux"),t=require('./9538704f951241dc39d66a9de47c31f0.js'),r=require('./076fb63825c9515d9694caf6b2eb66fc.js'),i=require('./d5412d2773b861711912958f9f5b10f7.js'),o=require('./69126bb622ab3f340f3de0678e7d9ec3.js');exports.NoticeCenterSidebarContainer=(0,e.connect)(e=>({show:e.toolbar.clickKey===t.default.MESSAGE,list:e.window.notice.list}),e=>({removeNotices:i.bindActionCreators(r.default.removeNotices,e)}))(o.NoticeCenterSidebar),exports.default=exports.NoticeCenterSidebarContainer;
+}(require("licia/lazyImport")(require), require)

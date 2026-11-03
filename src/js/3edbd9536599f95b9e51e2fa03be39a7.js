@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getRtosInfo=async function(){const r=(0,t.default)(e.ITicketRequestService),{body:n}=await r.request({url:o.default.rtosAction+"?action=get_rtos_info",method:"GET",needToken:1,needAppID:1});return n},exports.getRtosVersion=async function(){const r=(0,t.default)(e.ITicketRequestService),{body:n}=await r.request({url:o.default.getRtosInfo+"?action=get_release_info",method:"GET",needToken:1,needAppID:1});return n};const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js'),o=require('./711b38c25d26bfab5cdc3cfafe0a624b.js');
+}(require("licia/lazyImport")(require), require)

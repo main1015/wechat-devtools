@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.resolveTabBarIconSrc=function(t){const{item:n,isSelected:A,baseURL:a,winId:o}=t;let i=(A?n.selectedIconPath:n.iconPath)||"";if(i=function(e){return/^(\\|\/)/.test(e)?e.slice(1):e}(i),!i)return n.iconData?A?"data:image/png;base64,"+n.selectedIconData:"data:image/png;base64,"+n.iconData:e;if(function(e){return/^(https?:|data:|wxfile:|blob:)/i.test(e)}(i))return i;if(!o)return e;return`${a}?filepath=${encodeURIComponent(i)}&winId=${encodeURIComponent(o)}&r=${Math.random()}`};const e="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+}(require("licia/lazyImport")(require), require)

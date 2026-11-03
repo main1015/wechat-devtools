@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ILogServiceHost=exports.ILogService=void 0,exports.getNewLogWithContext=function(e,r=console){const t=["error","info","warn","log","debug"];return new Proxy(Object.create(null),{get(c,s){var i;if(!t.includes(s))return;const n=s;return null!==(i=o.default.isDev)&&void 0!==i&&i||!["log","debug"].includes(s)?e?r[n].bind(r,`[${e}]`):r[n].bind(r):()=>{}}})};const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js'),o=require('./cd05aced5dc062793cd42e4547966595.js');exports.ILogService=(0,e.createDecorator)("ILogService"),exports.ILogServiceHost=(0,e.createDecorator)("ILogServiceHost");
+}(require("licia/lazyImport")(require), require)

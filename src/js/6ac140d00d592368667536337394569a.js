@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiNavigatorService=exports.NavigatorApis=void 0;const e=require('./eab2b56000105f532ed7d42c057003db.js'),{createDecorator:t}=e.vsbase.vs.platform.instantiation.common.instantiation.$get();exports.NavigatorApis=["navigateTo","navigateBack","redirectTo","switchTab","reLaunch","updateApp","openUrl","restart","setNavigateBackInterception","rewriteRoute","setNavigateBackConfirmDialog"],exports.ISimulatorSDKApiNavigatorService=t("ISimulatorSDKApiNavigatorService");
+}(require("licia/lazyImport")(require), require)

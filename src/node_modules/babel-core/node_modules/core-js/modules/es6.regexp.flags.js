@@ -1,0 +1,1 @@
+require("./_descriptors")&&"g"!=/./g.flags&&require("./_object-dp").f(RegExp.prototype,"flags",{configurable:!0,get:require("./_flags")});

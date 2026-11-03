@@ -1,0 +1,35 @@
+# ==========================================
+# 微信开发者工具 (Linux 开发模式) .gitignore
+# ==========================================
+
+# 1. 解包临时产物与构建缓存 (避免超限文件，如 >100MB 的 app.asar)
+/build/
+/data/
+
+# 2. 根目录开发依赖 (注意：保持 src/node_modules/ 源码树被 Git 追踪)
+/node_modules/
+
+# 3. 本地 IDE 与 AI 助手配置
+.antigravity/
+.vscode/
+.idea/
+
+# 4. 日志文件与包管理器临时产物
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 5. 编辑器临时与备份文件
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 6. 本地运行与平台切换留下的备份目录
+*.win
+*.win32
+

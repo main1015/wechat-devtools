@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.checkIsUseGlassEasel=void 0;const appConfigHelper=require("../project/appconfig"),checkCustomComponent=require("../project/customcomponent"),checkIsUseGlassEasel=async e=>{const s=await appConfigHelper.getAppConfig(e);if("glass-easel"===s.componentFramework)return!0;const o=await checkCustomComponent.getCustomComponentsConfig(e,s);for(const e in o)if(o[e].pageJSON&&"glass-easel"===o[e].pageJSON.componentFramework)return!0;return!1};exports.checkIsUseGlassEasel=checkIsUseGlassEasel;
+}(require("licia/lazyImport")(require), require)

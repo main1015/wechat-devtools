@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.fetchRaw=r,exports.fetchData=async function(e){const t=await r(e,"utf8");return JSON.parse(t)};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),t=require('./dff6b8982bcf89594bba8a67ff22cb02.js');async function r(r,c){const s=(0,e.default)(t.IRawRequestService),{body:n}=await s.request({url:r,encoding:c});return n}
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("small",function(t){return function(){return t(this,"small","","")}});

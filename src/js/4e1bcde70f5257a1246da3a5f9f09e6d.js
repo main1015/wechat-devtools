@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Root=void 0;class t{constructor(t){if(!t)throw new Error("must have a service for constructor");this.instantiationService=t}static get instance(){return this._instance||(this._instance=new this),this._instance}static set instance(t){this._instance=t}static get iis(){return this.instance.instantiationService}static initIisWithServices(t){return this._instance||(this._instance=new this(t)),this._instance}static getService(i){return new Promise(e=>{t.iis.invokeFunction(t=>{e(t.get(i))})})}}exports.Root=t;
+}(require("licia/lazyImport")(require), require)

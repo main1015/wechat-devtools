@@ -1,0 +1,1 @@
+require("../../modules/es6.date.to-string");var $toString=Date.prototype.toString;module.exports=function(t){return $toString.call(t)};

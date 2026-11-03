@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISimulatorSDKApiLocationService=exports.LocationApis=void 0;const o=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.LocationApis=["getLocation","getFuzzyLocation","openLocation","chooseLocation","enableLocationUpdateBackground","enableLocationUpdate","disableLocationUpdate"],exports.ISimulatorSDKApiLocationService=(0,o.createDecorator)("ISimulatorSDKApiLocationService");
+}(require("licia/lazyImport")(require), require)

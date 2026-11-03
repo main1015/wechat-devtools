@@ -1,0 +1,1 @@
+var isObject=require("./_is-object");require("./_object-sap")("isExtensible",function(e){return function(i){return!!isObject(i)&&(!e||e(i))}});

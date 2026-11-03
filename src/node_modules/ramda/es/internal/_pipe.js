@@ -1,0 +1,1 @@
+export default function _pipe(t,n){return function(){return n.call(this,t.apply(this,arguments))}}

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SettingInput=function(t){const{height:a=22,width:n=150,maxLength:i=6}=t;return e.createElement("div",{className:"uiv2-input",style:{height:a,width:n,padding:"4px 0"},"data-tutid":"tut-1b412036072a4c9d"},e.createElement("input",{className:"uiv2-input-inner",placeholder:"",value:t.value,onChange:t.onChange,maxLength:i,"data-tutid":"tut-70acef52f8144dc7"}))};const e=require("react");
+}(require("licia/lazyImport")(require), require)

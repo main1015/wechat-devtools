@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./f7f882ffefe47d622a90187642783736.js'),i=require('./d670f7f30a19b01584db216c5c3f5a75.js');exports.default=async(t,n)=>{const{pluginId:u,version:l}=n;let r={};return"dev"===l?u!==t.appid&&u!==t.pluginAppid||(r=await(0,e.default)(t,n)):r=await i.default.getPluginConfig(t,n),r};
+}(require("licia/lazyImport")(require), require)

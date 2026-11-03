@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRuntimeIdService=exports.RuntimeStatus=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var t;!function(e){e[e.available=0]="available",e[e.pending=1]="pending",e[e.occupied=2]="occupied"}(t||(exports.RuntimeStatus=t={})),exports.IRuntimeIdService=(0,e.createDecorator)("IRuntimeIdService");
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IRequestApplePaymentResult=void 0,exports.IRequestApplePaymentResult={type:"object",properties:{errMsg:{description:"调用结果",type:"string"}},additionalProperties:!1,required:["errMsg"],$schema:"http://json-schema.org/draft-07/schema#",$version:175566021e4};
+}(require("licia/lazyImport")(require), require)

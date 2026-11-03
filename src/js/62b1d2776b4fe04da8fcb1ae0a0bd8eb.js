@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.EERROR_TYPE=void 0,exports.serializeError=function(r){let t=r;if(r instanceof Error){t={type:e.IPC_ERROR_TYPE,message:r.message,stack:r.stack};for(const e in r)Object.prototype.hasOwnProperty.call(r,e)&&(t[e]=r[e])}return t},exports.deserializeError=function(r){let t=r;if("object"==typeof r&&r.type===e.IPC_ERROR_TYPE){t=new Error(r.message);for(const e in r)Object.prototype.hasOwnProperty.call(r,e)&&"type"!==e&&"message"!==e&&(t[e]=r[e])}return t},function(e){e.IPC_ERROR_TYPE="__IPC_ERROR_TYPE__"}(e||(exports.EERROR_TYPE=e={}));
+}(require("licia/lazyImport")(require), require)

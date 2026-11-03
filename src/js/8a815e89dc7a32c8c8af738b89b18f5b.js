@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IOperateLocalServicesScanOption=void 0,exports.IOperateLocalServicesScanOption={type:"object",properties:{action:{description:"操作类型\n- start: 开始搜索 mDNS 服务\n- stop: 停止搜索 mDNS 服务",enum:["start","stop"],type:"string"},serviceType:{description:"搜索的服务类型，当 action 为 start 时必填\n例如：'_http._tcp.'",type:"string"}},additionalProperties:!1,required:["action"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755671398547};
+}(require("licia/lazyImport")(require), require)

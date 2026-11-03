@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.KeybindingsRegistry=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');exports.KeybindingsRegistry=new class{constructor(){this._coreKeybindings=new Map}registerKeybindingRule(i){return this._coreKeybindings.set(i.id,i),(0,e.toDisposable)(()=>{this._coreKeybindings.delete(i.id)})}getKeybinding(e){return this._coreKeybindings.get(e)}getDefaultKeybindings(){return Array.from(this._coreKeybindings.values())}};
+}(require("licia/lazyImport")(require), require)

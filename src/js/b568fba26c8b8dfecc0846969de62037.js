@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ElectronWindowCloseContribution=void 0;const t=require('./7f5f6188729adda606437b8a916cd517.js');exports.ElectronWindowCloseContribution=class{constructor(t,e){this.iis=t,this.editor=e,this.reloadWindow=async()=>{const t=await this.iis.δ("hostService");null==t||t.reload()},this.setup()}async setup(){const e=await this.iis.δ("hostService");e&&(e.reload=e.restart=()=>{(0,t.dispatchAction)(t.ean.menu.reloadProject)})}};
+}(require("licia/lazyImport")(require), require)

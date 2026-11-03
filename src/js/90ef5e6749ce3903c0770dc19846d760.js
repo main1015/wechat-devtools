@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.findParent=function(e,r,n,o){const t=new Set(Array.isArray(e)?e:[e]),a=new Set,d=new Set;for(;t.size>0;){const e=t.values().next().value;a.add(e),t.delete(e),n(e)&&d.add(e),(null==o?void 0:o(e))||e.parentDeps.forEach(e=>{e.originModule&&!a.has(e.originModule)&&t.add(e.originModule)})}return Array.from(d.values())};
+}(require("licia/lazyImport")(require), require)

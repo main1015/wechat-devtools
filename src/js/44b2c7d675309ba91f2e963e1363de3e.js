@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ICreateTCPSocketResult=void 0,exports.ICreateTCPSocketResult={type:"object",properties:{id:{description:"TCP Socket ID",type:"number"},errMsg:{description:"错误信息",type:"string"}},additionalProperties:!1,required:["errMsg","id"],$schema:"http://json-schema.org/draft-07/schema#",$version:1755850919531};
+}(require("licia/lazyImport")(require), require)

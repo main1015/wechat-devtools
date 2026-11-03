@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react"),t=require('./ebec5d2ca0c7edb5df67fc72f1388e05.js'),r=require('./c155575382061b98a9f7d65ee614c7e3.js');exports.default=(0,t.connect)((function(e){return{}}),r.default)((function(t){return e.createElement(e.Fragment,null,e.createElement("div",{className:"simulator-toolbar-left"}))}));
+}(require("licia/lazyImport")(require), require)

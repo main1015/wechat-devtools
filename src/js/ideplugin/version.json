@@ -1,0 +1,74 @@
+[
+  {
+    "plugin_id": "cloudconsolev1",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/cloudconsolev1.release-1.6.54-21589c.wxvpkg.gzip",
+    "checksum": "PsJMxXHsflmNzyKdP5Ep6g3HwJ6llIIj9KEk6EbrNPfFeuSGs2qJ9HOnT6K11iGv/E2LoLObVdIv4/CYql7s8DZ4CpRGFsiB5K4k0MlFByOeBQxgKDfoPhwGtPVX9S6oTf/cnmDHMyhpTEwm+bPj2WqVYAxasTMJO21lUlMfTvU=",
+    "version": "1.6.54"
+  },
+  {
+    "plugin_id": "api-mock",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/api-mock.release-1.0.6-8a3b78.wxvpkg.gzip",
+    "checksum": "FlZGHsOLnObHh4mrYUF8s9f/BohQnQpBIunO8KNqffXGHE0KVhZD01UErNtFwQCoPz81ccxGkK+17YTJ/9nvczKEcAFSVnWfletZD2HP3xYmCAlnx59ItSNlFWyPhpy2i4qsJA9LuwMihqokj6WYuZsx1FCVc/pbK6vsY0EpJv8=",
+    "version": "1.0.6"
+  },
+  {
+    "plugin_id": "audits",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/audits.release-0.0.107-4d042c.wxvpkg.gzip",
+    "checksum": "EdQPQZw7vboasJQvdHeaXPkfvesRbA+F1moHDaSHCqTRcGLkcfZnZKfBfJdECvQfdlYE61aPhsyU0C0W+DbuD1p4UJkdF/rBoRQquqq6aiNTc6Na9t6UnVFhxv/+VaTNvaC7PL65ckZImbO4PdTi9dw3aG3GUpH7fjwTMAu5HBs=",
+    "version": "0.0.107"
+  },
+  {
+    "plugin_id": "gameide",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/gameide.release-0.0.16.wxvpkg.gzip",
+    "checksum": "Xw0I2+SXRu/mwOPUKEthVpbjNFh7aD2zA1gCdlo4LLJS6YMcECE7/D+us1M8x2w1geZH2CtGd/CUVrCm/jVWtFangbCsPb/Fz17Lm3TZviQa6hn8ddSOE62xZ5TgJS3YqhRK0z2eVquq+pLU5na6XIkKO0y2IXAjtWyBsq6PQI4=",
+    "version": "0.0.16"
+  },
+  {
+    "plugin_id": "search",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/search.release-1.0.1.wxvpkg.gzip",
+    "checksum": "UO6iPd/bwBdfbBMrALq6BFJL1MFwR5T5EKbjhhwTrPpFtPW3xNoc9aBCgzKQ+Pt2v2KEOABinJBeEFnQqfuC36E/0bFkRitzEHUve/Vvy/iTMeNPYNI0gEPGn4LZ3rRr0dJLaBb5TAQ8hvtLevGQxDNwuhNCRJcIZjtNL62XuAo=",
+    "version": "1.0.1"
+  },
+  {
+    "plugin_id": "trace",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/trace.release-0.0.5-c80899.wxvpkg.gzip",
+    "checksum": "QuIckgKz8OoJD8H4WyyoAbKL2WmvP/DYoJ1kZXSPBCrEo4x//eRAZThI8d6c2uHSk6RfmUPeUqOyqxA5AZJAn3ZRhD0p1rlbp2C9Lo63dzBSlzAU5QN8sCPMGL2mda/11bn7wt8CL31K3f1HeI0O8afKqnfOXrgN7rClPNjXdx8=",
+    "version": "0.0.5"
+  },
+  {
+    "plugin_id": "appdata",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/appdata.release-0.0.7-83d4f7.wxvpkg.gzip",
+    "checksum": "WLuMWZjiRPkGAJL7b4pMhc7X3S46eC8eBdRHh+jMeTKq3ptKME0TyO0jRgl4b5VY47mBerLNceJZYCVtB6JQbfWfQlPv3Xe107SM6H+K5bxjMBbEACg+O1tCBsH2Q1ylNswycCaksbAZNLi6bXXEmAgXfCKK3hR20VC0uPHAVp0=",
+    "version": "0.0.7"
+  },
+  {
+    "plugin_id": "sensor",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/sensor.release-0.0.5-42a988.wxvpkg.gzip",
+    "checksum": "UPtOrwcXu1lQV8zHuMxVufuzcu0R8we/kKYneN6h1OTUZTANzaqb4dwph0CO5jrJuYYMwp+sN+zH5VwHKlyNyiBkDgL2gSBmdrAzpIjjdYoWwHyT0PEb9FmsNVshmIoti89+j2prxJnBw1oFYbkcRxledATNwLw9r3AF5MDAfOg=",
+    "version": "0.0.5"
+  },
+  {
+    "plugin_id": "storage",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/storage.release-0.0.5-03dd4d.wxvpkg.gzip",
+    "checksum": "QsmVhM1++lkPFl+p80Y3/GiwiBb2QJMtg8COEAxODRT9U+CS35j1s+8y7D0nfJ4fwu9dsMR8RmMxJCY4Umg5dhB19oXvsByO5waCbr5Se6/wXnoR90qMwdariiuMBnVVNTRslbbbvdyr8zr6q1qG7fUuKMW2JHnfRp+7a48cgx8=",
+    "version": "0.0.5"
+  },
+  {
+    "plugin_id": "inspector",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/inspector.release-0.11.62-cbe1d2.wxvpkg.gzip",
+    "checksum": "TKRsNvMDntFXVx20ctf6iJY7K9/PbDJNIN/15S9U+q/MZVtGm6JGZNIFRkLQBLGDJaLaTbnIcM12rqo7ePmRBk+cpOWXfTi0HYewohrmgpSYMw0JOekhPtNx7ppzlOcI58Njjq5sfwg/ApddvuMOMgVz6eFhTTAfE1udAzeByNs=",
+    "version": "0.11.62"
+  },
+  {
+    "plugin_id": "wx-page-types",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/wx-page-types.release-1.0.2-bb99fd.wxvpkg.gzip",
+    "checksum": "W633C+S1rgdB7WPbwxdcAlzvhxc/3fpjOLI9HvfLfIYNncXm/YobIrnTwA8oA0ZWEkFU/NXNtYmIhICsgPzMLs7f1CFgNfaRwNM1OAf+Y+PJsualJIeriQeUKsxi7pcDnjgmHusEoKyk9w/QSsVccOzeVWUrokbOCt2DdHczQ3Y=",
+    "version": "1.0.2"
+  },
+  {
+    "plugin_id": "agentlangfuse",
+    "download_url": "https://dldir1.qq.com/WechatWebDev/plugins/versions/agentlangfuse.release-0.0.2-f690b1.wxvpkg.gzip",
+    "checksum": "iCbSkDkjJxpumVEfBVOv7C3H7og7GsKK7E9g13q626QagKW+3f4hIQN+xGEVC6AWr9QO0n9af+JdFGHgObdThVuNrHtfLbrk61aJs5T0A1OtQRLUKtyOWiogWHFN5as5XS3CkM48CIpJFAISxAng3W1UsPR3x050b/Ste6mDXb4=",
+    "version": "0.0.2"
+  }
+]

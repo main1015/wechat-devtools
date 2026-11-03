@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("child_process"),r="win32"!==process.platform;exports.default=(c,t)=>{const o=c;if(r)try{e.exec('open -a Terminal "`pwd`"',{detached:!0,cwd:o}).unref()}catch(e){console.error(e)}else try{t?e.exec(`start cmd /k "${t}"`,{detached:!0,cwd:o}).unref():e.exec("start",{detached:!0,cwd:o}).unref()}catch(e){console.error(e)}};
+}(require("licia/lazyImport")(require), require)

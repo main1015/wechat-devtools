@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.setMcpBootstrapEnabled=function(t,r){if(!t)return;if(r)return void e.add(t);e.delete(t)},exports.isMcpBootstrapEnabled=function(t){return!!t&&e.has(t)},exports.clearMcpBootstrapState=function(t){if(t)return void e.delete(t);e.clear()};const e=new Set;
+}(require("licia/lazyImport")(require), require)

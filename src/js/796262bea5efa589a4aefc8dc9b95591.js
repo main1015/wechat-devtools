@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BackendBufferUrlDataService=void 0;const e=require("tslib"),r=require('./450403506ec3a41e11075ebc1c46abbe.js'),t=require('./ac45db536cc689338c424742dc1b667a.js');let o=class extends r.NodeBufferUrlDataService{constructor(e){super(),this.simulatorHttpService=e}async ensureProxyPort(){if(this.proxyPort.isOpen())return;const e=await this.simulatorHttpService.getPort();this.proxyPort.open(e),this.bufferUrlRg.open(new RegExp(`(https?://127.0.0.1:${e})?/wxblob/`))}};exports.BackendBufferUrlDataService=o,exports.BackendBufferUrlDataService=o=e.__decorate([e.__param(0,t.ISimulatorHttpService)],o);
+}(require("licia/lazyImport")(require), require)

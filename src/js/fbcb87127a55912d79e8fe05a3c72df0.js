@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKJsApiAutofillService=void 0;const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),r=require('./13fcc5ae5fae7982a8aa9d642d3a9af6.js'),i=require('./9eee66f818065fa6881814a83bcfe0cf.js');class t extends r.SimulatorSDKJsApiAutofillServiceBaseImpl{constructor(){super(),this.projectManager=(0,i.default)(e.IProjectManagerService)}async getAppId(){return this.projectManager.getAppId()}}exports.SimulatorSDKJsApiAutofillService=t;
+}(require("licia/lazyImport")(require), require)

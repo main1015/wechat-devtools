@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),s={get:s=>(0,e.default)(r.IIdepluginMsgManagerService).getMessager(s),has:s=>(0,e.default)(r.IIdepluginMsgManagerService).hasMessager(s),getSimulatorPluginEnvMessager:()=>(0,e.default)(r.IIdepluginMsgManagerService).getSimulatorPluginEnvMessager()};exports.default=s;
+}(require("licia/lazyImport")(require), require)

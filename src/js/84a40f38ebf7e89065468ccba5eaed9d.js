@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MKIBPageEditService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');class r extends e.Disposable{insertNodeBefore(e,r){return Promise.resolve(!1)}insertNodeAfter(e,r){return Promise.resolve(!1)}appendNode(e,r){return Promise.resolve(!1)}deleteNode(e){return Promise.resolve(!1)}editAttribute(e,r,o){return Promise.resolve(!1)}moveNodeBefore(){return Promise.resolve(!1)}moveNodeAfter(){return Promise.resolve(!1)}}exports.MKIBPageEditService=r;
+}(require("licia/lazyImport")(require), require)

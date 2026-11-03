@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EPluginId=void 0,exports.getIntegratedDevtoolsPluginEnvMessager=function(r,n){return(0,e.default)(t.IIntegratedDevtoolsPluginMessagerService).getMessager(o.default.winId,r,n)};const e=require('./9eee66f818065fa6881814a83bcfe0cf.js'),t=require('./39007e85ab19280e47670fc15c7bbbfb.js');var r=require('./39007e85ab19280e47670fc15c7bbbfb.js');Object.defineProperty(exports,"EPluginId",{enumerable:!0,get:function(){return r.EIntegratedDevtoolsPluginId}});const o=require('./cd05aced5dc062793cd42e4547966595.js');
+}(require("licia/lazyImport")(require), require)

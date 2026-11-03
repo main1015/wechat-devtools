@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$map=require("./_array-methods")(1);$export($export.P+$export.F*!require("./_strict-method")([].map,!0),"Array",{map:function(r){return $map(this,r,arguments[1])}});

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("path"),r=require('./9eee66f818065fa6881814a83bcfe0cf.js'),i=require('./14fee553c73dd57a524e63a652608887.js'),o=require('./f320f63f032b2aa8dad7399f08975eb8.js');exports.default=async t=>{try{const{projectPath:o}=t,c=(0,r.default)(i.IFileService),s=e.join(o,"./project.config.json"),n=JSON.parse(await c.readFile(s,{encoding:"utf8"}));"string"==typeof(null==n?void 0:n.miniprogramRoot)&&(n.srcMiniprogramRoot=n.miniprogramRoot,await c.writeFile(s,JSON.stringify(n,null,2)))}catch(e){o.default.error(e)}};
+}(require("licia/lazyImport")(require), require)

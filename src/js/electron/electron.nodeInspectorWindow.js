@@ -1,0 +1,1 @@
+"use strict";!function(){const e=()=>{const e=document.getElementById("webview");if(e){console.log(e);const o=new URLSearchParams(window.location.search||"").get("path");o&&(console.log(decodeURI(o)),e.src=decodeURI(o))}};"complete"===document.readyState?e():document.addEventListener("DOMContentLoaded",e),window.onerror=function(e){document.body.innerText=e.toString()}}();

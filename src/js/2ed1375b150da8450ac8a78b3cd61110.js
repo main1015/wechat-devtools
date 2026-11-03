@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.reportCodeAnalyseAction=async function(o,t="",i={}){i=Object.assign({codeSize:0,resourceSize:0,unusedSize:0,unusedFileNum:0,costTime:0},i);t=t.replace(/,/g,";");const{project:u,user:c}=r.default.getState(),n=u.current.appid,a=c.openid,p={log_id:21798,version:1,user_log_list:`0,0,${s},1,${o},${t},${i.codeSize},${i.resourceSize},${i.unusedSize},${i.unusedFileNum},${n},${a},${i.costTime}`};(0,e.reportMMData)(p)};const e=require('./64bb0b98f60ca15f503240e8a6242bad.js'),r=require('./046aafa51723e0b9f12bd58599007fec.js'),s=parseInt((global.appVersion||"-1").replace(/\./g,""),10);
+}(require("licia/lazyImport")(require), require)

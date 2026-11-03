@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IGenSkeletonResult=void 0,exports.IGenSkeletonResult={type:"object",properties:{wxml:{type:"string"},style:{type:"string"}},additionalProperties:!1,required:["style","wxml"],$schema:"http://json-schema.org/draft-07/schema#",$version:1761899199752};
+}(require("licia/lazyImport")(require), require)

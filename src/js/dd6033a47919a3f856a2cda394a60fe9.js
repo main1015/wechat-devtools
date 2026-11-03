@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TerminalHelperContribution=void 0;exports.TerminalHelperContribution=class{constructor(e){this.iis=e,this.setup()}async setup(){await this.iis.δ("terminalService");try{delete process.env.NODE_ENV,console.log("process.env.NODE_ENV has been removed")}catch(e){}}};
+}(require("licia/lazyImport")(require), require)

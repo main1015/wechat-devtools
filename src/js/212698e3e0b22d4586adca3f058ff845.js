@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const e=require("react-redux"),r=require('./3fdc1707a82ce4157f8f0b63d3fbad4f.js'),u=require('./c98c88b90fedbb899e0bc8c84aa6fb49.js'),o=(0,e.connect)(e=>{const r=e.simulator.music||{},o=r.status,s=(e.simulator.appConfig||{}).requiredBackgroundModes||[];return Object.assign({requiredBackgroundMode:-1!==s.indexOf("audio"),backgroundShow:e.simulator.backgroundShow,show:o===u.MUSIC_STATE_PLAY||o===u.MUSIC_STATE_PAUSE},r)})(r.default);exports.default=o;
+}(require("licia/lazyImport")(require), require)

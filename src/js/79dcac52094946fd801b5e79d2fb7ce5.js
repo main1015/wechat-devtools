@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isCliAttrTransportError=function(N){if("number"==typeof(null==N?void 0:N.errcode))return!1;const e=String((null==N?void 0:N.code)||""),T=String((null==N?void 0:N.message)||N||"");return E.test(e)||t.test(T)};const E=/^(ECONNRESET|ETIMEDOUT|ECONNREFUSED|ENOTFOUND|EAI_AGAIN|EPIPE|ENETUNREACH|EHOSTUNREACH|ESOCKETTIMEDOUT|ENETRESET|UNABLE_TO_VERIFY_LEAF_SIGNATURE|SELF_SIGNED_CERT_IN_CHAIN|CERT_HAS_EXPIRED)$/i,t=/ECONNRESET|ETIMEDOUT|ECONNREFUSED|ENOTFOUND|EAI_AGAIN|socket hang up|EPIPE|ENETRESET|UNABLE_TO_VERIFY_LEAF_SIGNATURE|SELF_SIGNED_CERT_IN_CHAIN|unable to verify the first certificate|^timeout$/i;
+}(require("licia/lazyImport")(require), require)

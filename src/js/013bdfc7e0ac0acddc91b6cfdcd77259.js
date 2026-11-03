@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getWxConfig=async function(n,c={isAppservice:!0}){return(0,r.default)(e.IBackendCompileManager).getWxConfig(n.backendProjectContext.winId,{isAppService:!!c.isAppservice,pagePath:c.pagePath})};const e=require('./f3b07b435517dbf05de9a7807dc99719.js'),r=require('./9eee66f818065fa6881814a83bcfe0cf.js');
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(o={}){const{createLogger:a}=require("redux-logger"),s=[d,()=>e=>t=>{r.default.begin("react","dispatch action "+t.type);const u=e(t);return r.default.end(),u}];localStorage.getItem("hideReduxLogger")||s.push(a());return s.push(u.default.actionListenerMiddleware),e.createStore(t.default,void 0,e.compose(e.applyMiddleware(...s),i()))};const e=require("redux"),r=require('./fb234dd516321fadc9732d99111bc45e.js'),t=require('./b76fe49baf10b30f53804e75ce00eeae.js'),u=require('./f0a401563f68ad4632b306890ee0adb5.js'),d=require("redux-thunk").default,{autoRehydrate:i}=require("redux-persist");
+}(require("licia/lazyImport")(require), require)

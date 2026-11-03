@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.networkLog=void 0;const e=require('./288e9f493d292785aef1aae007d1d9e1.js');exports.networkLog=new class{constructor(){this.pendingRequests={}}handlePayload(a,d){var l;"cloud"===a.domain?(0,e.handle)({reqId:a.reqId,payload:a,headers:d.headers||{},pendingRequests:this.pendingRequests,callback:d.callback||(()=>{})}):null===(l=d.callback)||void 0===l||l.call(d,400,{},"invalid domain")}};
+}(require("licia/lazyImport")(require), require)

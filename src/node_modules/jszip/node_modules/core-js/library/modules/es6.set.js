@@ -1,0 +1,1 @@
+"use strict";var strong=require("./_collection-strong");module.exports=require("./_collection")("Set",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{add:function(t){return strong.def(this,t=0===t?0:t,t)}},strong);

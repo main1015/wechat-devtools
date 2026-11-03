@@ -1,0 +1,23 @@
+{
+  "main": "index.js",
+  "types": "electron.d.ts",
+  "bin": {
+    "electron": "cli.js"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "engines": {
+  },
+  "name": "electronfornwjs",
+  "repository": "",
+  "description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
+  "license": "MIT",
+  "author": "coverguo",
+  "keywords": [
+    "electron",
+    "nwjs"
+  ],
+  "version": "1.0.0"
+}

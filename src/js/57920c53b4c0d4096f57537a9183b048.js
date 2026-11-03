@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKJsApiNavigatorServiceBase=void 0;const e=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),r=require('./6ac140d00d592368667536337394569a.js'),i=require('./9eee66f818065fa6881814a83bcfe0cf.js');class t extends e.ISimulatorSDKApiBaseService{constructor(){super(),this.navigatorService=(0,i.default)(r.ISimulatorSDKApiNavigatorService)}async setNavigateBackInterception(e,r,i){return this.navigatorService.setNavigateBackInterception(e,i)}}exports.SimulatorSDKJsApiNavigatorServiceBase=t;
+}(require("licia/lazyImport")(require), require)

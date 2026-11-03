@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";const e=require('./3446f626cb485213374535d81194867a.js'),r=require('./1831e629424a31ffe03d913c172680b0.js'),n=require('./5ec2932f8b10336dc346b59f5eed80d9.js'),u={0:e.default,10:r.default};module.exports=(e,r)=>{const i=(0,n.getVersion)(e),o=u[i];if(!o)throw new Error("wxvpkg unrecognized version: "+i);return o(e,r)};
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.reportKeyValueOfPublicLib=async function(o,t){const i=process.env.LANG||process.env.LANGUAGE||process.env.LC_ALL||process.env.LC_MESSAGES,c="devtools:"+e.type,n="devtools:"+e.type,p="darwin"===process.platform?"darwin":"win",a=e.release,l=i,v=Math.floor(Date.now()/1e3),u=v,d=o.appid,$={log_id:13582,version:26,user_log_list:`${c},${n},${p},${a},${l},${v},${u},1,${d},0,3,${t}`};(0,s.default)(r.IReportService).reportMMData($)};const e=require("os"),r=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),s=require('./9eee66f818065fa6881814a83bcfe0cf.js');
+}(require("licia/lazyImport")(require), require)

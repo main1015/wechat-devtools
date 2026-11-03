@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.EEditorEvent=exports.IEditorMainService=void 0;const e=require('./7dd9527d5d359ebe4569e4ade6f3966b.js');var r;exports.IEditorMainService=(0,e.createDecorator)("IEditorMainService"),function(e){e.EXEC_COMMAND="EXEC_COMMAND",e.INVOKE_COMMAND="INVOKE_COMMAND",e.INVOKE_COMMAND_RESULT="INVOKE_COMMAND_RESULT"}(r||(exports.EEditorEvent=r={}));
+}(require("licia/lazyImport")(require), require)

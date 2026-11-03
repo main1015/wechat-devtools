@@ -1,0 +1,1 @@
+"use strict";var $export=require("./_export"),$forEach=require("./_array-methods")(0),STRICT=require("./_strict-method")([].forEach,!0);$export($export.P+$export.F*!STRICT,"Array",{forEach:function(r){return $forEach(this,r,arguments[1])}});

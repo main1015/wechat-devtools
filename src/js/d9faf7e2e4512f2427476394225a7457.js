@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BackendInspectNode=void 0;const e=require("inspector"),t=require('./d5412d2773b861711912958f9f5b10f7.js'),o=require('./cd05aced5dc062793cd42e4547966595.js');exports.BackendInspectNode=class{startMainInspector(e=!1){throw new Error("Method not implemented.")}startBackendInspector(e){throw new Error("Method not implemented.")}async startInspect(){let r=9228;o.default.isDev||(r=await(0,t.getAvailablePort)());try{e.open(r)}catch(e){console.error("[inspectNode] failed to open inspector port",e)}return r}openInspectWindow(e,t){throw new Error("Method should be call in electron-main")}};
+}(require("licia/lazyImport")(require), require)

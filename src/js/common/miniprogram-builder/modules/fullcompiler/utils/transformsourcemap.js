@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.transformSourceMapSources=transformSourceMapSources;const url=require("url"),path=require("path");function transformSourceMapSources(r=[]){return r?r.map(transformSourceFilePath):[]}function transformSourceFilePath(r){if(!r)return r;try{return new url.URL(r),r}catch(r){}return path.basename(r)}
+}(require("licia/lazyImport")(require), require)

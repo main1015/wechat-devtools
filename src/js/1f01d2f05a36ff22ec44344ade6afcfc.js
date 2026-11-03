@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.IFsGetFileInfoOption=void 0,exports.IFsGetFileInfoOption={type:"object",properties:{filePath:{description:"要读取的文件路径 (本地路径)",type:"string"},digestAlgorithm:{description:"计算文件摘要的算法\n\n可选值：\n- 'md5': md5 算法;\n- 'sha1': sha1 算法;\n- 'sha256': sha256 算法;",enum:["md5","sha1","sha256"],type:"string"}},additionalProperties:!1,required:["filePath"],$schema:"http://json-schema.org/draft-07/schema#",$version:1747894649693};
+}(require("licia/lazyImport")(require), require)

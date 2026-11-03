@@ -1,0 +1,1 @@
+var speciesConstructor=require("./_array-species-constructor");module.exports=function(r,e){return new(speciesConstructor(r))(e)};

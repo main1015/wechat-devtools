@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ResizeEmitter=exports.ResizeType=void 0;const t=require("events");var e;!function(t){t.simulator="simulator",t.toolbar="toolbar",t.simulatorStart="simulatorStart",t.simulatorStop="simulatorStop"}(e||(exports.ResizeType=e={}));class s extends t.EventEmitter{static get shareInstance(){return this._shareInstance||(this._shareInstance=new this),this._shareInstance}}exports.ResizeEmitter=s;
+}(require("licia/lazyImport")(require), require)

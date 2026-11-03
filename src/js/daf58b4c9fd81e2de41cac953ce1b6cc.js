@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getCookieHeader=exports.getCookie=exports.setCookie=void 0;const e={};exports.setCookie=(o="")=>{const t=o.split(";")[0].split("=");e[t[0]]=t[1]};exports.getCookie=o=>e[o]||"";exports.getCookieHeader=()=>{const o=[];for(const t in e)o.push(`${t}=${e[t]}`);return o.join(";")},exports.default={setCookie:exports.setCookie,getCookie:exports.getCookie,getCookieHeader:exports.getCookieHeader};
+}(require("licia/lazyImport")(require), require)

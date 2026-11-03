@@ -1,0 +1,1 @@
+"use strict";require("./_string-html")("blink",function(n){return function(){return n(this,"blink","","")}});

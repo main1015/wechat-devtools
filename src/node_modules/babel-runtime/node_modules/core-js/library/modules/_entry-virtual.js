@@ -1,0 +1,1 @@
+var core=require("./_core");module.exports=function(r){var e=core[r];return e.virtual||e.prototype};

@@ -1,0 +1,1 @@
+var $export=require("./_export");$export($export.S,"Math",{umulh:function(r,e){var t=65535,o=+r,u=+e,p=o&t,x=u&t,a=o>>>16,n=u>>>16,$=(a*x>>>0)+(p*x>>>16);return a*n+($>>>16)+((p*n>>>0)+($&t)>>>16)}});

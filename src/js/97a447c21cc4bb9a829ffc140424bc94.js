@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ISetRetainedWebviewForPipResult=void 0,exports.ISetRetainedWebviewForPipResult={type:"object",properties:{errMsg:{type:"string"}},additionalProperties:!1,required:["errMsg"],$schema:"http://json-schema.org/draft-07/schema#",$version:1756781740633};
+}(require("licia/lazyImport")(require), require)

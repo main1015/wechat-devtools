@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=function(){var e;if(null===(e=null===process||void 0===process?void 0:process.versions)||void 0===e?void 0:e.electron){const e=require("electron").ipcRenderer;return{register:(r,o)=>{e.on(r,(n,...t)=>{e.send(r+"_callback",o(...t))})}}}return global.contentDocument}();
+}(require("licia/lazyImport")(require), require)

@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.REG=void 0,exports.isMiniCodeLinkValid=function(t){return e.test(t)},exports.containsMiniCodeLink=function(e){return t.test(e)},exports.getMiniCodeID=function(t){const i=t.match(e);if(null==i?void 0:i[2])return i[2];return},exports.getMiniCodeLink=function(e){return"https://developers.weixin.qq.com/s/"+e};const e=/^(wechatide:\/\/minicode\/|https?:\/\/developers\.weixin\.qq\.com\/s\/)?([^/?]+)/,t=/(wechatide:\/\/minicode\/|https?:\/\/developers\.weixin\.qq\.com\/s\/)([^/?]+)/;exports.REG={MINICODE_LINK:e,MINICODE_LINK_PART:t};
+}(require("licia/lazyImport")(require), require)

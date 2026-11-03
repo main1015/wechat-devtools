@@ -1,0 +1,6 @@
+{
+  "version": "1.0.2",
+  "manifest_version": "0.0.1",
+  "name": "wx-page-types",
+  "main": "./index.html"
+}

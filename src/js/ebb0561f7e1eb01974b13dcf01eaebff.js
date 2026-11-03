@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isAppAboutBlank=function(e){return/^http:\/\/127\.0\.0\.1:(\d)+\/__webdebugger__\/about\.html(\?.*)?$/.test(e)},exports.getAppAboutBlank=o,exports.getAppAboutBlankWithToken=async function(){const r=(0,t.default)(e.IHttpTokenService);return`${o()}?token=${await r.getToken(e.EHttpTokenType.URL_TOKEN)}`};const e=require('./36bdd018ddae3596c5b9230a8f320bb2.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js'),r=require('./cd05aced5dc062793cd42e4547966595.js');function o(){return`http://127.0.0.1:${r.default.proxyPort}/__webdebugger__/about.html`}
+}(require("licia/lazyImport")(require), require)

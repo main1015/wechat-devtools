@@ -1,0 +1,3 @@
+!function(require, directRequire){
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SimulatorSDKJsApiPaymentServiceBase=void 0;const e=require('./e9a5c290ba37d0d7301e4bd2e3dc7619.js'),r=require('./9cc3e67833a25089609f692a64edac57.js'),t=require('./9eee66f818065fa6881814a83bcfe0cf.js');class i extends e.ISimulatorSDKApiBaseService{constructor(){super(),this.paymentService=(0,t.default)(r.ISimulatorSDKApiPaymentService)}async requestPayment(e,r,t){return this.paymentService.requestPayment(e,t)}}exports.SimulatorSDKJsApiPaymentServiceBase=i;
+}(require("licia/lazyImport")(require), require)
